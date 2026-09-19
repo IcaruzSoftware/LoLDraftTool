@@ -32,6 +32,71 @@ export function pickAndReadTextFile(
   });
 }
 
+/** Result of a {@link fetchText} network request. */
+export interface FetchTextResult {
+  ok: boolean;
+  status: number;
+  text: string;
+}
+
+interface WebViewFetchResult extends FetchTextResult {
+  type: 'fetch-result';
+  id: number;
+}
+
+declare global {
+  interface Window {
+    chrome?: {
+      webview?: {
+        postMessage(message: unknown): void;
+        addEventListener(type: 'message', listener: (event: { data: unknown }) => void): void;
+        removeEventListener(type: 'message', listener: (event: { data: unknown }) => void): void;
+      };
+    };
+  }
+}
+
+let fetchId = 0;
+const FETCH_TIMEOUT_MS = 20_000;
+
+/**
+ * Fetch a URL's body as text via the host. In the WebView2 host the request is
+ * proxied through the native shell (which is not subject to browser CORS); in
+ * the browser dev server it goes through the Vite `/__proxy/op.gg` rule. This is
+ * the only outbound network call in the app and is always user-initiated.
+ */
+export function fetchText(url: string): Promise<FetchTextResult> {
+  const webview = window.chrome?.webview;
+  if (webview) {
+    return new Promise<FetchTextResult>((resolve) => {
+      const id = ++fetchId;
+      const timer = window.setTimeout(() => {
+        webview.removeEventListener('message', onMessage);
+        resolve({ ok: false, status: 0, text: 'Request timed out' });
+      }, FETCH_TIMEOUT_MS);
+      const onMessage = (event: { data: unknown }): void => {
+        const data = event.data as WebViewFetchResult;
+        if (data?.type !== 'fetch-result' || data.id !== id) return;
+        window.clearTimeout(timer);
+        webview.removeEventListener('message', onMessage);
+        resolve({ ok: data.ok, status: data.status, text: data.text });
+      };
+      webview.addEventListener('message', onMessage);
+      webview.postMessage({ type: 'fetch', id, url });
+    });
+  }
+
+  // Browser dev: route op.gg through the Vite proxy (see vite.config.ts).
+  const proxied = url.replace(/^https:\/\/op\.gg/i, '/__proxy/op.gg');
+  return fetch(proxied)
+    .then(async (res) => ({ ok: res.ok, status: res.status, text: await res.text() }))
+    .catch((err: unknown) => ({
+      ok: false,
+      status: 0,
+      text: err instanceof Error ? err.message : String(err),
+    }));
+}
+
 /** Trigger a download of the given text as a file. */
 export function saveTextFile(name: string, text: string): void {
   const blob = new Blob([text], { type: 'text/plain;charset=utf-8' });

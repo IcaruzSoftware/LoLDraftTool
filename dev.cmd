@@ -1,4 +1,7 @@
 @echo off
-rem Starts the LoLDraftTool dev server (browser UI) without needing pnpm on PATH.
+rem Starts the LoLDraftTool dev server in its own console window and opens the browser.
+rem No pnpm needed; there is no backend, the Vite server is everything.
 cd /d "%~dp0"
-call npm.cmd --prefix app run dev
+start "LoLDraftTool dev server" cmd /k npm.cmd --prefix app run dev
+timeout /t 4 /nobreak >nul
+start "" http://localhost:5173/

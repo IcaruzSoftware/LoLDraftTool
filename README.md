@@ -63,6 +63,13 @@ after `pnpm dev`.
 - **Opponents (optional)**: "Import opponents (JSON/CSV)", or paste an op.gg
   Champions-tab table with a player name and role and click "Add from op.gg
   paste". Multiple players can be added this way.
+- **Import opponents from an op.gg multi-search link**: paste an op.gg
+  multi-search URL (`op.gg/lol/multisearch/<region>?summoners=Name%23TAG,…`) and
+  click "Fetch" to pull each summoner's most-played champions (current-season
+  ranked games and win rates) directly from op.gg. This is the app's only online
+  feature — it is opt-in (nothing is fetched until you click Fetch), replaces any
+  previous opponents, and may break if op.gg changes its page. Set each player's
+  role from the dropdown afterwards.
 - **Fearless unavailable (optional)**: a comma-separated list of champions
   already used earlier in the series.
 - **Start Draft** begins the draft.

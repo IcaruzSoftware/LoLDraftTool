@@ -13,13 +13,13 @@ interface OurProps {
   pool: TeamPool;
   roles: RoleInference;
   championMap: Map<number, Champion>;
-  /** Role whose slot should pulse (top recommendation on our turn). */
-  pulseRole?: Position;
+  /** Role whose slot is the active pick target (our turn). */
+  activeRole?: Position;
   onSetRole: (slotIndex: number, role: Position) => void;
 }
 
 /** Our five picks in role order, with player name and a role override. */
-export function OurColumn({ picks, pool, roles, championMap, pulseRole, onSetRole }: OurProps): React.JSX.Element {
+export function OurColumn({ picks, pool, roles, championMap, activeRole, onSetRole }: OurProps): React.JSX.Element {
   const byRole = new Map<Position, { championId: number; slotIndex: number }>();
   for (const a of roles.assignments) {
     const slotIndex = picks.findIndex((p) => p.championId === a.championId);
@@ -34,7 +34,7 @@ export function OurColumn({ picks, pool, roles, championMap, pulseRole, onSetRol
         const player = pool[role].player;
         const classes = ['pick-slot'];
         if (!entry) classes.push('empty');
-        if (pulseRole === role && !entry) classes.push('pulse');
+        if (activeRole === role && !entry) classes.push('active');
         return (
           <div key={role} className={classes.join(' ')}>
             <span className="role-tag">{ROLE_LABEL[role]}</span>
@@ -67,10 +67,12 @@ interface TheirProps {
   picks: PickSlot[];
   roles: RoleInference;
   championMap: Map<number, Champion>;
+  /** Index of the slot being picked now (their turn), or -1. */
+  activeIndex?: number;
 }
 
 /** The opponent's picks in pick order with inferred role + confidence. */
-export function TheirColumn({ picks, roles, championMap }: TheirProps): React.JSX.Element {
+export function TheirColumn({ picks, roles, championMap, activeIndex = -1 }: TheirProps): React.JSX.Element {
   const real = picks.filter((p) => p.championId !== SKIP_ID);
   return (
     <div className="team-col them">
@@ -78,8 +80,11 @@ export function TheirColumn({ picks, roles, championMap }: TheirProps): React.JS
         const a = roles.assignments[i];
         const champ = a ? championMap.get(a.championId) : undefined;
         const skipped = real.length <= i && picks[i]?.championId === SKIP_ID;
+        const classes = ['pick-slot'];
+        if (!a) classes.push('empty');
+        if (i === activeIndex && !a) classes.push('active');
         return (
-          <div key={i} className={`pick-slot${a ? '' : ' empty'}`}>
+          <div key={i} className={classes.join(' ')}>
             <ChampionSquare champion={champ} size={42} />
             <div className="pick-meta">
               <span className="pick-name">{champ ? champ.name : skipped ? '(skipped)' : '—'}</span>

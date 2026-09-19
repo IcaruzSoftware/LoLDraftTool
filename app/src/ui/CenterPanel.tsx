@@ -107,7 +107,7 @@ export function CenterPanel({
           )}
         </div>
       ) : (
-        <div className="hint-box">
+        <div className="hint-box them">
           <strong>Enter the opponent&apos;s {isBan ? 'ban' : 'pick'}</strong>
           <p className="muted">
             Select the champion they {isBan ? 'banned' : 'picked'} from the grid below so the engine can

@@ -55,6 +55,7 @@ Toolchain — [research/tech-stack.md](docs/research/tech-stack.md):
 | 2026-09-19 | Global archetype detection uses a champion-count threshold (3 global/semiGlobal champions ≈ score 1.0), with primary-archetype promotion when the score is highest and above 0.5 | Simple, explainable rule that matches the worked Nocturne+Galio+Shen scenario without needing per-tag calibration weights. |
 | 2026-09-19 | Ban score weights capped: protect-ban strength ×2.4 max, phase-1 (target/meta) damping ×0.6, meta-ban score 2.5/1.5/0.5 tiers when no opponent scouting data is available | Keeps target bans dominant once scouting data exists, while still giving a sane meta-only fallback ranking when it doesn't; caps prevent any single component from swamping the ranked ban list. |
 | 2026-09-19 | Published self-contained exe is ~126 MB; framework-dependent alternative (needs .NET 10 Desktop Runtime on target) is ~3 MB | Confirmed via `pnpm host:publish` and `host/README.md`; the size gap is almost entirely the bundled .NET desktop runtime + WebView2 loader. |
+| 2026-09-19 | op.gg multi-search link import (opt-in, online) | User request. op.gg multisearch HTML has no champion data, but each summoner's `/champions` page is server-rendered with a JSON payload (champion_id, play, win, lose); current-season ranked dataset is used. Browser CORS blocks direct fetch, so requests go through the WPF host (WebMessage bridge, https + op.gg allowlist) or a Vite dev proxy. Scraping is ToS-grey; paste/CSV import remains the offline fallback. |
 
 ## 4. Open questions / assumptions made on the user's behalf
 
@@ -106,3 +107,7 @@ Known limitations:
   their picks.
 - UI has been manually verified at 1280x800; no responsive/smaller-window
   testing has been done.
+
+Update (2026-09-19, later): op.gg multi-search import added and verified end to end in both the browser dev path and the WebView2 host bridge (CDP test: 782 KB page fetched, disallowed hosts rejected). Test count now 82 passed, 2 skipped. First opponent scouting file for the team saved as `data/opponents-game1.json` (all-time totals from a one-off script; the in-app fetch uses current-season ranked).
+
+Update (2026-09-19, later): user-requested UX additions after first dry run. (1) Active-slot highlight: exactly one slot pulses gold for the current ban/pick, header shows a large teal/red YOUR/THEIR BAN/PICK label. (2) End-of-draft team comparison (`app/src/engine/compare.ts`, `TeamComparisonView.tsx`): 14 dimension bars (power curve, damage types, CC, engage, disengage/peel, frontline, poke, dive, waveclear, sustain, globals), per-lane matchup edges from counters.json, data-derived strengths/weaknesses, and a game plan (where to play, when to fight, what to avoid). Also available mid-draft via the footer "Compare" toggle. Tests: 88 passed, 2 skipped.

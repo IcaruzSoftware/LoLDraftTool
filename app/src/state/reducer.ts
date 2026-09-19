@@ -63,6 +63,7 @@ export type Action =
   | { type: 'SET_POOL'; pool: TeamPool; warnings: string[]; label: string }
   | { type: 'SET_OPPONENTS'; data: OpponentData; warnings: string[] }
   | { type: 'CLEAR_OPPONENTS' }
+  | { type: 'SET_OPPONENT_ROLE'; index: number; role: Position | undefined }
   | { type: 'SET_FEARLESS'; ids: number[]; text: string }
   | { type: 'START_DRAFT' }
   | { type: 'APPLY_CHAMPION'; id: number }
@@ -77,6 +78,13 @@ export type Action =
 
 function withSetup(state: AppState, patch: Partial<SetupState>): AppState {
   return { ...state, setup: { ...state.setup, ...patch } };
+}
+
+/** Return a copy of an opponent player without its `role` field. */
+function omitRole(
+  player: OpponentData['players'][number],
+): OpponentData['players'][number] {
+  return { name: player.name, champions: player.champions };
 }
 
 /** Applies a draft-mutating engine function, ignoring illegal moves. */
@@ -101,6 +109,13 @@ export function reducer(state: AppState, action: Action): AppState {
       return withSetup(state, { opponents: action.data, opponentWarnings: action.warnings });
     case 'CLEAR_OPPONENTS':
       return withSetup(state, { opponents: null, opponentWarnings: [] });
+    case 'SET_OPPONENT_ROLE': {
+      if (!state.setup.opponents) return state;
+      const players = state.setup.opponents.players.map((p, i) =>
+        i === action.index ? (action.role ? { ...p, role: action.role } : omitRole(p)) : p,
+      );
+      return withSetup(state, { opponents: { players } });
+    }
     case 'SET_FEARLESS':
       return withSetup(state, { fearlessUnavailable: action.ids, fearlessText: action.text });
     case 'START_DRAFT':

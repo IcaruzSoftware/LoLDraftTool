@@ -1,0 +1,910 @@
+{
+  "source": "https://op.gg/lol/multisearch/euw?summoners=ThorbenGIGI%23EUW%2CJohanssens%235257%2CPaulanerSpezi%23TFU%2CRurikus%23EUW%2CIceMaschine007%23EUW%2CDesertRoad%23EUW%2CSilver+Faker%2338mXD%2CTdcamper88%236433%2CMeydoxMVP%23MVP%2CAhornSumpf5649%235649",
+  "fetchedAt": "2026-09-19",
+  "players": [
+    {
+      "name": "ThorbenGIGI#EUW",
+      "champions": [
+        {
+          "name": "Jinx",
+          "games": 37,
+          "wins": 16
+        },
+        {
+          "name": "Caitlyn",
+          "games": 34,
+          "wins": 20
+        },
+        {
+          "name": "Varus",
+          "games": 30,
+          "wins": 18
+        },
+        {
+          "name": "Yunara",
+          "games": 28,
+          "wins": 17
+        },
+        {
+          "name": "Sivir",
+          "games": 25,
+          "wins": 18
+        },
+        {
+          "name": "Ashe",
+          "games": 24,
+          "wins": 14
+        },
+        {
+          "name": "Jhin",
+          "games": 24,
+          "wins": 12
+        },
+        {
+          "name": "Viktor",
+          "games": 21,
+          "wins": 13
+        },
+        {
+          "name": "Kai'Sa",
+          "games": 19,
+          "wins": 8
+        },
+        {
+          "name": "Lucian",
+          "games": 18,
+          "wins": 12
+        },
+        {
+          "name": "Lux",
+          "games": 16,
+          "wins": 9
+        },
+        {
+          "name": "Hwei",
+          "games": 16,
+          "wins": 7
+        },
+        {
+          "name": "Senna",
+          "games": 13,
+          "wins": 7
+        },
+        {
+          "name": "Corki",
+          "games": 12,
+          "wins": 6
+        },
+        {
+          "name": "Mel",
+          "games": 12,
+          "wins": 4
+        },
+        {
+          "name": "Smolder",
+          "games": 12,
+          "wins": 5
+        },
+        {
+          "name": "Twitch",
+          "games": 12,
+          "wins": 6
+        },
+        {
+          "name": "Ezreal",
+          "games": 12,
+          "wins": 5
+        },
+        {
+          "name": "Miss Fortune",
+          "games": 11,
+          "wins": 7
+        },
+        {
+          "name": "Vayne",
+          "games": 11,
+          "wins": 7
+        }
+      ]
+    },
+    {
+      "name": "Johanssens#5257",
+      "champions": []
+    },
+    {
+      "name": "PaulanerSpezi#TFU",
+      "champions": [
+        {
+          "name": "Ornn",
+          "games": 38,
+          "wins": 26
+        },
+        {
+          "name": "Dr. Mundo",
+          "games": 37,
+          "wins": 24
+        },
+        {
+          "name": "Garen",
+          "games": 27,
+          "wins": 13
+        },
+        {
+          "name": "Aatrox",
+          "games": 23,
+          "wins": 11
+        },
+        {
+          "name": "Darius",
+          "games": 21,
+          "wins": 9
+        },
+        {
+          "name": "Warwick",
+          "games": 20,
+          "wins": 14
+        },
+        {
+          "name": "Rumble",
+          "games": 20,
+          "wins": 8
+        },
+        {
+          "name": "Mordekaiser",
+          "games": 20,
+          "wins": 12
+        },
+        {
+          "name": "Yorick",
+          "games": 19,
+          "wins": 6
+        },
+        {
+          "name": "Sett",
+          "games": 18,
+          "wins": 10
+        },
+        {
+          "name": "Nasus",
+          "games": 16,
+          "wins": 7
+        },
+        {
+          "name": "Jax",
+          "games": 16,
+          "wins": 8
+        },
+        {
+          "name": "Malphite",
+          "games": 15,
+          "wins": 6
+        },
+        {
+          "name": "Illaoi",
+          "games": 14,
+          "wins": 9
+        },
+        {
+          "name": "Renekton",
+          "games": 13,
+          "wins": 8
+        },
+        {
+          "name": "Gangplank",
+          "games": 13,
+          "wins": 6
+        },
+        {
+          "name": "Zaahen",
+          "games": 13,
+          "wins": 5
+        },
+        {
+          "name": "Teemo",
+          "games": 12,
+          "wins": 9
+        },
+        {
+          "name": "Irelia",
+          "games": 12,
+          "wins": 8
+        },
+        {
+          "name": "Kayle",
+          "games": 12,
+          "wins": 3
+        }
+      ]
+    },
+    {
+      "name": "Rurikus#EUW",
+      "champions": [
+        {
+          "name": "Hecarim",
+          "games": 59,
+          "wins": 40
+        },
+        {
+          "name": "Jax",
+          "games": 9,
+          "wins": 8
+        },
+        {
+          "name": "Nautilus",
+          "games": 6,
+          "wins": 3
+        },
+        {
+          "name": "Morgana",
+          "games": 5,
+          "wins": 3
+        },
+        {
+          "name": "Lillia",
+          "games": 5,
+          "wins": 3
+        },
+        {
+          "name": "Ekko",
+          "games": 5,
+          "wins": 4
+        },
+        {
+          "name": "Shyvana",
+          "games": 5,
+          "wins": 4
+        },
+        {
+          "name": "Kayn",
+          "games": 5,
+          "wins": 2
+        },
+        {
+          "name": "Master Yi",
+          "games": 4,
+          "wins": 3
+        },
+        {
+          "name": "Diana",
+          "games": 4,
+          "wins": 2
+        },
+        {
+          "name": "Vi",
+          "games": 4,
+          "wins": 2
+        },
+        {
+          "name": "Smolder",
+          "games": 3,
+          "wins": 2
+        },
+        {
+          "name": "Lee Sin",
+          "games": 3,
+          "wins": 3
+        },
+        {
+          "name": "Viego",
+          "games": 3,
+          "wins": 3
+        },
+        {
+          "name": "Evelynn",
+          "games": 3,
+          "wins": 2
+        },
+        {
+          "name": "Xin Zhao",
+          "games": 3,
+          "wins": 1
+        },
+        {
+          "name": "Brand",
+          "games": 2,
+          "wins": 2
+        },
+        {
+          "name": "Yone",
+          "games": 2,
+          "wins": 0
+        },
+        {
+          "name": "Malphite",
+          "games": 2,
+          "wins": 2
+        },
+        {
+          "name": "Briar",
+          "games": 2,
+          "wins": 2
+        }
+      ]
+    },
+    {
+      "name": "IceMaschine007#EUW",
+      "champions": [
+        {
+          "name": "Naafiri",
+          "games": 8,
+          "wins": 5
+        },
+        {
+          "name": "Darius",
+          "games": 8,
+          "wins": 3
+        },
+        {
+          "name": "Talon",
+          "games": 5,
+          "wins": 3
+        },
+        {
+          "name": "Swain",
+          "games": 3,
+          "wins": 2
+        },
+        {
+          "name": "Alistar",
+          "games": 3,
+          "wins": 1
+        },
+        {
+          "name": "Fizz",
+          "games": 3,
+          "wins": 2
+        },
+        {
+          "name": "Lissandra",
+          "games": 3,
+          "wins": 2
+        },
+        {
+          "name": "Garen",
+          "games": 2,
+          "wins": 1
+        },
+        {
+          "name": "Kassadin",
+          "games": 2,
+          "wins": 0
+        },
+        {
+          "name": "Brand",
+          "games": 2,
+          "wins": 0
+        },
+        {
+          "name": "Ahri",
+          "games": 2,
+          "wins": 2
+        },
+        {
+          "name": "Katarina",
+          "games": 2,
+          "wins": 2
+        },
+        {
+          "name": "Aurora",
+          "games": 2,
+          "wins": 1
+        },
+        {
+          "name": "Diana",
+          "games": 2,
+          "wins": 1
+        },
+        {
+          "name": "Jax",
+          "games": 2,
+          "wins": 1
+        },
+        {
+          "name": "Malzahar",
+          "games": 2,
+          "wins": 1
+        },
+        {
+          "name": "Galio",
+          "games": 2,
+          "wins": 0
+        },
+        {
+          "name": "Zed",
+          "games": 1,
+          "wins": 1
+        },
+        {
+          "name": "Irelia",
+          "games": 1,
+          "wins": 1
+        },
+        {
+          "name": "Aatrox",
+          "games": 1,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "name": "DesertRoad#EUW",
+      "champions": [
+        {
+          "name": "Zed",
+          "games": 25,
+          "wins": 16
+        },
+        {
+          "name": "Shen",
+          "games": 4,
+          "wins": 2
+        },
+        {
+          "name": "Yone",
+          "games": 4,
+          "wins": 4
+        },
+        {
+          "name": "Sylas",
+          "games": 4,
+          "wins": 3
+        },
+        {
+          "name": "Garen",
+          "games": 4,
+          "wins": 0
+        },
+        {
+          "name": "Orianna",
+          "games": 3,
+          "wins": 2
+        },
+        {
+          "name": "Gragas",
+          "games": 3,
+          "wins": 2
+        },
+        {
+          "name": "Syndra",
+          "games": 3,
+          "wins": 2
+        },
+        {
+          "name": "Ahri",
+          "games": 3,
+          "wins": 1
+        },
+        {
+          "name": "Fizz",
+          "games": 3,
+          "wins": 0
+        },
+        {
+          "name": "Malzahar",
+          "games": 3,
+          "wins": 2
+        },
+        {
+          "name": "Vex",
+          "games": 3,
+          "wins": 3
+        },
+        {
+          "name": "Ekko",
+          "games": 3,
+          "wins": 2
+        },
+        {
+          "name": "Ezreal",
+          "games": 2,
+          "wins": 2
+        },
+        {
+          "name": "Morgana",
+          "games": 2,
+          "wins": 2
+        },
+        {
+          "name": "Yorick",
+          "games": 2,
+          "wins": 2
+        },
+        {
+          "name": "Seraphine",
+          "games": 2,
+          "wins": 1
+        },
+        {
+          "name": "Bard",
+          "games": 2,
+          "wins": 0
+        },
+        {
+          "name": "Taliyah",
+          "games": 2,
+          "wins": 2
+        },
+        {
+          "name": "Locke",
+          "games": 2,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "name": "Silver Faker#38mXD",
+      "champions": [
+        {
+          "name": "Akali",
+          "games": 401,
+          "wins": 213
+        },
+        {
+          "name": "Vex",
+          "games": 102,
+          "wins": 60
+        },
+        {
+          "name": "Tristana",
+          "games": 67,
+          "wins": 31
+        },
+        {
+          "name": "Syndra",
+          "games": 53,
+          "wins": 28
+        },
+        {
+          "name": "Malzahar",
+          "games": 50,
+          "wins": 31
+        },
+        {
+          "name": "Yone",
+          "games": 49,
+          "wins": 18
+        },
+        {
+          "name": "Yasuo",
+          "games": 33,
+          "wins": 16
+        },
+        {
+          "name": "Mel",
+          "games": 31,
+          "wins": 17
+        },
+        {
+          "name": "Veigar",
+          "games": 30,
+          "wins": 12
+        },
+        {
+          "name": "Zed",
+          "games": 23,
+          "wins": 14
+        },
+        {
+          "name": "Lux",
+          "games": 20,
+          "wins": 7
+        },
+        {
+          "name": "LeBlanc",
+          "games": 18,
+          "wins": 11
+        },
+        {
+          "name": "Akshan",
+          "games": 18,
+          "wins": 10
+        },
+        {
+          "name": "Katarina",
+          "games": 17,
+          "wins": 12
+        },
+        {
+          "name": "Naafiri",
+          "games": 16,
+          "wins": 5
+        },
+        {
+          "name": "Irelia",
+          "games": 16,
+          "wins": 7
+        },
+        {
+          "name": "Ahri",
+          "games": 15,
+          "wins": 8
+        },
+        {
+          "name": "Dr. Mundo",
+          "games": 14,
+          "wins": 4
+        },
+        {
+          "name": "Sylas",
+          "games": 14,
+          "wins": 8
+        },
+        {
+          "name": "Viktor",
+          "games": 14,
+          "wins": 7
+        }
+      ]
+    },
+    {
+      "name": "Tdcamper88#6433",
+      "champions": [
+        {
+          "name": "Zyra",
+          "games": 149,
+          "wins": 87
+        },
+        {
+          "name": "Milio",
+          "games": 27,
+          "wins": 14
+        },
+        {
+          "name": "Nami",
+          "games": 25,
+          "wins": 14
+        },
+        {
+          "name": "Evelynn",
+          "games": 22,
+          "wins": 11
+        },
+        {
+          "name": "Leona",
+          "games": 21,
+          "wins": 9
+        },
+        {
+          "name": "Rell",
+          "games": 18,
+          "wins": 9
+        },
+        {
+          "name": "Braum",
+          "games": 16,
+          "wins": 6
+        },
+        {
+          "name": "Lulu",
+          "games": 14,
+          "wins": 6
+        },
+        {
+          "name": "Thresh",
+          "games": 13,
+          "wins": 7
+        },
+        {
+          "name": "Nautilus",
+          "games": 13,
+          "wins": 6
+        },
+        {
+          "name": "Seraphine",
+          "games": 12,
+          "wins": 5
+        },
+        {
+          "name": "Karma",
+          "games": 12,
+          "wins": 6
+        },
+        {
+          "name": "Senna",
+          "games": 12,
+          "wins": 7
+        },
+        {
+          "name": "Bard",
+          "games": 12,
+          "wins": 6
+        },
+        {
+          "name": "Alistar",
+          "games": 8,
+          "wins": 7
+        },
+        {
+          "name": "Rakan",
+          "games": 8,
+          "wins": 5
+        },
+        {
+          "name": "Pyke",
+          "games": 8,
+          "wins": 4
+        },
+        {
+          "name": "Miss Fortune",
+          "games": 7,
+          "wins": 2
+        },
+        {
+          "name": "Sona",
+          "games": 7,
+          "wins": 6
+        },
+        {
+          "name": "Blitzcrank",
+          "games": 7,
+          "wins": 3
+        }
+      ]
+    },
+    {
+      "name": "MeydoxMVP#MVP",
+      "champions": [
+        {
+          "name": "Dr. Mundo",
+          "games": 368,
+          "wins": 199
+        },
+        {
+          "name": "Mordekaiser",
+          "games": 36,
+          "wins": 18
+        },
+        {
+          "name": "Viego",
+          "games": 29,
+          "wins": 14
+        },
+        {
+          "name": "Nocturne",
+          "games": 16,
+          "wins": 6
+        },
+        {
+          "name": "Briar",
+          "games": 15,
+          "wins": 7
+        },
+        {
+          "name": "Kayn",
+          "games": 14,
+          "wins": 9
+        },
+        {
+          "name": "Master Yi",
+          "games": 13,
+          "wins": 7
+        },
+        {
+          "name": "Warwick",
+          "games": 12,
+          "wins": 8
+        },
+        {
+          "name": "Sett",
+          "games": 12,
+          "wins": 6
+        },
+        {
+          "name": "Yone",
+          "games": 12,
+          "wins": 3
+        },
+        {
+          "name": "Malphite",
+          "games": 11,
+          "wins": 7
+        },
+        {
+          "name": "Yorick",
+          "games": 11,
+          "wins": 6
+        },
+        {
+          "name": "Jarvan IV",
+          "games": 10,
+          "wins": 4
+        },
+        {
+          "name": "Volibear",
+          "games": 10,
+          "wins": 7
+        },
+        {
+          "name": "Diana",
+          "games": 10,
+          "wins": 7
+        },
+        {
+          "name": "Garen",
+          "games": 9,
+          "wins": 8
+        },
+        {
+          "name": "Tryndamere",
+          "games": 9,
+          "wins": 5
+        },
+        {
+          "name": "Darius",
+          "games": 9,
+          "wins": 5
+        },
+        {
+          "name": "Yasuo",
+          "games": 9,
+          "wins": 5
+        },
+        {
+          "name": "Graves",
+          "games": 9,
+          "wins": 3
+        }
+      ]
+    },
+    {
+      "name": "AhornSumpf5649#5649",
+      "champions": [
+        {
+          "name": "Swain",
+          "games": 6,
+          "wins": 2
+        },
+        {
+          "name": "Lux",
+          "games": 2,
+          "wins": 0
+        },
+        {
+          "name": "Mel",
+          "games": 2,
+          "wins": 0
+        },
+        {
+          "name": "Nautilus",
+          "games": 1,
+          "wins": 0
+        },
+        {
+          "name": "Yuumi",
+          "games": 1,
+          "wins": 0
+        },
+        {
+          "name": "Ezreal",
+          "games": 1,
+          "wins": 0
+        },
+        {
+          "name": "Thresh",
+          "games": 1,
+          "wins": 1
+        },
+        {
+          "name": "Caitlyn",
+          "games": 1,
+          "wins": 1
+        },
+        {
+          "name": "Seraphine",
+          "games": 1,
+          "wins": 0
+        },
+        {
+          "name": "Malphite",
+          "games": 1,
+          "wins": 0
+        },
+        {
+          "name": "Vel'Koz",
+          "games": 1,
+          "wins": 0
+        }
+      ]
+    }
+  ]
+}

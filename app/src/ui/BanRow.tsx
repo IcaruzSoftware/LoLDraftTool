@@ -21,7 +21,7 @@ export function BanRow({ team, bans, championMap, activeIndex, onRemove }: Props
         const champ = id !== undefined && id !== SKIP_ID ? championMap.get(id) : undefined;
         const classes = ['ban-slot'];
         if (!filled) classes.push('empty');
-        if (i === activeIndex) classes.push('current');
+        if (i === activeIndex) classes.push('active');
         return (
           <div key={i} className={classes.join(' ')}>
             {champ && <img src={championIconUrl(champ.alias)} alt={champ.name} title={champ.name} />}

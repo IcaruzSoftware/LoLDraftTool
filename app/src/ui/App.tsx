@@ -12,6 +12,7 @@ import { DraftScreen } from './DraftScreen';
 interface Runtime {
   champions: Champion[];
   championMap: Map<number, Champion>;
+  knownIds: Set<number>;
   synergies: Synergy[];
   counters: Counter[];
   resolver: NameResolver;
@@ -49,6 +50,7 @@ export function App(): React.JSX.Element {
     return {
       champions: data.champions,
       championMap: new Map(data.champions.map((c) => [c.id, c])),
+      knownIds: new Set(data.champions.map((c) => c.id)),
       synergies: data.synergies,
       counters: data.counters,
       resolver: createNameResolver(data.champions),
@@ -81,7 +83,12 @@ export function App(): React.JSX.Element {
   return (
     <div className="app-root">
       {state.screen === 'setup' ? (
-        <Setup setup={state.setup} resolver={runtime.resolver} dispatch={dispatch} />
+        <Setup
+          setup={state.setup}
+          resolver={runtime.resolver}
+          knownIds={runtime.knownIds}
+          dispatch={dispatch}
+        />
       ) : (
         <DraftScreen state={state} runtime={runtime} dispatch={dispatch} />
       )}

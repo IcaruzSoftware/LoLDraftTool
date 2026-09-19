@@ -4,6 +4,7 @@ import { POSITIONS } from '../data/types';
 import type { NameResolver } from '../import/types';
 import { parseTeamPool } from '../import/teamPool';
 import { parseOpponents } from '../import/opponents';
+import { fetchOpponentsFromMultilink } from '../import/opggFetch';
 import type { OpponentData } from '../engine/opponents';
 import { pickAndReadTextFile } from '../platform/index';
 import type { Action, SetupState } from '../state/reducer';
@@ -13,6 +14,7 @@ import { ROLE_LABEL } from './format';
 interface Props {
   setup: SetupState;
   resolver: NameResolver;
+  knownIds: Set<number>;
   dispatch: React.Dispatch<Action>;
 }
 
@@ -22,10 +24,14 @@ function names(ids: number[], resolver: NameResolver): string {
   return ids.map((id) => resolver.nameOf(id) ?? `#${id}`).join(', ') || '—';
 }
 
-export function Setup({ setup, resolver, dispatch }: Props): React.JSX.Element {
+export function Setup({ setup, resolver, knownIds, dispatch }: Props): React.JSX.Element {
   const [paste, setPaste] = useState('');
   const [pasteName, setPasteName] = useState('');
   const [pasteRole, setPasteRole] = useState<'' | Position>('');
+  const [link, setLink] = useState('');
+  const [fetching, setFetching] = useState(false);
+  const [progress, setProgress] = useState('');
+  const [fetchError, setFetchError] = useState('');
 
   async function importPool(): Promise<void> {
     const file = await pickAndReadTextFile(FILE_ACCEPT);
@@ -58,6 +64,31 @@ export function Setup({ setup, resolver, dispatch }: Props): React.JSX.Element {
     setPaste('');
     setPasteName('');
     setPasteRole('');
+  }
+
+  async function fetchFromLink(): Promise<void> {
+    if (link.trim().length === 0 || fetching) return;
+    setFetching(true);
+    setFetchError('');
+    setProgress('Starting…');
+    try {
+      const { data, warnings } = await fetchOpponentsFromMultilink(link, resolver, {
+        knownIds,
+        concurrency: 2,
+        delayMs: 400,
+        onProgress: (done, total, name) => setProgress(`Fetching ${done}/${total}: ${name}…`),
+      });
+      if (data.players.length === 0) {
+        setFetchError(warnings[0] ?? 'No players found');
+      } else {
+        dispatch({ type: 'SET_OPPONENTS', data, warnings });
+        setProgress(`Fetched ${data.players.length} players.`);
+      }
+    } catch (e) {
+      setFetchError(e instanceof Error ? e.message : String(e));
+    } finally {
+      setFetching(false);
+    }
   }
 
   function setFearless(text: string): void {
@@ -201,6 +232,20 @@ export function Setup({ setup, resolver, dispatch }: Props): React.JSX.Element {
           value={paste}
           onChange={(e) => setPaste(e.target.value)}
         />
+        <div className="row">
+          <input
+            type="text"
+            placeholder="op.gg multi-search link"
+            value={link}
+            onChange={(e) => setLink(e.target.value)}
+            style={{ flex: 1, minWidth: 200 }}
+          />
+          <button type="button" onClick={() => void fetchFromLink()} disabled={fetching}>
+            {fetching ? 'Fetching…' : 'Fetch'}
+          </button>
+        </div>
+        {progress && <span className="muted">{progress}</span>}
+        {fetchError && <span className="warn-tag">{fetchError}</span>}
         {setup.opponents && setup.opponents.players.length > 0 && (
           <table className="summary-table">
             <thead>
@@ -214,12 +259,35 @@ export function Setup({ setup, resolver, dispatch }: Props): React.JSX.Element {
               {setup.opponents.players.map((p, i) => (
                 <tr key={i}>
                   <td>{p.name}</td>
-                  <td>{p.role ? ROLE_LABEL[p.role] : '—'}</td>
+                  <td>
+                    <select
+                      className="role-select"
+                      value={p.role ?? ''}
+                      onChange={(e) =>
+                        dispatch({
+                          type: 'SET_OPPONENT_ROLE',
+                          index: i,
+                          role: (e.target.value as '' | Position) || undefined,
+                        })
+                      }
+                    >
+                      <option value="">?</option>
+                      {POSITIONS.map((r) => (
+                        <option key={r} value={r}>
+                          {ROLE_LABEL[r]}
+                        </option>
+                      ))}
+                    </select>
+                  </td>
                   <td>
                     {[...p.champions]
                       .sort((a, b) => b.games - a.games)
                       .slice(0, 5)
-                      .map((c) => `${resolver.nameOf(c.championId) ?? `#${c.championId}`} (${c.games})`)
+                      .map((c) => {
+                        const wr = c.games > 0 ? Math.round((c.wins / c.games) * 100) : 0;
+                        const name = resolver.nameOf(c.championId) ?? `#${c.championId}`;
+                        return `${name} (${c.games}g ${wr}%)`;
+                      })
                       .join(', ') || '—'}
                   </td>
                 </tr>

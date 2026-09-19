@@ -186,8 +186,22 @@ textarea {
 .draft {
   display: flex;
   flex-direction: column;
-  height: 100%;
+  height: 100vh;
   min-height: 0;
+  overflow: hidden;
+}
+
+/* Very short viewports (below the 1024x640 host minimum, e.g. a resized pane):
+   drop the hard height/overflow lock so the whole page scrolls instead of the
+   footer overlapping the columns. At/above the 640 host minimum the lock stays
+   on (center scrolls internally, footer pinned); the columns + chrome only stop
+   fitting below ~500px, so 559 releases the lock before any overlap can occur. */
+@media (max-height: 559px) {
+  .draft {
+    height: auto;
+    min-height: 100vh;
+    overflow: visible;
+  }
 }
 
 .draft-header {
@@ -195,8 +209,36 @@ textarea {
   align-items: center;
   gap: 1rem;
   padding: 0.6rem 1rem;
-  border-bottom: 1px solid var(--hairline);
+  border-bottom: 2px solid var(--hairline);
   background: var(--panel);
+}
+
+.draft-header.us {
+  border-bottom-color: var(--us);
+}
+
+.draft-header.them {
+  border-bottom-color: var(--them);
+}
+
+/* Big unmistakable "whose turn" banner label. */
+.turn-label {
+  font-variant: small-caps;
+  letter-spacing: 0.08em;
+  font-weight: 700;
+  font-size: 1.35rem;
+  padding: 0.05rem 0.7rem;
+  border-radius: 4px;
+}
+
+.turn-label.us {
+  color: var(--us);
+  border: 1px solid var(--us);
+}
+
+.turn-label.them {
+  color: var(--them);
+  border: 1px solid var(--them);
 }
 
 .step-text {
@@ -255,7 +297,8 @@ textarea {
 
 .dot.current {
   opacity: 1;
-  box-shadow: 0 0 0 2px var(--gold);
+  transform: scale(1.5);
+  box-shadow: 0 0 0 2px #fff;
 }
 
 .ban-rows {
@@ -286,8 +329,9 @@ textarea {
   overflow: hidden;
 }
 
-.ban-slot.empty.current {
-  box-shadow: 0 0 0 2px var(--gold);
+.ban-slot.active {
+  z-index: 1;
+  animation: slotPulse 1.2s ease-in-out infinite;
 }
 
 .ban-slot img {
@@ -355,18 +399,23 @@ textarea {
   text-align: right;
 }
 
-.pick-slot.pulse {
-  box-shadow: 0 0 0 2px var(--gold);
-  animation: pulse 1.4s ease-in-out infinite;
+/* The single slot being picked/banned right now: an unmistakable gold pulse. */
+.pick-slot.active,
+.ban-slot.active {
+  border-color: var(--gold);
 }
 
-@keyframes pulse {
+.pick-slot.active {
+  animation: slotPulse 1.2s ease-in-out infinite;
+}
+
+@keyframes slotPulse {
   0%,
   100% {
-    box-shadow: 0 0 0 2px rgba(200, 170, 110, 0.9);
+    box-shadow: 0 0 0 2px var(--gold), 0 0 8px 1px rgba(200, 170, 110, 0.55);
   }
   50% {
-    box-shadow: 0 0 0 4px rgba(200, 170, 110, 0.35);
+    box-shadow: 0 0 0 3px var(--gold), 0 0 16px 4px rgba(200, 170, 110, 0.9);
   }
 }
 
@@ -559,6 +608,15 @@ textarea {
   background: var(--panel);
 }
 
+/* Whose-turn accent on the center card. */
+.hint-box.them {
+  border-left: 3px solid var(--them);
+}
+
+.rec-area > .rec-card {
+  border-left: 3px solid var(--us);
+}
+
 /* ---------- Champion grid ---------- */
 
 .grid-panel {
@@ -654,6 +712,12 @@ textarea {
   flex: 1;
 }
 
+.draft-footer button.active {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: var(--panel-alt);
+}
+
 /* ---------- Modal ---------- */
 
 .modal-backdrop {
@@ -681,16 +745,197 @@ textarea {
   justify-content: flex-end;
 }
 
-.complete-banner {
-  text-align: center;
-  padding: 2rem;
+/* ---------- Team comparison ---------- */
+
+.cmp-center {
+  overflow-y: auto;
+  padding-right: 0.25rem;
 }
 
-.complete-banner h2 {
-  font-size: 2rem;
+.complete-title {
+  text-align: center;
+  font-size: 1.4rem;
   font-variant: small-caps;
-  letter-spacing: 0.15em;
+  letter-spacing: 0.12em;
   color: var(--gold);
+}
+
+.cmp {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.cmp-arch {
+  justify-content: center;
+}
+
+.cmp-dims {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  border: 1px solid var(--hairline);
+  border-radius: 4px;
+  padding: 0.5rem;
+  background: var(--panel);
+}
+
+.cmp-dim {
+  display: grid;
+  grid-template-columns: 2ch 1fr 8.5rem 1fr 2ch;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.72rem;
+}
+
+.cmp-track {
+  height: 10px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 2px;
+  overflow: hidden;
+  display: flex;
+}
+
+.cmp-track.left {
+  justify-content: flex-end;
+}
+
+.cmp-fill {
+  height: 100%;
+}
+
+.cmp-fill.us {
+  background: var(--us);
+}
+
+.cmp-fill.them {
+  background: var(--them);
+}
+
+.cmp-dim-label {
+  text-align: center;
+  color: var(--dim);
+  font-variant: small-caps;
+  letter-spacing: 0.03em;
+}
+
+.cmp-val {
+  font-variant-numeric: tabular-nums;
+}
+
+.cmp-val.us {
+  color: var(--us);
+  text-align: left;
+}
+
+.cmp-val.them {
+  color: var(--them);
+  text-align: right;
+}
+
+.cmp-cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+}
+
+.cmp-h {
+  font-size: 0.75rem;
+  font-variant: small-caps;
+  letter-spacing: 0.05em;
+  margin: 0.25rem 0 0.15rem;
+}
+
+.cmp-h.us {
+  color: var(--us);
+}
+
+.cmp-h.them {
+  color: var(--them);
+}
+
+.cmp-h.warn {
+  color: #e6b980;
+}
+
+.cmp-list {
+  margin: 0;
+  padding-left: 1.05rem;
+  font-size: 0.76rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+
+.cmp-lanes {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.cmp-lane {
+  display: grid;
+  grid-template-columns: 34px 2.6rem 1.5rem 34px 1fr;
+  align-items: center;
+  gap: 0.4rem;
+  border: 1px solid var(--hairline);
+  border-radius: 4px;
+  padding: 0.2rem 0.4rem;
+  background: var(--panel);
+}
+
+.cmp-lane.us {
+  border-left: 3px solid var(--us);
+}
+
+.cmp-lane.them {
+  border-left: 3px solid var(--them);
+}
+
+.cmp-lane-role {
+  font-variant: small-caps;
+  color: var(--gold);
+  font-size: 0.72rem;
+}
+
+.cmp-lane-edge {
+  text-align: center;
+  font-weight: 700;
+}
+
+.cmp-lane-edge.us {
+  color: var(--us);
+}
+
+.cmp-lane-edge.them {
+  color: var(--them);
+}
+
+.cmp-lane-edge.even {
+  color: var(--dim);
+}
+
+.cmp-lane-reason {
+  font-size: 0.7rem;
+  color: var(--dim);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.cmp-plan {
+  border: 1px solid var(--gold);
+  border-radius: 4px;
+  padding: 0.5rem 0.6rem;
+  background: var(--panel-alt);
+}
+
+.cmp-plan-head {
+  color: var(--gold);
+  font-variant: small-caps;
+  letter-spacing: 0.05em;
+  font-size: 0.95rem;
+  margin-bottom: 0.2rem;
 }
 
 @media (max-width: 1100px) {
