@@ -1,0 +1,51 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>LoLDraftTool</AssemblyName>
+    <RootNamespace>LoLDraftTool.Host</RootNamespace>
+    <!-- Ship only the English WebView2 resources to keep the output small. -->
+    <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.4191.47" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <AppDistDir>$(MSBuildProjectDirectory)\..\app\dist</AppDistDir>
+  </PropertyGroup>
+
+  <!--
+    Copy the Vite build output (app/dist) into wwwroot next to the exe as loose
+    files (content-copied, NOT embedded). These plain Copy tasks stay out of the
+    content/publish item pipeline, so single-file publish keeps them as loose
+    files beside the exe. If app/dist is missing, warn (do not fail the build).
+  -->
+  <Target Name="CopyAppDistToOutput" BeforeTargets="Build">
+    <Warning Condition="!Exists('$(AppDistDir)')"
+             Text="app/dist not found at '$(AppDistDir)'. Run 'pnpm -C app build' before building the host, or the packaged app will have no UI." />
+    <ItemGroup>
+      <_AppDistFiles Include="$(AppDistDir)\**\*.*" />
+    </ItemGroup>
+    <Copy Condition="Exists('$(AppDistDir)')"
+          SourceFiles="@(_AppDistFiles)"
+          DestinationFiles="@(_AppDistFiles->'$(OutDir)wwwroot\%(RecursiveDir)%(Filename)%(Extension)')"
+          SkipUnchangedFiles="true" />
+  </Target>
+
+  <Target Name="CopyAppDistToPublish" AfterTargets="Publish">
+    <ItemGroup>
+      <_AppDistPublishFiles Include="$(AppDistDir)\**\*.*" />
+    </ItemGroup>
+    <Copy Condition="Exists('$(AppDistDir)')"
+          SourceFiles="@(_AppDistPublishFiles)"
+          DestinationFiles="@(_AppDistPublishFiles->'$(PublishDir)wwwroot\%(RecursiveDir)%(Filename)%(Extension)')"
+          SkipUnchangedFiles="true" />
+  </Target>
+
+</Project>

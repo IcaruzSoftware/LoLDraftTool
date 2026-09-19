@@ -1,0 +1,5667 @@
+[
+  {
+    "id": 266,
+    "alias": "Aatrox",
+    "name": "Aatrox",
+    "riotTags": [
+      "Fighter"
+    ],
+    "damageType": "AD",
+    "attackType": "melee",
+    "range": 175,
+    "positions": {
+      "top": 1
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 3,
+      "crowdControl": 2,
+      "mobility": 2,
+      "utility": 2
+    },
+    "riotPlaystylePrimary": "Sustained Damage",
+    "riotPlaystyleSecondary": "Self Healing",
+    "difficulty": 3,
+    "merakiRoles": [
+      "FIGHTER",
+      "JUGGERNAUT",
+      "TANK"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "BLOOD_WELL",
+    "releaseDate": "2013-06-13"
+  },
+  {
+    "id": 103,
+    "alias": "Ahri",
+    "name": "Ahri",
+    "riotTags": [
+      "Mage",
+      "Assassin"
+    ],
+    "damageType": "AP",
+    "attackType": "ranged",
+    "range": 550,
+    "positions": {
+      "mid": 1
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 2,
+      "mobility": 3,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Mobile",
+    "riotPlaystyleSecondary": "Burst",
+    "difficulty": 2,
+    "merakiRoles": [
+      "ASSASSIN",
+      "BURST",
+      "MAGE"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2011-12-14"
+  },
+  {
+    "id": 84,
+    "alias": "Akali",
+    "name": "Akali",
+    "riotTags": [
+      "Assassin"
+    ],
+    "damageType": "AP",
+    "attackType": "melee",
+    "range": 125,
+    "positions": {
+      "mid": 1,
+      "top": 0.8
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 1,
+      "mobility": 3,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Mobile",
+    "riotPlaystyleSecondary": "Burst",
+    "difficulty": 3,
+    "merakiRoles": [
+      "ASSASSIN"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "ENERGY",
+    "releaseDate": "2010-05-11"
+  },
+  {
+    "id": 166,
+    "alias": "Akshan",
+    "name": "Akshan",
+    "riotTags": [
+      "Marksman",
+      "Assassin"
+    ],
+    "damageType": "AD",
+    "attackType": "ranged",
+    "range": 500,
+    "positions": {
+      "mid": 1
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 1,
+      "mobility": 3,
+      "utility": 2
+    },
+    "riotPlaystylePrimary": "Mobile",
+    "riotPlaystyleSecondary": "Stealth",
+    "difficulty": 3,
+    "merakiRoles": [
+      "ASSASSIN",
+      "MARKSMAN"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2021-07-22"
+  },
+  {
+    "id": 12,
+    "alias": "Alistar",
+    "name": "Alistar",
+    "riotTags": [
+      "Tank",
+      "Support"
+    ],
+    "damageType": "AP",
+    "attackType": "melee",
+    "range": 125,
+    "positions": {
+      "support": 1
+    },
+    "playstyle": {
+      "damage": 1,
+      "durability": 3,
+      "crowdControl": 3,
+      "mobility": 1,
+      "utility": 2
+    },
+    "riotPlaystylePrimary": "Crowd Control",
+    "riotPlaystyleSecondary": "Initiator",
+    "difficulty": 1,
+    "merakiRoles": [
+      "SUPPORT",
+      "TANK",
+      "VANGUARD"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2009-02-21"
+  },
+  {
+    "id": 799,
+    "alias": "Ambessa",
+    "name": "Ambessa",
+    "riotTags": [
+      "Fighter",
+      "Assassin"
+    ],
+    "damageType": "AD",
+    "attackType": "melee",
+    "range": 125,
+    "positions": {
+      "top": 1
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 2,
+      "crowdControl": 1,
+      "mobility": 3,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Mobile",
+    "riotPlaystyleSecondary": "Dive",
+    "difficulty": 3,
+    "merakiRoles": [
+      "ASSASSIN",
+      "DIVER",
+      "FIGHTER",
+      "SKIRMISHER"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "ENERGY",
+    "releaseDate": "2024-11-06"
+  },
+  {
+    "id": 32,
+    "alias": "Amumu",
+    "name": "Amumu",
+    "riotTags": [
+      "Tank",
+      "Support"
+    ],
+    "damageType": "AP",
+    "attackType": "melee",
+    "range": 125,
+    "positions": {
+      "jungle": 1,
+      "support": 0.8
+    },
+    "playstyle": {
+      "damage": 2,
+      "durability": 3,
+      "crowdControl": 3,
+      "mobility": 1,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Crowd Control",
+    "riotPlaystyleSecondary": "Initiator",
+    "difficulty": 1,
+    "merakiRoles": [
+      "SUPPORT",
+      "TANK",
+      "VANGUARD"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2009-06-26"
+  },
+  {
+    "id": 34,
+    "alias": "Anivia",
+    "name": "Anivia",
+    "riotTags": [
+      "Mage"
+    ],
+    "damageType": "AP",
+    "attackType": "ranged",
+    "range": 600,
+    "positions": {
+      "mid": 1
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 3,
+      "mobility": 1,
+      "utility": 2
+    },
+    "riotPlaystylePrimary": "AoE",
+    "riotPlaystyleSecondary": "Crowd Control",
+    "difficulty": 2,
+    "merakiRoles": [
+      "BATTLEMAGE",
+      "MAGE",
+      "SUPPORT"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2009-07-10"
+  },
+  {
+    "id": 1,
+    "alias": "Annie",
+    "name": "Annie",
+    "riotTags": [
+      "Mage",
+      "Support"
+    ],
+    "damageType": "AP",
+    "attackType": "ranged",
+    "range": 625,
+    "positions": {
+      "mid": 1
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 3,
+      "mobility": 1,
+      "utility": 2
+    },
+    "riotPlaystylePrimary": "Summon",
+    "riotPlaystyleSecondary": "Burst",
+    "difficulty": 1,
+    "merakiRoles": [
+      "BURST",
+      "MAGE",
+      "SUPPORT"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2009-02-21"
+  },
+  {
+    "id": 523,
+    "alias": "Aphelios",
+    "name": "Aphelios",
+    "riotTags": [
+      "Marksman"
+    ],
+    "damageType": "AD",
+    "attackType": "ranged",
+    "range": 550,
+    "positions": {
+      "bot": 1
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 2,
+      "mobility": 1,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Hypercarry",
+    "riotPlaystyleSecondary": "Auto-attack",
+    "difficulty": 3,
+    "merakiRoles": [
+      "MARKSMAN"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2019-12-11"
+  },
+  {
+    "id": 22,
+    "alias": "Ashe",
+    "name": "Ashe",
+    "riotTags": [
+      "Marksman",
+      "Support"
+    ],
+    "damageType": "AD",
+    "attackType": "ranged",
+    "range": 600,
+    "positions": {
+      "bot": 1,
+      "support": 0.8
+    },
+    "playstyle": {
+      "damage": 2,
+      "durability": 1,
+      "crowdControl": 3,
+      "mobility": 1,
+      "utility": 2
+    },
+    "riotPlaystylePrimary": "Auto-attack",
+    "riotPlaystyleSecondary": "Crowd Control",
+    "difficulty": 1,
+    "merakiRoles": [
+      "MARKSMAN",
+      "SUPPORT"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2009-02-21"
+  },
+  {
+    "id": 136,
+    "alias": "AurelionSol",
+    "name": "Aurelion Sol",
+    "riotTags": [
+      "Mage"
+    ],
+    "damageType": "AP",
+    "attackType": "ranged",
+    "range": 550,
+    "positions": {
+      "mid": 1
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 2,
+      "mobility": 2,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Hypercarry",
+    "riotPlaystyleSecondary": "AoE",
+    "difficulty": 2,
+    "merakiRoles": [
+      "BATTLEMAGE",
+      "MAGE"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2016-03-24"
+  },
+  {
+    "id": 893,
+    "alias": "Aurora",
+    "name": "Aurora",
+    "riotTags": [
+      "Mage",
+      "Assassin"
+    ],
+    "damageType": "AP",
+    "attackType": "ranged",
+    "range": 550,
+    "positions": {
+      "mid": 1,
+      "top": 0.8
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 2,
+      "mobility": 3,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Burst",
+    "riotPlaystyleSecondary": "Stealth",
+    "difficulty": 2,
+    "merakiRoles": [
+      "ASSASSIN",
+      "BURST",
+      "MAGE"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2024-07-17"
+  },
+  {
+    "id": 268,
+    "alias": "Azir",
+    "name": "Azir",
+    "riotTags": [
+      "Mage",
+      "Marksman"
+    ],
+    "damageType": "AP",
+    "attackType": "ranged",
+    "range": 525,
+    "positions": {
+      "mid": 1
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 2,
+      "mobility": 2,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Hypercarry",
+    "riotPlaystyleSecondary": "Auto-attack",
+    "difficulty": 3,
+    "merakiRoles": [
+      "MAGE",
+      "MARKSMAN",
+      "SPECIALIST"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2014-09-16"
+  },
+  {
+    "id": 432,
+    "alias": "Bard",
+    "name": "Bard",
+    "riotTags": [
+      "Support",
+      "Mage"
+    ],
+    "damageType": "AP",
+    "attackType": "ranged",
+    "range": 500,
+    "positions": {
+      "support": 1
+    },
+    "playstyle": {
+      "damage": 1,
+      "durability": 1,
+      "crowdControl": 3,
+      "mobility": 2,
+      "utility": 3
+    },
+    "riotPlaystylePrimary": "Crowd Control",
+    "riotPlaystyleSecondary": "Mobile",
+    "difficulty": 3,
+    "merakiRoles": [
+      "CATCHER",
+      "MAGE",
+      "SUPPORT"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2015-03-12"
+  },
+  {
+    "id": 200,
+    "alias": "Belveth",
+    "name": "Bel'Veth",
+    "riotTags": [
+      "Fighter"
+    ],
+    "damageType": "AD",
+    "attackType": "melee",
+    "range": 150,
+    "positions": {
+      "jungle": 1
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 2,
+      "mobility": 3,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Auto-attack",
+    "riotPlaystyleSecondary": "Mobile",
+    "difficulty": 3,
+    "merakiRoles": [
+      "FIGHTER",
+      "SKIRMISHER"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "NONE",
+    "releaseDate": "2022-06-09"
+  },
+  {
+    "id": 53,
+    "alias": "Blitzcrank",
+    "name": "Blitzcrank",
+    "riotTags": [
+      "Tank",
+      "Support"
+    ],
+    "damageType": "AP",
+    "attackType": "melee",
+    "range": 125,
+    "positions": {
+      "support": 1
+    },
+    "playstyle": {
+      "damage": 1,
+      "durability": 2,
+      "crowdControl": 3,
+      "mobility": 1,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Initiator",
+    "riotPlaystyleSecondary": "Crowd Control",
+    "difficulty": 1,
+    "merakiRoles": [
+      "CATCHER",
+      "SUPPORT",
+      "TANK"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2009-09-02"
+  },
+  {
+    "id": 63,
+    "alias": "Brand",
+    "name": "Brand",
+    "riotTags": [
+      "Mage",
+      "Support"
+    ],
+    "damageType": "AP",
+    "attackType": "ranged",
+    "range": 550,
+    "positions": {
+      "jungle": 1,
+      "mid": 0.8,
+      "support": 0.8
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 2,
+      "mobility": 1,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Damage-over-Time",
+    "riotPlaystyleSecondary": "AoE",
+    "difficulty": 2,
+    "merakiRoles": [
+      "BURST",
+      "MAGE",
+      "SUPPORT"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2011-04-12"
+  },
+  {
+    "id": 201,
+    "alias": "Braum",
+    "name": "Braum",
+    "riotTags": [
+      "Tank",
+      "Support"
+    ],
+    "damageType": "AP",
+    "attackType": "melee",
+    "range": 125,
+    "positions": {
+      "support": 1
+    },
+    "playstyle": {
+      "damage": 1,
+      "durability": 2,
+      "crowdControl": 3,
+      "mobility": 1,
+      "utility": 2
+    },
+    "riotPlaystylePrimary": "Durable",
+    "riotPlaystyleSecondary": "Crowd Control",
+    "difficulty": 2,
+    "merakiRoles": [
+      "SUPPORT",
+      "TANK",
+      "WARDEN"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2014-05-12"
+  },
+  {
+    "id": 233,
+    "alias": "Briar",
+    "name": "Briar",
+    "riotTags": [
+      "Fighter",
+      "Assassin"
+    ],
+    "damageType": "AD",
+    "attackType": "melee",
+    "range": 125,
+    "positions": {
+      "jungle": 1
+    },
+    "playstyle": {
+      "damage": 2,
+      "durability": 2,
+      "crowdControl": 3,
+      "mobility": 3,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Self Healing",
+    "riotPlaystyleSecondary": "Dive",
+    "difficulty": 2,
+    "merakiRoles": [
+      "ASSASSIN",
+      "DIVER",
+      "FIGHTER"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "FRENZY",
+    "releaseDate": "2023-09-14"
+  },
+  {
+    "id": 51,
+    "alias": "Caitlyn",
+    "name": "Caitlyn",
+    "riotTags": [
+      "Marksman"
+    ],
+    "damageType": "AD",
+    "attackType": "ranged",
+    "range": 650,
+    "positions": {
+      "bot": 1
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 2,
+      "mobility": 2,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Auto-attack",
+    "riotPlaystyleSecondary": "Burst",
+    "difficulty": 1,
+    "merakiRoles": [
+      "MARKSMAN"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2011-01-04"
+  },
+  {
+    "id": 164,
+    "alias": "Camille",
+    "name": "Camille",
+    "riotTags": [
+      "Fighter",
+      "Assassin"
+    ],
+    "damageType": "AD",
+    "attackType": "melee",
+    "range": 125,
+    "positions": {
+      "support": 1,
+      "top": 0.8
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 2,
+      "crowdControl": 2,
+      "mobility": 3,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Dive",
+    "riotPlaystyleSecondary": "Duelist",
+    "difficulty": 2,
+    "merakiRoles": [
+      "ASSASSIN",
+      "DIVER",
+      "FIGHTER"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2016-12-07"
+  },
+  {
+    "id": 69,
+    "alias": "Cassiopeia",
+    "name": "Cassiopeia",
+    "riotTags": [
+      "Mage"
+    ],
+    "damageType": "AP",
+    "attackType": "ranged",
+    "range": 550,
+    "positions": {
+      "mid": 1
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 3,
+      "mobility": 1,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Crowd Control",
+    "riotPlaystyleSecondary": "Sustained Damage",
+    "difficulty": 2,
+    "merakiRoles": [
+      "BATTLEMAGE",
+      "MAGE"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2010-12-14"
+  },
+  {
+    "id": 31,
+    "alias": "Chogath",
+    "name": "Cho'Gath",
+    "riotTags": [
+      "Tank",
+      "Mage"
+    ],
+    "damageType": "AP",
+    "attackType": "melee",
+    "range": 125,
+    "positions": {
+      "top": 1
+    },
+    "playstyle": {
+      "damage": 2,
+      "durability": 3,
+      "crowdControl": 2,
+      "mobility": 1,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Durable",
+    "riotPlaystyleSecondary": "Crowd Control",
+    "difficulty": 1,
+    "merakiRoles": [
+      "MAGE",
+      "SPECIALIST",
+      "TANK"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2009-06-26"
+  },
+  {
+    "id": 42,
+    "alias": "Corki",
+    "name": "Corki",
+    "riotTags": [
+      "Marksman",
+      "Mage"
+    ],
+    "damageType": "AD",
+    "attackType": "ranged",
+    "range": 550,
+    "positions": {
+      "mid": 1
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 1,
+      "mobility": 2,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Auto-attack",
+    "riotPlaystyleSecondary": "AoE",
+    "difficulty": 2,
+    "merakiRoles": [
+      "MAGE",
+      "MARKSMAN"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2009-09-19"
+  },
+  {
+    "id": 122,
+    "alias": "Darius",
+    "name": "Darius",
+    "riotTags": [
+      "Fighter",
+      "Tank"
+    ],
+    "damageType": "AD",
+    "attackType": "melee",
+    "range": 175,
+    "positions": {
+      "top": 1
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 2,
+      "crowdControl": 2,
+      "mobility": 1,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Duelist",
+    "riotPlaystyleSecondary": "Self Healing",
+    "difficulty": 2,
+    "merakiRoles": [
+      "FIGHTER",
+      "JUGGERNAUT",
+      "TANK"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2012-05-23"
+  },
+  {
+    "id": 131,
+    "alias": "Diana",
+    "name": "Diana",
+    "riotTags": [
+      "Fighter",
+      "Assassin"
+    ],
+    "damageType": "AP",
+    "attackType": "melee",
+    "range": 150,
+    "positions": {
+      "jungle": 1,
+      "mid": 0.8
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 2,
+      "crowdControl": 2,
+      "mobility": 2,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Burst",
+    "riotPlaystyleSecondary": "Dive",
+    "difficulty": 1,
+    "merakiRoles": [
+      "ASSASSIN",
+      "DIVER",
+      "FIGHTER"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2012-08-07"
+  },
+  {
+    "id": 36,
+    "alias": "DrMundo",
+    "name": "Dr. Mundo",
+    "riotTags": [
+      "Tank",
+      "Fighter"
+    ],
+    "damageType": "mixed",
+    "attackType": "melee",
+    "range": 125,
+    "positions": {
+      "top": 1
+    },
+    "playstyle": {
+      "damage": 2,
+      "durability": 3,
+      "crowdControl": 1,
+      "mobility": 1,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Durable",
+    "riotPlaystyleSecondary": "Self Healing",
+    "difficulty": 1,
+    "merakiRoles": [
+      "FIGHTER",
+      "JUGGERNAUT",
+      "TANK"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "HEALTH",
+    "releaseDate": "2009-09-02"
+  },
+  {
+    "id": 119,
+    "alias": "Draven",
+    "name": "Draven",
+    "riotTags": [
+      "Marksman"
+    ],
+    "damageType": "AD",
+    "attackType": "ranged",
+    "range": 550,
+    "positions": {
+      "bot": 1
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 1,
+      "mobility": 2,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Auto-attack",
+    "riotPlaystyleSecondary": "Burst",
+    "difficulty": 3,
+    "merakiRoles": [
+      "MARKSMAN"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2012-06-06"
+  },
+  {
+    "id": 245,
+    "alias": "Ekko",
+    "name": "Ekko",
+    "riotTags": [
+      "Assassin",
+      "Mage"
+    ],
+    "damageType": "AP",
+    "attackType": "melee",
+    "range": 125,
+    "positions": {
+      "jungle": 1,
+      "mid": 0.8
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 2,
+      "crowdControl": 2,
+      "mobility": 3,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Burst",
+    "riotPlaystyleSecondary": "Mobile",
+    "difficulty": 2,
+    "merakiRoles": [
+      "ASSASSIN",
+      "MAGE"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2015-05-29"
+  },
+  {
+    "id": 60,
+    "alias": "Elise",
+    "name": "Elise",
+    "riotTags": [
+      "Assassin",
+      "Mage"
+    ],
+    "damageType": "AP",
+    "attackType": "ranged",
+    "range": 550,
+    "positions": {
+      "jungle": 1
+    },
+    "playstyle": {
+      "damage": 2,
+      "durability": 2,
+      "crowdControl": 2,
+      "mobility": 2,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Shapeshift",
+    "riotPlaystyleSecondary": "Burst",
+    "difficulty": 3,
+    "merakiRoles": [
+      "ASSASSIN",
+      "DIVER",
+      "MAGE"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2012-10-26"
+  },
+  {
+    "id": 28,
+    "alias": "Evelynn",
+    "name": "Evelynn",
+    "riotTags": [
+      "Assassin",
+      "Mage"
+    ],
+    "damageType": "AP",
+    "attackType": "melee",
+    "range": 125,
+    "positions": {
+      "jungle": 1
+    },
+    "playstyle": {
+      "damage": 2,
+      "durability": 2,
+      "crowdControl": 1,
+      "mobility": 2,
+      "utility": 2
+    },
+    "riotPlaystylePrimary": "Stealth",
+    "riotPlaystyleSecondary": "Burst",
+    "difficulty": 2,
+    "merakiRoles": [
+      "ASSASSIN",
+      "MAGE"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2009-05-01"
+  },
+  {
+    "id": 81,
+    "alias": "Ezreal",
+    "name": "Ezreal",
+    "riotTags": [
+      "Marksman",
+      "Mage"
+    ],
+    "damageType": "AD",
+    "attackType": "ranged",
+    "range": 550,
+    "positions": {
+      "bot": 1
+    },
+    "playstyle": {
+      "damage": 1,
+      "durability": 1,
+      "crowdControl": 1,
+      "mobility": 1,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Long Range",
+    "riotPlaystyleSecondary": "Mobile",
+    "difficulty": 3,
+    "merakiRoles": [
+      "MAGE",
+      "MARKSMAN"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2010-03-16"
+  },
+  {
+    "id": 9,
+    "alias": "Fiddlesticks",
+    "name": "Fiddlesticks",
+    "riotTags": [
+      "Mage",
+      "Support"
+    ],
+    "damageType": "AP",
+    "attackType": "ranged",
+    "range": 480,
+    "positions": {
+      "jungle": 1
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 3,
+      "mobility": 1,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Self Healing",
+    "riotPlaystyleSecondary": "AoE",
+    "difficulty": 2,
+    "merakiRoles": [
+      "MAGE",
+      "SPECIALIST",
+      "SUPPORT"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2009-02-21"
+  },
+  {
+    "id": 114,
+    "alias": "Fiora",
+    "name": "Fiora",
+    "riotTags": [
+      "Fighter",
+      "Assassin"
+    ],
+    "damageType": "AD",
+    "attackType": "melee",
+    "range": 150,
+    "positions": {
+      "top": 1
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 2,
+      "crowdControl": 2,
+      "mobility": 2,
+      "utility": 2
+    },
+    "riotPlaystylePrimary": "Duelist",
+    "riotPlaystyleSecondary": "Mobile",
+    "difficulty": 3,
+    "merakiRoles": [
+      "ASSASSIN",
+      "FIGHTER",
+      "SKIRMISHER"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2012-02-29"
+  },
+  {
+    "id": 105,
+    "alias": "Fizz",
+    "name": "Fizz",
+    "riotTags": [
+      "Assassin",
+      "Fighter"
+    ],
+    "damageType": "AP",
+    "attackType": "melee",
+    "range": 175,
+    "positions": {
+      "mid": 1
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 2,
+      "mobility": 3,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Burst",
+    "riotPlaystyleSecondary": "Mobile",
+    "difficulty": 2,
+    "merakiRoles": [
+      "ASSASSIN",
+      "FIGHTER"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2011-11-15"
+  },
+  {
+    "id": 3,
+    "alias": "Galio",
+    "name": "Galio",
+    "riotTags": [
+      "Tank",
+      "Mage"
+    ],
+    "damageType": "AP",
+    "attackType": "melee",
+    "range": 150,
+    "positions": {
+      "mid": 1,
+      "support": 0.8
+    },
+    "playstyle": {
+      "damage": 2,
+      "durability": 3,
+      "crowdControl": 3,
+      "mobility": 2,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Battlecaster",
+    "riotPlaystyleSecondary": "Crowd Control",
+    "difficulty": 2,
+    "merakiRoles": [
+      "MAGE",
+      "TANK",
+      "WARDEN"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2010-08-10"
+  },
+  {
+    "id": 41,
+    "alias": "Gangplank",
+    "name": "Gangplank",
+    "riotTags": [
+      "Fighter"
+    ],
+    "damageType": "AD",
+    "attackType": "melee",
+    "range": 125,
+    "positions": {
+      "top": 1
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 1,
+      "mobility": 1,
+      "utility": 2
+    },
+    "riotPlaystylePrimary": "AoE",
+    "riotPlaystyleSecondary": "Burst",
+    "difficulty": 3,
+    "merakiRoles": [
+      "FIGHTER",
+      "SPECIALIST"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2009-08-19"
+  },
+  {
+    "id": 86,
+    "alias": "Garen",
+    "name": "Garen",
+    "riotTags": [
+      "Fighter",
+      "Tank"
+    ],
+    "damageType": "AD",
+    "attackType": "melee",
+    "range": 175,
+    "positions": {
+      "top": 1
+    },
+    "playstyle": {
+      "damage": 2,
+      "durability": 3,
+      "crowdControl": 1,
+      "mobility": 1,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Durable",
+    "riotPlaystyleSecondary": "Sustained Damage",
+    "difficulty": 1,
+    "merakiRoles": [
+      "FIGHTER",
+      "JUGGERNAUT",
+      "TANK"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "NONE",
+    "releaseDate": "2010-04-27"
+  },
+  {
+    "id": 150,
+    "alias": "Gnar",
+    "name": "Gnar",
+    "riotTags": [
+      "Fighter",
+      "Tank"
+    ],
+    "damageType": "AD",
+    "attackType": "ranged",
+    "range": 175,
+    "positions": {
+      "top": 1
+    },
+    "playstyle": {
+      "damage": 2,
+      "durability": 3,
+      "crowdControl": 2,
+      "mobility": 2,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Shapeshift",
+    "riotPlaystyleSecondary": "Crowd Control",
+    "difficulty": 3,
+    "merakiRoles": [
+      "FIGHTER",
+      "SPECIALIST",
+      "TANK"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "RAGE",
+    "releaseDate": "2014-08-14"
+  },
+  {
+    "id": 79,
+    "alias": "Gragas",
+    "name": "Gragas",
+    "riotTags": [
+      "Fighter",
+      "Mage"
+    ],
+    "damageType": "AP",
+    "attackType": "melee",
+    "range": 125,
+    "positions": {
+      "jungle": 1,
+      "mid": 0.8,
+      "top": 0.8
+    },
+    "playstyle": {
+      "damage": 2,
+      "durability": 3,
+      "crowdControl": 3,
+      "mobility": 2,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Burst",
+    "riotPlaystyleSecondary": "Crowd Control",
+    "difficulty": 2,
+    "merakiRoles": [
+      "FIGHTER",
+      "MAGE",
+      "VANGUARD"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2010-02-02"
+  },
+  {
+    "id": 104,
+    "alias": "Graves",
+    "name": "Graves",
+    "riotTags": [
+      "Marksman"
+    ],
+    "damageType": "AD",
+    "attackType": "ranged",
+    "range": 425,
+    "positions": {
+      "jungle": 1
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 2,
+      "crowdControl": 1,
+      "mobility": 2,
+      "utility": 2
+    },
+    "riotPlaystylePrimary": "Burst",
+    "riotPlaystyleSecondary": "Auto-attack",
+    "difficulty": 2,
+    "merakiRoles": [
+      "MARKSMAN",
+      "SPECIALIST"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2011-10-19"
+  },
+  {
+    "id": 887,
+    "alias": "Gwen",
+    "name": "Gwen",
+    "riotTags": [
+      "Fighter"
+    ],
+    "damageType": "AP",
+    "attackType": "melee",
+    "range": 150,
+    "positions": {
+      "jungle": 1,
+      "top": 0.8
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 2,
+      "crowdControl": 1,
+      "mobility": 3,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Sustained Damage",
+    "riotPlaystyleSecondary": "Duelist",
+    "difficulty": 2,
+    "merakiRoles": [
+      "ASSASSIN",
+      "FIGHTER",
+      "SKIRMISHER"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2021-04-15"
+  },
+  {
+    "id": 120,
+    "alias": "Hecarim",
+    "name": "Hecarim",
+    "riotTags": [
+      "Fighter",
+      "Tank"
+    ],
+    "damageType": "AD",
+    "attackType": "melee",
+    "range": 175,
+    "positions": {
+      "jungle": 1
+    },
+    "playstyle": {
+      "damage": 2,
+      "durability": 2,
+      "crowdControl": 2,
+      "mobility": 2,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Mobile",
+    "riotPlaystyleSecondary": "Dive",
+    "difficulty": 2,
+    "merakiRoles": [
+      "DIVER",
+      "FIGHTER",
+      "TANK"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2012-04-18"
+  },
+  {
+    "id": 74,
+    "alias": "Heimerdinger",
+    "name": "Heimerdinger",
+    "riotTags": [
+      "Mage",
+      "Support"
+    ],
+    "damageType": "AP",
+    "attackType": "ranged",
+    "range": 550,
+    "positions": {
+      "mid": 1,
+      "support": 0.8,
+      "top": 0.8
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 2,
+      "mobility": 1,
+      "utility": 2
+    },
+    "riotPlaystylePrimary": "Summon",
+    "riotPlaystyleSecondary": "Sustained Damage",
+    "difficulty": 3,
+    "merakiRoles": [
+      "MAGE",
+      "SPECIALIST",
+      "SUPPORT"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2009-10-10"
+  },
+  {
+    "id": 910,
+    "alias": "Hwei",
+    "name": "Hwei",
+    "riotTags": [
+      "Mage",
+      "Support"
+    ],
+    "damageType": "AP",
+    "attackType": "ranged",
+    "range": 550,
+    "positions": {
+      "mid": 1,
+      "support": 0.8
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 3,
+      "mobility": 1,
+      "utility": 2
+    },
+    "riotPlaystylePrimary": "AoE",
+    "riotPlaystyleSecondary": "Long Range",
+    "difficulty": 3,
+    "merakiRoles": [
+      "ARTILLERY",
+      "MAGE",
+      "SUPPORT"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2023-12-05"
+  },
+  {
+    "id": 420,
+    "alias": "Illaoi",
+    "name": "Illaoi",
+    "riotTags": [
+      "Fighter",
+      "Tank"
+    ],
+    "damageType": "AD",
+    "attackType": "melee",
+    "range": 125,
+    "positions": {
+      "top": 1
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 2,
+      "crowdControl": 1,
+      "mobility": 1,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Self Healing",
+    "riotPlaystyleSecondary": "Duelist",
+    "difficulty": 2,
+    "merakiRoles": [
+      "FIGHTER",
+      "JUGGERNAUT",
+      "TANK"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2015-11-24"
+  },
+  {
+    "id": 39,
+    "alias": "Irelia",
+    "name": "Irelia",
+    "riotTags": [
+      "Fighter",
+      "Assassin"
+    ],
+    "damageType": "AD",
+    "attackType": "melee",
+    "range": 200,
+    "positions": {
+      "mid": 1,
+      "top": 0.8
+    },
+    "playstyle": {
+      "damage": 2,
+      "durability": 2,
+      "crowdControl": 2,
+      "mobility": 3,
+      "utility": 2
+    },
+    "riotPlaystylePrimary": "Mobile",
+    "riotPlaystyleSecondary": "Duelist",
+    "difficulty": 3,
+    "merakiRoles": [
+      "ASSASSIN",
+      "DIVER",
+      "FIGHTER"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2010-11-16"
+  },
+  {
+    "id": 427,
+    "alias": "Ivern",
+    "name": "Ivern",
+    "riotTags": [
+      "Support",
+      "Mage"
+    ],
+    "damageType": "AP",
+    "attackType": "ranged",
+    "range": 475,
+    "positions": {
+      "jungle": 1
+    },
+    "playstyle": {
+      "damage": 1,
+      "durability": 1,
+      "crowdControl": 3,
+      "mobility": 2,
+      "utility": 3
+    },
+    "riotPlaystylePrimary": "Summon",
+    "riotPlaystyleSecondary": "Ally Protection",
+    "difficulty": 3,
+    "merakiRoles": [
+      "CATCHER",
+      "MAGE",
+      "SUPPORT"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2016-10-05"
+  },
+  {
+    "id": 40,
+    "alias": "Janna",
+    "name": "Janna",
+    "riotTags": [
+      "Support",
+      "Mage"
+    ],
+    "damageType": "AP",
+    "attackType": "ranged",
+    "range": 550,
+    "positions": {
+      "support": 1
+    },
+    "playstyle": {
+      "damage": 1,
+      "durability": 1,
+      "crowdControl": 3,
+      "mobility": 1,
+      "utility": 3
+    },
+    "riotPlaystylePrimary": "Crowd Control",
+    "riotPlaystyleSecondary": "Ally Protection",
+    "difficulty": 1,
+    "merakiRoles": [
+      "ENCHANTER",
+      "MAGE",
+      "SUPPORT"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2009-09-02"
+  },
+  {
+    "id": 59,
+    "alias": "JarvanIV",
+    "name": "Jarvan IV",
+    "riotTags": [
+      "Fighter",
+      "Tank"
+    ],
+    "damageType": "AD",
+    "attackType": "melee",
+    "range": 175,
+    "positions": {
+      "jungle": 1
+    },
+    "playstyle": {
+      "damage": 2,
+      "durability": 2,
+      "crowdControl": 2,
+      "mobility": 2,
+      "utility": 2
+    },
+    "riotPlaystylePrimary": "Dive",
+    "riotPlaystyleSecondary": "Crowd Control",
+    "difficulty": 1,
+    "merakiRoles": [
+      "DIVER",
+      "FIGHTER",
+      "TANK"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2011-03-01"
+  },
+  {
+    "id": 24,
+    "alias": "Jax",
+    "name": "Jax",
+    "riotTags": [
+      "Fighter"
+    ],
+    "damageType": "AD",
+    "attackType": "melee",
+    "range": 125,
+    "positions": {
+      "jungle": 1,
+      "top": 0.8
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 2,
+      "crowdControl": 2,
+      "mobility": 2,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Duelist",
+    "riotPlaystyleSecondary": "Auto-attack",
+    "difficulty": 2,
+    "merakiRoles": [
+      "ASSASSIN",
+      "FIGHTER",
+      "SKIRMISHER"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2009-02-21"
+  },
+  {
+    "id": 126,
+    "alias": "Jayce",
+    "name": "Jayce",
+    "riotTags": [
+      "Fighter",
+      "Marksman"
+    ],
+    "damageType": "AD",
+    "attackType": "ranged",
+    "range": 125,
+    "positions": {
+      "mid": 1,
+      "top": 0.8
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 1,
+      "mobility": 2,
+      "utility": 2
+    },
+    "riotPlaystylePrimary": "Shapeshift",
+    "riotPlaystyleSecondary": "Long Range",
+    "difficulty": 3,
+    "merakiRoles": [
+      "ARTILLERY",
+      "FIGHTER",
+      "MARKSMAN"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2012-07-07"
+  },
+  {
+    "id": 202,
+    "alias": "Jhin",
+    "name": "Jhin",
+    "riotTags": [
+      "Marksman",
+      "Mage"
+    ],
+    "damageType": "AD",
+    "attackType": "ranged",
+    "range": 550,
+    "positions": {
+      "bot": 1
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 2,
+      "mobility": 1,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Long Range",
+    "riotPlaystyleSecondary": "Burst",
+    "difficulty": 2,
+    "merakiRoles": [
+      "CATCHER",
+      "MAGE",
+      "MARKSMAN"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2016-02-01"
+  },
+  {
+    "id": 222,
+    "alias": "Jinx",
+    "name": "Jinx",
+    "riotTags": [
+      "Marksman"
+    ],
+    "damageType": "AD",
+    "attackType": "ranged",
+    "range": 525,
+    "positions": {
+      "bot": 1
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 2,
+      "mobility": 1,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Auto-attack",
+    "riotPlaystyleSecondary": "Hypercarry",
+    "difficulty": 2,
+    "merakiRoles": [
+      "MARKSMAN"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2013-10-10"
+  },
+  {
+    "id": 897,
+    "alias": "KSante",
+    "name": "K'Sante",
+    "riotTags": [
+      "Tank",
+      "Fighter"
+    ],
+    "damageType": "AD",
+    "attackType": "melee",
+    "range": 150,
+    "positions": {
+      "top": 1
+    },
+    "playstyle": {
+      "damage": 2,
+      "durability": 3,
+      "crowdControl": 3,
+      "mobility": 2,
+      "utility": 2
+    },
+    "riotPlaystylePrimary": "Durable",
+    "riotPlaystyleSecondary": "Duelist",
+    "difficulty": 3,
+    "merakiRoles": [
+      "FIGHTER",
+      "SKIRMISHER",
+      "TANK",
+      "WARDEN"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2022-11-02"
+  },
+  {
+    "id": 145,
+    "alias": "Kaisa",
+    "name": "Kai'Sa",
+    "riotTags": [
+      "Marksman",
+      "Mage"
+    ],
+    "damageType": "AD",
+    "attackType": "ranged",
+    "range": 525,
+    "positions": {
+      "bot": 1
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 0,
+      "mobility": 3,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Dive",
+    "riotPlaystyleSecondary": "Auto-attack",
+    "difficulty": 2,
+    "merakiRoles": [
+      "MAGE",
+      "MARKSMAN"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2018-03-07"
+  },
+  {
+    "id": 429,
+    "alias": "Kalista",
+    "name": "Kalista",
+    "riotTags": [
+      "Marksman"
+    ],
+    "damageType": "AD",
+    "attackType": "ranged",
+    "range": 525,
+    "positions": {
+      "bot": 1
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 1,
+      "mobility": 3,
+      "utility": 2
+    },
+    "riotPlaystylePrimary": "Mobile",
+    "riotPlaystyleSecondary": "Auto-attack",
+    "difficulty": 3,
+    "merakiRoles": [
+      "MARKSMAN"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2014-11-20"
+  },
+  {
+    "id": 43,
+    "alias": "Karma",
+    "name": "Karma",
+    "riotTags": [
+      "Mage",
+      "Support"
+    ],
+    "damageType": "AP",
+    "attackType": "ranged",
+    "range": 525,
+    "positions": {
+      "mid": 1,
+      "support": 0.8,
+      "top": 0.8
+    },
+    "playstyle": {
+      "damage": 2,
+      "durability": 1,
+      "crowdControl": 2,
+      "mobility": 1,
+      "utility": 2
+    },
+    "riotPlaystylePrimary": "Ally Protection",
+    "riotPlaystyleSecondary": "AoE",
+    "difficulty": 1,
+    "merakiRoles": [
+      "BURST",
+      "ENCHANTER",
+      "MAGE",
+      "SUPPORT"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2011-02-01"
+  },
+  {
+    "id": 30,
+    "alias": "Karthus",
+    "name": "Karthus",
+    "riotTags": [
+      "Mage"
+    ],
+    "damageType": "AP",
+    "attackType": "ranged",
+    "range": 450,
+    "positions": {
+      "jungle": 1
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 1,
+      "mobility": 1,
+      "utility": 2
+    },
+    "riotPlaystylePrimary": "AoE",
+    "riotPlaystyleSecondary": "Sustained Damage",
+    "difficulty": 2,
+    "merakiRoles": [
+      "BATTLEMAGE",
+      "MAGE"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2009-06-12"
+  },
+  {
+    "id": 38,
+    "alias": "Kassadin",
+    "name": "Kassadin",
+    "riotTags": [
+      "Assassin",
+      "Mage"
+    ],
+    "damageType": "AP",
+    "attackType": "melee",
+    "range": 150,
+    "positions": {
+      "mid": 1
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 2,
+      "crowdControl": 1,
+      "mobility": 3,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Hypercarry",
+    "riotPlaystyleSecondary": "Mobile",
+    "difficulty": 2,
+    "merakiRoles": [
+      "ASSASSIN",
+      "MAGE"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2009-08-07"
+  },
+  {
+    "id": 55,
+    "alias": "Katarina",
+    "name": "Katarina",
+    "riotTags": [
+      "Assassin",
+      "Mage"
+    ],
+    "damageType": "AP",
+    "attackType": "melee",
+    "range": 125,
+    "positions": {
+      "mid": 1
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 1,
+      "mobility": 3,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Mobile",
+    "riotPlaystyleSecondary": "Burst",
+    "difficulty": 3,
+    "merakiRoles": [
+      "ASSASSIN",
+      "MAGE"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "NONE",
+    "releaseDate": "2009-09-19"
+  },
+  {
+    "id": 10,
+    "alias": "Kayle",
+    "name": "Kayle",
+    "riotTags": [
+      "Marksman",
+      "Mage"
+    ],
+    "damageType": "AP",
+    "attackType": "melee",
+    "range": 175,
+    "positions": {
+      "top": 1
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 1,
+      "mobility": 1,
+      "utility": 3
+    },
+    "riotPlaystylePrimary": "Hypercarry",
+    "riotPlaystyleSecondary": "Auto-attack",
+    "difficulty": 2,
+    "merakiRoles": [
+      "MAGE",
+      "MARKSMAN",
+      "SPECIALIST"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2009-02-21"
+  },
+  {
+    "id": 141,
+    "alias": "Kayn",
+    "name": "Kayn",
+    "riotTags": [
+      "Fighter",
+      "Assassin"
+    ],
+    "damageType": "AD",
+    "attackType": "melee",
+    "range": 175,
+    "positions": {
+      "jungle": 1
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 1,
+      "mobility": 3,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Mobile",
+    "riotPlaystyleSecondary": "Dive",
+    "difficulty": 2,
+    "merakiRoles": [
+      "ASSASSIN",
+      "FIGHTER",
+      "SKIRMISHER"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2017-07-12"
+  },
+  {
+    "id": 85,
+    "alias": "Kennen",
+    "name": "Kennen",
+    "riotTags": [
+      "Mage"
+    ],
+    "damageType": "AP",
+    "attackType": "ranged",
+    "range": 550,
+    "positions": {
+      "top": 1
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 3,
+      "mobility": 1,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Burst",
+    "riotPlaystyleSecondary": "AoE",
+    "difficulty": 2,
+    "merakiRoles": [
+      "MAGE",
+      "MARKSMAN",
+      "SPECIALIST"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "ENERGY",
+    "releaseDate": "2010-04-08"
+  },
+  {
+    "id": 121,
+    "alias": "Khazix",
+    "name": "Kha'Zix",
+    "riotTags": [
+      "Assassin"
+    ],
+    "damageType": "AD",
+    "attackType": "melee",
+    "range": 125,
+    "positions": {
+      "jungle": 1
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 1,
+      "mobility": 2,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Burst",
+    "riotPlaystyleSecondary": "Stealth",
+    "difficulty": 2,
+    "merakiRoles": [
+      "ASSASSIN"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2012-09-27"
+  },
+  {
+    "id": 203,
+    "alias": "Kindred",
+    "name": "Kindred",
+    "riotTags": [
+      "Marksman"
+    ],
+    "damageType": "AD",
+    "attackType": "ranged",
+    "range": 500,
+    "positions": {
+      "jungle": 1
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 2,
+      "mobility": 3,
+      "utility": 2
+    },
+    "riotPlaystylePrimary": "Auto-attack",
+    "riotPlaystyleSecondary": "Mobile",
+    "difficulty": 3,
+    "merakiRoles": [
+      "MARKSMAN"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2015-10-14"
+  },
+  {
+    "id": 240,
+    "alias": "Kled",
+    "name": "Kled",
+    "riotTags": [
+      "Fighter"
+    ],
+    "damageType": "AD",
+    "attackType": "melee",
+    "range": 125,
+    "positions": {
+      "top": 1
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 2,
+      "crowdControl": 1,
+      "mobility": 3,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Dive",
+    "riotPlaystyleSecondary": "Duelist",
+    "difficulty": 2,
+    "merakiRoles": [
+      "FIGHTER",
+      "SKIRMISHER",
+      "TANK"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "COURAGE",
+    "releaseDate": "2016-08-10"
+  },
+  {
+    "id": 96,
+    "alias": "KogMaw",
+    "name": "Kog'Maw",
+    "riotTags": [
+      "Marksman",
+      "Mage"
+    ],
+    "damageType": "mixed",
+    "attackType": "ranged",
+    "range": 500,
+    "positions": {
+      "bot": 1
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 1,
+      "mobility": 1,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Hypercarry",
+    "riotPlaystyleSecondary": "Auto-attack",
+    "difficulty": 2,
+    "merakiRoles": [
+      "MAGE",
+      "MARKSMAN"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2010-06-24"
+  },
+  {
+    "id": 7,
+    "alias": "Leblanc",
+    "name": "LeBlanc",
+    "riotTags": [
+      "Assassin",
+      "Mage"
+    ],
+    "damageType": "AP",
+    "attackType": "ranged",
+    "range": 525,
+    "positions": {
+      "mid": 1
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 2,
+      "mobility": 3,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Burst",
+    "riotPlaystyleSecondary": "Mobile",
+    "difficulty": 3,
+    "merakiRoles": [
+      "ASSASSIN",
+      "BURST",
+      "MAGE"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2010-11-02"
+  },
+  {
+    "id": 64,
+    "alias": "LeeSin",
+    "name": "Lee Sin",
+    "riotTags": [
+      "Fighter",
+      "Assassin"
+    ],
+    "damageType": "AD",
+    "attackType": "melee",
+    "range": 125,
+    "positions": {
+      "jungle": 1
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 2,
+      "crowdControl": 2,
+      "mobility": 3,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Mobile",
+    "riotPlaystyleSecondary": "Duelist",
+    "difficulty": 3,
+    "merakiRoles": [
+      "ASSASSIN",
+      "DIVER",
+      "FIGHTER"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "ENERGY",
+    "releaseDate": "2011-04-01"
+  },
+  {
+    "id": 89,
+    "alias": "Leona",
+    "name": "Leona",
+    "riotTags": [
+      "Tank",
+      "Support"
+    ],
+    "damageType": "AP",
+    "attackType": "melee",
+    "range": 125,
+    "positions": {
+      "support": 1
+    },
+    "playstyle": {
+      "damage": 1,
+      "durability": 3,
+      "crowdControl": 3,
+      "mobility": 1,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Initiator",
+    "riotPlaystyleSecondary": "Crowd Control",
+    "difficulty": 1,
+    "merakiRoles": [
+      "SUPPORT",
+      "TANK",
+      "VANGUARD"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2011-07-13"
+  },
+  {
+    "id": 876,
+    "alias": "Lillia",
+    "name": "Lillia",
+    "riotTags": [
+      "Fighter",
+      "Mage"
+    ],
+    "damageType": "AP",
+    "attackType": "melee",
+    "range": 325,
+    "positions": {
+      "jungle": 1
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 2,
+      "mobility": 2,
+      "utility": 2
+    },
+    "riotPlaystylePrimary": "Mobile",
+    "riotPlaystyleSecondary": "Damage-over-Time",
+    "difficulty": 2,
+    "merakiRoles": [
+      "FIGHTER",
+      "MAGE",
+      "SKIRMISHER"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2020-07-22"
+  },
+  {
+    "id": 127,
+    "alias": "Lissandra",
+    "name": "Lissandra",
+    "riotTags": [
+      "Mage"
+    ],
+    "damageType": "AP",
+    "attackType": "ranged",
+    "range": 550,
+    "positions": {
+      "mid": 1
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 3,
+      "mobility": 2,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Crowd Control",
+    "riotPlaystyleSecondary": "Burst",
+    "difficulty": 2,
+    "merakiRoles": [
+      "BURST",
+      "MAGE"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2013-04-30"
+  },
+  {
+    "id": 805,
+    "alias": "Locke",
+    "name": "Locke",
+    "riotTags": [
+      "Assassin",
+      "Mage"
+    ],
+    "damageType": "AP",
+    "attackType": "melee",
+    "range": 125,
+    "positions": {
+      "mid": 1
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 2,
+      "crowdControl": 1,
+      "mobility": 3,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Burst",
+    "riotPlaystyleSecondary": "Mobile",
+    "difficulty": 2,
+    "merakiRoles": []
+  },
+  {
+    "id": 236,
+    "alias": "Lucian",
+    "name": "Lucian",
+    "riotTags": [
+      "Marksman",
+      "Assassin"
+    ],
+    "damageType": "AD",
+    "attackType": "ranged",
+    "range": 500,
+    "positions": {
+      "bot": 1
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 1,
+      "mobility": 3,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Mobile",
+    "riotPlaystyleSecondary": "Burst",
+    "difficulty": 2,
+    "merakiRoles": [
+      "ASSASSIN",
+      "MARKSMAN"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2013-08-22"
+  },
+  {
+    "id": 117,
+    "alias": "Lulu",
+    "name": "Lulu",
+    "riotTags": [
+      "Support",
+      "Mage"
+    ],
+    "damageType": "AP",
+    "attackType": "ranged",
+    "range": 550,
+    "positions": {
+      "support": 1
+    },
+    "playstyle": {
+      "damage": 2,
+      "durability": 1,
+      "crowdControl": 2,
+      "mobility": 1,
+      "utility": 3
+    },
+    "riotPlaystylePrimary": "Ally Protection",
+    "riotPlaystyleSecondary": "Crowd Control",
+    "difficulty": 2,
+    "merakiRoles": [
+      "ENCHANTER",
+      "MAGE",
+      "SUPPORT"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2012-03-20"
+  },
+  {
+    "id": 99,
+    "alias": "Lux",
+    "name": "Lux",
+    "riotTags": [
+      "Mage",
+      "Support"
+    ],
+    "damageType": "AP",
+    "attackType": "ranged",
+    "range": 550,
+    "positions": {
+      "mid": 1,
+      "support": 0.8
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 2,
+      "mobility": 1,
+      "utility": 2
+    },
+    "riotPlaystylePrimary": "Burst",
+    "riotPlaystyleSecondary": "Long Range",
+    "difficulty": 1,
+    "merakiRoles": [
+      "ARTILLERY",
+      "BURST",
+      "MAGE",
+      "SUPPORT"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2010-10-19"
+  },
+  {
+    "id": 54,
+    "alias": "Malphite",
+    "name": "Malphite",
+    "riotTags": [
+      "Tank",
+      "Mage"
+    ],
+    "damageType": "AP",
+    "attackType": "melee",
+    "range": 125,
+    "positions": {
+      "mid": 1,
+      "support": 0.8,
+      "top": 0.8
+    },
+    "playstyle": {
+      "damage": 1,
+      "durability": 3,
+      "crowdControl": 3,
+      "mobility": 1,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Initiator",
+    "riotPlaystyleSecondary": "Crowd Control",
+    "difficulty": 1,
+    "merakiRoles": [
+      "MAGE",
+      "TANK",
+      "VANGUARD"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2009-09-02"
+  },
+  {
+    "id": 90,
+    "alias": "Malzahar",
+    "name": "Malzahar",
+    "riotTags": [
+      "Mage"
+    ],
+    "damageType": "AP",
+    "attackType": "ranged",
+    "range": 500,
+    "positions": {
+      "mid": 1
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 3,
+      "mobility": 1,
+      "utility": 2
+    },
+    "riotPlaystylePrimary": "Damage-over-Time",
+    "riotPlaystyleSecondary": "Summon",
+    "difficulty": 1,
+    "merakiRoles": [
+      "ASSASSIN",
+      "BATTLEMAGE",
+      "MAGE"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2010-06-01"
+  },
+  {
+    "id": 57,
+    "alias": "Maokai",
+    "name": "Maokai",
+    "riotTags": [
+      "Tank",
+      "Support"
+    ],
+    "damageType": "AP",
+    "attackType": "melee",
+    "range": 125,
+    "positions": {
+      "jungle": 1,
+      "support": 0.8
+    },
+    "playstyle": {
+      "damage": 1,
+      "durability": 3,
+      "crowdControl": 3,
+      "mobility": 1,
+      "utility": 2
+    },
+    "riotPlaystylePrimary": "Initiator",
+    "riotPlaystyleSecondary": "Crowd Control",
+    "difficulty": 1,
+    "merakiRoles": [
+      "SUPPORT",
+      "TANK",
+      "VANGUARD"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2011-02-16"
+  },
+  {
+    "id": 11,
+    "alias": "MasterYi",
+    "name": "Master Yi",
+    "riotTags": [
+      "Fighter",
+      "Assassin"
+    ],
+    "damageType": "AD",
+    "attackType": "melee",
+    "range": 175,
+    "positions": {
+      "jungle": 1
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 1,
+      "mobility": 2,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Auto-attack",
+    "riotPlaystyleSecondary": "Hypercarry",
+    "difficulty": 1,
+    "merakiRoles": [
+      "ASSASSIN",
+      "FIGHTER",
+      "SKIRMISHER"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2009-02-21"
+  },
+  {
+    "id": 800,
+    "alias": "Mel",
+    "name": "Mel",
+    "riotTags": [
+      "Mage",
+      "Support"
+    ],
+    "damageType": "AP",
+    "attackType": "ranged",
+    "range": 550,
+    "positions": {
+      "mid": 1,
+      "support": 0.8
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 2,
+      "mobility": 1,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Long Range",
+    "riotPlaystyleSecondary": "AoE",
+    "difficulty": 2,
+    "merakiRoles": [
+      "ARTILLERY",
+      "MAGE",
+      "SUPPORT"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2025-01-23"
+  },
+  {
+    "id": 902,
+    "alias": "Milio",
+    "name": "Milio",
+    "riotTags": [
+      "Support",
+      "Mage"
+    ],
+    "damageType": "AP",
+    "attackType": "ranged",
+    "range": 525,
+    "positions": {
+      "support": 1
+    },
+    "playstyle": {
+      "damage": 1,
+      "durability": 1,
+      "crowdControl": 2,
+      "mobility": 1,
+      "utility": 3
+    },
+    "riotPlaystylePrimary": "Ally Protection",
+    "riotPlaystyleSecondary": "AoE",
+    "difficulty": 1,
+    "merakiRoles": [
+      "ENCHANTER",
+      "MAGE",
+      "SUPPORT"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2023-03-23"
+  },
+  {
+    "id": 21,
+    "alias": "MissFortune",
+    "name": "Miss Fortune",
+    "riotTags": [
+      "Marksman",
+      "Mage"
+    ],
+    "damageType": "AD",
+    "attackType": "ranged",
+    "range": 550,
+    "positions": {
+      "bot": 1
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 1,
+      "mobility": 1,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "AoE",
+    "riotPlaystyleSecondary": "Burst",
+    "difficulty": 1,
+    "merakiRoles": [
+      "MAGE",
+      "MARKSMAN"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2010-09-08"
+  },
+  {
+    "id": 82,
+    "alias": "Mordekaiser",
+    "name": "Mordekaiser",
+    "riotTags": [
+      "Fighter",
+      "Mage"
+    ],
+    "damageType": "AP",
+    "attackType": "melee",
+    "range": 175,
+    "positions": {
+      "top": 1
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 2,
+      "crowdControl": 1,
+      "mobility": 1,
+      "utility": 2
+    },
+    "riotPlaystylePrimary": "Duelist",
+    "riotPlaystyleSecondary": "Sustained Damage",
+    "difficulty": 2,
+    "merakiRoles": [
+      "FIGHTER",
+      "JUGGERNAUT",
+      "MAGE"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "SHIELD",
+    "releaseDate": "2010-02-24"
+  },
+  {
+    "id": 25,
+    "alias": "Morgana",
+    "name": "Morgana",
+    "riotTags": [
+      "Support",
+      "Mage"
+    ],
+    "damageType": "AP",
+    "attackType": "ranged",
+    "range": 450,
+    "positions": {
+      "support": 1
+    },
+    "playstyle": {
+      "damage": 2,
+      "durability": 1,
+      "crowdControl": 3,
+      "mobility": 1,
+      "utility": 2
+    },
+    "riotPlaystylePrimary": "Crowd Control",
+    "riotPlaystyleSecondary": "Ally Protection",
+    "difficulty": 1,
+    "merakiRoles": [
+      "CATCHER",
+      "MAGE",
+      "SUPPORT"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2009-02-21"
+  },
+  {
+    "id": 950,
+    "alias": "Naafiri",
+    "name": "Naafiri",
+    "riotTags": [
+      "Assassin",
+      "Fighter"
+    ],
+    "damageType": "AD",
+    "attackType": "melee",
+    "range": 125,
+    "positions": {
+      "mid": 1
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 1,
+      "mobility": 3,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Summon",
+    "riotPlaystyleSecondary": "Mobile",
+    "difficulty": 1,
+    "merakiRoles": [
+      "ASSASSIN",
+      "FIGHTER"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2023-07-19"
+  },
+  {
+    "id": 267,
+    "alias": "Nami",
+    "name": "Nami",
+    "riotTags": [
+      "Support",
+      "Mage"
+    ],
+    "damageType": "AP",
+    "attackType": "ranged",
+    "range": 550,
+    "positions": {
+      "support": 1
+    },
+    "playstyle": {
+      "damage": 1,
+      "durability": 1,
+      "crowdControl": 3,
+      "mobility": 1,
+      "utility": 2
+    },
+    "riotPlaystylePrimary": "Ally Protection",
+    "riotPlaystyleSecondary": "Crowd Control",
+    "difficulty": 2,
+    "merakiRoles": [
+      "ENCHANTER",
+      "MAGE",
+      "SUPPORT"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2012-12-07"
+  },
+  {
+    "id": 75,
+    "alias": "Nasus",
+    "name": "Nasus",
+    "riotTags": [
+      "Fighter",
+      "Tank"
+    ],
+    "damageType": "AD",
+    "attackType": "melee",
+    "range": 125,
+    "positions": {
+      "top": 1
+    },
+    "playstyle": {
+      "damage": 2,
+      "durability": 3,
+      "crowdControl": 2,
+      "mobility": 1,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Durable",
+    "riotPlaystyleSecondary": "Hypercarry",
+    "difficulty": 1,
+    "merakiRoles": [
+      "FIGHTER",
+      "JUGGERNAUT",
+      "TANK"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2009-10-01"
+  },
+  {
+    "id": 111,
+    "alias": "Nautilus",
+    "name": "Nautilus",
+    "riotTags": [
+      "Tank",
+      "Support"
+    ],
+    "damageType": "AP",
+    "attackType": "melee",
+    "range": 175,
+    "positions": {
+      "support": 1
+    },
+    "playstyle": {
+      "damage": 1,
+      "durability": 3,
+      "crowdControl": 3,
+      "mobility": 1,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Initiator",
+    "riotPlaystyleSecondary": "Crowd Control",
+    "difficulty": 2,
+    "merakiRoles": [
+      "SUPPORT",
+      "TANK",
+      "VANGUARD"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2012-02-14"
+  },
+  {
+    "id": 518,
+    "alias": "Neeko",
+    "name": "Neeko",
+    "riotTags": [
+      "Mage",
+      "Support"
+    ],
+    "damageType": "AP",
+    "attackType": "ranged",
+    "range": 550,
+    "positions": {
+      "mid": 1,
+      "support": 0.8
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 3,
+      "mobility": 1,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "AoE",
+    "riotPlaystyleSecondary": "Burst",
+    "difficulty": 1,
+    "merakiRoles": [
+      "BURST",
+      "CATCHER",
+      "MAGE",
+      "SUPPORT"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2018-12-05"
+  },
+  {
+    "id": 76,
+    "alias": "Nidalee",
+    "name": "Nidalee",
+    "riotTags": [
+      "Assassin",
+      "Mage"
+    ],
+    "damageType": "AP",
+    "attackType": "ranged",
+    "range": 525,
+    "positions": {
+      "jungle": 1
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 1,
+      "mobility": 3,
+      "utility": 2
+    },
+    "riotPlaystylePrimary": "Shapeshift",
+    "riotPlaystyleSecondary": "Mobile",
+    "difficulty": 3,
+    "merakiRoles": [
+      "ASSASSIN",
+      "MAGE",
+      "SPECIALIST"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2009-12-17"
+  },
+  {
+    "id": 895,
+    "alias": "Nilah",
+    "name": "Nilah",
+    "riotTags": [
+      "Fighter",
+      "Assassin"
+    ],
+    "damageType": "AD",
+    "attackType": "melee",
+    "range": 225,
+    "positions": {
+      "bot": 1
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 1,
+      "mobility": 3,
+      "utility": 2
+    },
+    "riotPlaystylePrimary": "Auto-attack",
+    "riotPlaystyleSecondary": "AoE",
+    "difficulty": 3,
+    "merakiRoles": [
+      "ASSASSIN",
+      "FIGHTER",
+      "SKIRMISHER"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2022-07-13"
+  },
+  {
+    "id": 56,
+    "alias": "Nocturne",
+    "name": "Nocturne",
+    "riotTags": [
+      "Fighter",
+      "Assassin"
+    ],
+    "damageType": "AD",
+    "attackType": "melee",
+    "range": 125,
+    "positions": {
+      "jungle": 1
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 2,
+      "mobility": 2,
+      "utility": 2
+    },
+    "riotPlaystylePrimary": "Dive",
+    "riotPlaystyleSecondary": "Duelist",
+    "difficulty": 1,
+    "merakiRoles": [
+      "ASSASSIN",
+      "FIGHTER"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2011-03-15"
+  },
+  {
+    "id": 20,
+    "alias": "Nunu",
+    "name": "Nunu & Willump",
+    "riotTags": [
+      "Tank",
+      "Mage"
+    ],
+    "damageType": "AP",
+    "attackType": "melee",
+    "range": 125,
+    "positions": {
+      "jungle": 1
+    },
+    "playstyle": {
+      "damage": 1,
+      "durability": 3,
+      "crowdControl": 2,
+      "mobility": 1,
+      "utility": 2
+    },
+    "riotPlaystylePrimary": "Initiator",
+    "riotPlaystyleSecondary": "Battlecaster",
+    "difficulty": 1,
+    "merakiRoles": [
+      "MAGE",
+      "TANK",
+      "VANGUARD"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2009-02-21"
+  },
+  {
+    "id": 2,
+    "alias": "Olaf",
+    "name": "Olaf",
+    "riotTags": [
+      "Fighter",
+      "Tank"
+    ],
+    "damageType": "AD",
+    "attackType": "melee",
+    "range": 125,
+    "positions": {
+      "top": 1
+    },
+    "playstyle": {
+      "damage": 2,
+      "durability": 2,
+      "crowdControl": 2,
+      "mobility": 1,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Duelist",
+    "riotPlaystyleSecondary": "Self Healing",
+    "difficulty": 2,
+    "merakiRoles": [
+      "DIVER",
+      "FIGHTER",
+      "TANK"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2010-06-09"
+  },
+  {
+    "id": 61,
+    "alias": "Orianna",
+    "name": "Orianna",
+    "riotTags": [
+      "Mage",
+      "Support"
+    ],
+    "damageType": "AP",
+    "attackType": "ranged",
+    "range": 525,
+    "positions": {
+      "mid": 1
+    },
+    "playstyle": {
+      "damage": 2,
+      "durability": 1,
+      "crowdControl": 2,
+      "mobility": 1,
+      "utility": 2
+    },
+    "riotPlaystylePrimary": "AoE",
+    "riotPlaystyleSecondary": "Long Range",
+    "difficulty": 3,
+    "merakiRoles": [
+      "BURST",
+      "MAGE",
+      "SUPPORT"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2011-06-01"
+  },
+  {
+    "id": 516,
+    "alias": "Ornn",
+    "name": "Ornn",
+    "riotTags": [
+      "Tank"
+    ],
+    "damageType": "AP",
+    "attackType": "melee",
+    "range": 175,
+    "positions": {
+      "top": 1
+    },
+    "playstyle": {
+      "damage": 1,
+      "durability": 3,
+      "crowdControl": 3,
+      "mobility": 1,
+      "utility": 2
+    },
+    "riotPlaystylePrimary": "Initiator",
+    "riotPlaystyleSecondary": "Crowd Control",
+    "difficulty": 2,
+    "merakiRoles": [
+      "FIGHTER",
+      "TANK",
+      "VANGUARD"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2017-08-23"
+  },
+  {
+    "id": 80,
+    "alias": "Pantheon",
+    "name": "Pantheon",
+    "riotTags": [
+      "Fighter",
+      "Assassin"
+    ],
+    "damageType": "AD",
+    "attackType": "melee",
+    "range": 175,
+    "positions": {
+      "jungle": 1,
+      "mid": 0.8,
+      "support": 0.8,
+      "top": 0.8
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 2,
+      "crowdControl": 2,
+      "mobility": 2,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Dive",
+    "riotPlaystyleSecondary": "Duelist",
+    "difficulty": 1,
+    "merakiRoles": [
+      "ASSASSIN",
+      "DIVER",
+      "FIGHTER"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2010-02-02"
+  },
+  {
+    "id": 78,
+    "alias": "Poppy",
+    "name": "Poppy",
+    "riotTags": [
+      "Tank",
+      "Fighter"
+    ],
+    "damageType": "AD",
+    "attackType": "melee",
+    "range": 125,
+    "positions": {
+      "jungle": 1,
+      "top": 0.8
+    },
+    "playstyle": {
+      "damage": 2,
+      "durability": 3,
+      "crowdControl": 3,
+      "mobility": 2,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Durable",
+    "riotPlaystyleSecondary": "Dive",
+    "difficulty": 2,
+    "merakiRoles": [
+      "FIGHTER",
+      "TANK",
+      "WARDEN"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2010-01-13"
+  },
+  {
+    "id": 555,
+    "alias": "Pyke",
+    "name": "Pyke",
+    "riotTags": [
+      "Support",
+      "Assassin"
+    ],
+    "damageType": "AD",
+    "attackType": "melee",
+    "range": 150,
+    "positions": {
+      "support": 1
+    },
+    "playstyle": {
+      "damage": 2,
+      "durability": 1,
+      "crowdControl": 3,
+      "mobility": 3,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Mobile",
+    "riotPlaystyleSecondary": "Stealth",
+    "difficulty": 2,
+    "merakiRoles": [
+      "ASSASSIN",
+      "CATCHER",
+      "SUPPORT"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2018-05-31"
+  },
+  {
+    "id": 246,
+    "alias": "Qiyana",
+    "name": "Qiyana",
+    "riotTags": [
+      "Assassin"
+    ],
+    "damageType": "AD",
+    "attackType": "melee",
+    "range": 150,
+    "positions": {
+      "mid": 1
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 2,
+      "mobility": 2,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Burst",
+    "riotPlaystyleSecondary": "Mobile",
+    "difficulty": 3,
+    "merakiRoles": [
+      "ASSASSIN",
+      "FIGHTER"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2019-06-28"
+  },
+  {
+    "id": 133,
+    "alias": "Quinn",
+    "name": "Quinn",
+    "riotTags": [
+      "Marksman",
+      "Assassin"
+    ],
+    "damageType": "AD",
+    "attackType": "ranged",
+    "range": 525,
+    "positions": {
+      "top": 1
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 2,
+      "mobility": 3,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Mobile",
+    "riotPlaystyleSecondary": "Duelist",
+    "difficulty": 2,
+    "merakiRoles": [
+      "ASSASSIN",
+      "MARKSMAN",
+      "SPECIALIST"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2013-03-01"
+  },
+  {
+    "id": 497,
+    "alias": "Rakan",
+    "name": "Rakan",
+    "riotTags": [
+      "Support"
+    ],
+    "damageType": "AP",
+    "attackType": "melee",
+    "range": 300,
+    "positions": {
+      "support": 1
+    },
+    "playstyle": {
+      "damage": 1,
+      "durability": 2,
+      "crowdControl": 3,
+      "mobility": 3,
+      "utility": 3
+    },
+    "riotPlaystylePrimary": "Mobile",
+    "riotPlaystyleSecondary": "Crowd Control",
+    "difficulty": 2,
+    "merakiRoles": [
+      "CATCHER",
+      "SUPPORT"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2017-04-19"
+  },
+  {
+    "id": 33,
+    "alias": "Rammus",
+    "name": "Rammus",
+    "riotTags": [
+      "Tank"
+    ],
+    "damageType": "AP",
+    "attackType": "melee",
+    "range": 125,
+    "positions": {
+      "jungle": 1
+    },
+    "playstyle": {
+      "damage": 2,
+      "durability": 3,
+      "crowdControl": 3,
+      "mobility": 2,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Mobile",
+    "riotPlaystyleSecondary": "Crowd Control",
+    "difficulty": 1,
+    "merakiRoles": [
+      "FIGHTER",
+      "TANK",
+      "VANGUARD"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2009-07-10"
+  },
+  {
+    "id": 421,
+    "alias": "RekSai",
+    "name": "Rek'Sai",
+    "riotTags": [
+      "Fighter",
+      "Tank"
+    ],
+    "damageType": "AD",
+    "attackType": "melee",
+    "range": 175,
+    "positions": {
+      "jungle": 1
+    },
+    "playstyle": {
+      "damage": 2,
+      "durability": 2,
+      "crowdControl": 2,
+      "mobility": 2,
+      "utility": 2
+    },
+    "riotPlaystylePrimary": "Mobile",
+    "riotPlaystyleSecondary": "Dive",
+    "difficulty": 3,
+    "merakiRoles": [
+      "DIVER",
+      "FIGHTER",
+      "TANK"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "RAGE",
+    "releaseDate": "2014-12-11"
+  },
+  {
+    "id": 526,
+    "alias": "Rell",
+    "name": "Rell",
+    "riotTags": [
+      "Tank",
+      "Support"
+    ],
+    "damageType": "AP",
+    "attackType": "melee",
+    "range": 175,
+    "positions": {
+      "support": 1
+    },
+    "playstyle": {
+      "damage": 1,
+      "durability": 3,
+      "crowdControl": 3,
+      "mobility": 2,
+      "utility": 2
+    },
+    "riotPlaystylePrimary": "Crowd Control",
+    "riotPlaystyleSecondary": "Initiator",
+    "difficulty": 2,
+    "merakiRoles": [
+      "SUPPORT",
+      "TANK",
+      "VANGUARD"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2020-12-10"
+  },
+  {
+    "id": 888,
+    "alias": "Renata",
+    "name": "Renata Glasc",
+    "riotTags": [
+      "Support",
+      "Mage"
+    ],
+    "damageType": "AP",
+    "attackType": "ranged",
+    "range": 550,
+    "positions": {
+      "support": 1
+    },
+    "playstyle": {
+      "damage": 2,
+      "durability": 1,
+      "crowdControl": 3,
+      "mobility": 1,
+      "utility": 2
+    },
+    "riotPlaystylePrimary": "Crowd Control",
+    "riotPlaystyleSecondary": "Ally Protection",
+    "difficulty": 2,
+    "merakiRoles": [
+      "ENCHANTER",
+      "MAGE",
+      "SUPPORT"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2022-02-17"
+  },
+  {
+    "id": 58,
+    "alias": "Renekton",
+    "name": "Renekton",
+    "riotTags": [
+      "Fighter",
+      "Tank"
+    ],
+    "damageType": "AD",
+    "attackType": "melee",
+    "range": 125,
+    "positions": {
+      "top": 1
+    },
+    "playstyle": {
+      "damage": 2,
+      "durability": 2,
+      "crowdControl": 2,
+      "mobility": 2,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Duelist",
+    "riotPlaystyleSecondary": "Durable",
+    "difficulty": 1,
+    "merakiRoles": [
+      "DIVER",
+      "FIGHTER",
+      "TANK"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "FURY",
+    "releaseDate": "2011-01-18"
+  },
+  {
+    "id": 107,
+    "alias": "Rengar",
+    "name": "Rengar",
+    "riotTags": [
+      "Assassin",
+      "Fighter"
+    ],
+    "damageType": "AD",
+    "attackType": "melee",
+    "range": 125,
+    "positions": {
+      "jungle": 1,
+      "top": 0.8
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 2,
+      "mobility": 2,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Stealth",
+    "riotPlaystyleSecondary": "Burst",
+    "difficulty": 3,
+    "merakiRoles": [
+      "ASSASSIN",
+      "DIVER",
+      "FIGHTER"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "FEROCITY",
+    "releaseDate": "2012-08-21"
+  },
+  {
+    "id": 92,
+    "alias": "Riven",
+    "name": "Riven",
+    "riotTags": [
+      "Fighter",
+      "Assassin"
+    ],
+    "damageType": "AD",
+    "attackType": "melee",
+    "range": 125,
+    "positions": {
+      "top": 1
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 2,
+      "crowdControl": 2,
+      "mobility": 3,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Mobile",
+    "riotPlaystyleSecondary": "Duelist",
+    "difficulty": 3,
+    "merakiRoles": [
+      "ASSASSIN",
+      "FIGHTER",
+      "SKIRMISHER"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "NONE",
+    "releaseDate": "2011-09-14"
+  },
+  {
+    "id": 68,
+    "alias": "Rumble",
+    "name": "Rumble",
+    "riotTags": [
+      "Fighter",
+      "Mage"
+    ],
+    "damageType": "AP",
+    "attackType": "melee",
+    "range": 125,
+    "positions": {
+      "mid": 1,
+      "top": 0.8
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 2,
+      "crowdControl": 2,
+      "mobility": 1,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Damage-over-Time",
+    "riotPlaystyleSecondary": "Battlecaster",
+    "difficulty": 3,
+    "merakiRoles": [
+      "BATTLEMAGE",
+      "FIGHTER",
+      "MAGE"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "HEAT",
+    "releaseDate": "2011-04-26"
+  },
+  {
+    "id": 13,
+    "alias": "Ryze",
+    "name": "Ryze",
+    "riotTags": [
+      "Mage"
+    ],
+    "damageType": "AP",
+    "attackType": "ranged",
+    "range": 550,
+    "positions": {
+      "mid": 1
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 2,
+      "mobility": 2,
+      "utility": 2
+    },
+    "riotPlaystylePrimary": "Battlecaster",
+    "riotPlaystyleSecondary": "Sustained Damage",
+    "difficulty": 3,
+    "merakiRoles": [
+      "BATTLEMAGE",
+      "FIGHTER",
+      "MAGE"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2009-02-21"
+  },
+  {
+    "id": 360,
+    "alias": "Samira",
+    "name": "Samira",
+    "riotTags": [
+      "Marksman",
+      "Assassin"
+    ],
+    "damageType": "AD",
+    "attackType": "ranged",
+    "range": 500,
+    "positions": {
+      "bot": 1
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 2,
+      "crowdControl": 1,
+      "mobility": 3,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "AoE",
+    "riotPlaystyleSecondary": "Dive",
+    "difficulty": 3,
+    "merakiRoles": [
+      "ASSASSIN",
+      "MARKSMAN"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2020-09-21"
+  },
+  {
+    "id": 113,
+    "alias": "Sejuani",
+    "name": "Sejuani",
+    "riotTags": [
+      "Tank"
+    ],
+    "damageType": "AP",
+    "attackType": "melee",
+    "range": 150,
+    "positions": {
+      "jungle": 1
+    },
+    "playstyle": {
+      "damage": 2,
+      "durability": 2,
+      "crowdControl": 3,
+      "mobility": 2,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Crowd Control",
+    "riotPlaystyleSecondary": "Initiator",
+    "difficulty": 2,
+    "merakiRoles": [
+      "FIGHTER",
+      "TANK",
+      "VANGUARD"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2012-01-17"
+  },
+  {
+    "id": 235,
+    "alias": "Senna",
+    "name": "Senna",
+    "riotTags": [
+      "Support",
+      "Marksman"
+    ],
+    "damageType": "AD",
+    "attackType": "ranged",
+    "range": 600,
+    "positions": {
+      "bot": 1,
+      "support": 0.8
+    },
+    "playstyle": {
+      "damage": 2,
+      "durability": 1,
+      "crowdControl": 2,
+      "mobility": 1,
+      "utility": 3
+    },
+    "riotPlaystylePrimary": "Auto-attack",
+    "riotPlaystyleSecondary": "Ally Protection",
+    "difficulty": 2,
+    "merakiRoles": [
+      "ENCHANTER",
+      "MARKSMAN",
+      "SUPPORT"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2019-11-10"
+  },
+  {
+    "id": 147,
+    "alias": "Seraphine",
+    "name": "Seraphine",
+    "riotTags": [
+      "Support",
+      "Mage"
+    ],
+    "damageType": "AP",
+    "attackType": "ranged",
+    "range": 525,
+    "positions": {
+      "bot": 1,
+      "support": 0.8
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 3,
+      "mobility": 1,
+      "utility": 2
+    },
+    "riotPlaystylePrimary": "AoE",
+    "riotPlaystyleSecondary": "Ally Protection",
+    "difficulty": 1,
+    "merakiRoles": [
+      "BURST",
+      "ENCHANTER",
+      "MAGE",
+      "SUPPORT"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2020-10-29"
+  },
+  {
+    "id": 875,
+    "alias": "Sett",
+    "name": "Sett",
+    "riotTags": [
+      "Fighter",
+      "Tank"
+    ],
+    "damageType": "AD",
+    "attackType": "melee",
+    "range": 125,
+    "positions": {
+      "top": 1
+    },
+    "playstyle": {
+      "damage": 2,
+      "durability": 2,
+      "crowdControl": 2,
+      "mobility": 2,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Duelist",
+    "riotPlaystyleSecondary": "Durable",
+    "difficulty": 2,
+    "merakiRoles": [
+      "FIGHTER",
+      "JUGGERNAUT",
+      "TANK"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "GRIT",
+    "releaseDate": "2020-01-14"
+  },
+  {
+    "id": 35,
+    "alias": "Shaco",
+    "name": "Shaco",
+    "riotTags": [
+      "Assassin"
+    ],
+    "damageType": "mixed",
+    "attackType": "melee",
+    "range": 125,
+    "positions": {
+      "jungle": 1,
+      "support": 0.8
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 2,
+      "mobility": 2,
+      "utility": 2
+    },
+    "riotPlaystylePrimary": "Stealth",
+    "riotPlaystyleSecondary": "Summon",
+    "difficulty": 3,
+    "merakiRoles": [
+      "ASSASSIN"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2009-10-10"
+  },
+  {
+    "id": 98,
+    "alias": "Shen",
+    "name": "Shen",
+    "riotTags": [
+      "Tank"
+    ],
+    "damageType": "mixed",
+    "attackType": "melee",
+    "range": 125,
+    "positions": {
+      "support": 1,
+      "top": 0.8
+    },
+    "playstyle": {
+      "damage": 2,
+      "durability": 3,
+      "crowdControl": 2,
+      "mobility": 2,
+      "utility": 3
+    },
+    "riotPlaystylePrimary": "Ally Protection",
+    "riotPlaystyleSecondary": "Duelist",
+    "difficulty": 1,
+    "merakiRoles": [
+      "TANK",
+      "WARDEN"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "ENERGY",
+    "releaseDate": "2010-03-24"
+  },
+  {
+    "id": 102,
+    "alias": "Shyvana",
+    "name": "Shyvana",
+    "riotTags": [
+      "Fighter",
+      "Tank"
+    ],
+    "damageType": "mixed",
+    "attackType": "melee",
+    "range": 150,
+    "positions": {
+      "jungle": 1
+    },
+    "playstyle": {
+      "damage": 2,
+      "durability": 2,
+      "crowdControl": 1,
+      "mobility": 2,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "",
+    "riotPlaystyleSecondary": "",
+    "difficulty": 1,
+    "merakiRoles": [
+      "FIGHTER",
+      "JUGGERNAUT",
+      "MAGE"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "FURY",
+    "releaseDate": "2011-11-01"
+  },
+  {
+    "id": 27,
+    "alias": "Singed",
+    "name": "Singed",
+    "riotTags": [
+      "Tank",
+      "Mage"
+    ],
+    "damageType": "AP",
+    "attackType": "melee",
+    "range": 125,
+    "positions": {
+      "top": 1
+    },
+    "playstyle": {
+      "damage": 2,
+      "durability": 3,
+      "crowdControl": 2,
+      "mobility": 2,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Battlecaster",
+    "riotPlaystyleSecondary": "Damage-over-Time",
+    "difficulty": 3,
+    "merakiRoles": [
+      "MAGE",
+      "SPECIALIST",
+      "TANK"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2009-04-18"
+  },
+  {
+    "id": 14,
+    "alias": "Sion",
+    "name": "Sion",
+    "riotTags": [
+      "Tank",
+      "Fighter"
+    ],
+    "damageType": "AD",
+    "attackType": "melee",
+    "range": 175,
+    "positions": {
+      "top": 1
+    },
+    "playstyle": {
+      "damage": 2,
+      "durability": 3,
+      "crowdControl": 3,
+      "mobility": 1,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Durable",
+    "riotPlaystyleSecondary": "Crowd Control",
+    "difficulty": 1,
+    "merakiRoles": [
+      "FIGHTER",
+      "TANK",
+      "VANGUARD"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2009-02-21"
+  },
+  {
+    "id": 15,
+    "alias": "Sivir",
+    "name": "Sivir",
+    "riotTags": [
+      "Marksman"
+    ],
+    "damageType": "AD",
+    "attackType": "ranged",
+    "range": 500,
+    "positions": {
+      "bot": 1
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 1,
+      "mobility": 1,
+      "utility": 2
+    },
+    "riotPlaystylePrimary": "AoE",
+    "riotPlaystyleSecondary": "Auto-attack",
+    "difficulty": 2,
+    "merakiRoles": [
+      "MARKSMAN"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2009-02-21"
+  },
+  {
+    "id": 72,
+    "alias": "Skarner",
+    "name": "Skarner",
+    "riotTags": [
+      "Tank",
+      "Fighter"
+    ],
+    "damageType": "AD",
+    "attackType": "melee",
+    "range": 150,
+    "positions": {
+      "jungle": 1,
+      "top": 0.8
+    },
+    "playstyle": {
+      "damage": 2,
+      "durability": 3,
+      "crowdControl": 3,
+      "mobility": 2,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Crowd Control",
+    "riotPlaystyleSecondary": "Initiator",
+    "difficulty": 3,
+    "merakiRoles": [
+      "FIGHTER",
+      "JUGGERNAUT",
+      "TANK",
+      "VANGUARD"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2011-08-09"
+  },
+  {
+    "id": 901,
+    "alias": "Smolder",
+    "name": "Smolder",
+    "riotTags": [
+      "Marksman",
+      "Mage"
+    ],
+    "damageType": "AD",
+    "attackType": "ranged",
+    "range": 550,
+    "positions": {
+      "bot": 1,
+      "mid": 0.8,
+      "top": 0.8
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 1,
+      "mobility": 1,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Hypercarry",
+    "riotPlaystyleSecondary": "AoE",
+    "difficulty": 1,
+    "merakiRoles": [
+      "MAGE",
+      "MARKSMAN"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2024-01-31"
+  },
+  {
+    "id": 37,
+    "alias": "Sona",
+    "name": "Sona",
+    "riotTags": [
+      "Support",
+      "Mage"
+    ],
+    "damageType": "AP",
+    "attackType": "ranged",
+    "range": 550,
+    "positions": {
+      "support": 1
+    },
+    "playstyle": {
+      "damage": 2,
+      "durability": 1,
+      "crowdControl": 2,
+      "mobility": 1,
+      "utility": 2
+    },
+    "riotPlaystylePrimary": "Ally Protection",
+    "riotPlaystyleSecondary": "Crowd Control",
+    "difficulty": 1,
+    "merakiRoles": [
+      "ENCHANTER",
+      "MAGE",
+      "SUPPORT"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2010-09-21"
+  },
+  {
+    "id": 16,
+    "alias": "Soraka",
+    "name": "Soraka",
+    "riotTags": [
+      "Support",
+      "Mage"
+    ],
+    "damageType": "AP",
+    "attackType": "ranged",
+    "range": 550,
+    "positions": {
+      "support": 1
+    },
+    "playstyle": {
+      "damage": 1,
+      "durability": 1,
+      "crowdControl": 2,
+      "mobility": 1,
+      "utility": 3
+    },
+    "riotPlaystylePrimary": "Ally Protection",
+    "riotPlaystyleSecondary": "Crowd Control",
+    "difficulty": 1,
+    "merakiRoles": [
+      "ENCHANTER",
+      "MAGE",
+      "SUPPORT"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2009-02-21"
+  },
+  {
+    "id": 50,
+    "alias": "Swain",
+    "name": "Swain",
+    "riotTags": [
+      "Mage",
+      "Support"
+    ],
+    "damageType": "AP",
+    "attackType": "ranged",
+    "range": 525,
+    "positions": {
+      "bot": 1,
+      "mid": 0.8,
+      "support": 0.8
+    },
+    "playstyle": {
+      "damage": 2,
+      "durability": 2,
+      "crowdControl": 2,
+      "mobility": 1,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Battlecaster",
+    "riotPlaystyleSecondary": "Self Healing",
+    "difficulty": 2,
+    "merakiRoles": [
+      "BATTLEMAGE",
+      "MAGE",
+      "SUPPORT"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2010-10-05"
+  },
+  {
+    "id": 517,
+    "alias": "Sylas",
+    "name": "Sylas",
+    "riotTags": [
+      "Mage",
+      "Assassin"
+    ],
+    "damageType": "AP",
+    "attackType": "melee",
+    "range": 175,
+    "positions": {
+      "mid": 1,
+      "top": 0.8
+    },
+    "playstyle": {
+      "damage": 2,
+      "durability": 2,
+      "crowdControl": 1,
+      "mobility": 3,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Duelist",
+    "riotPlaystyleSecondary": "Battlecaster",
+    "difficulty": 3,
+    "merakiRoles": [
+      "ASSASSIN",
+      "BURST",
+      "MAGE",
+      "SKIRMISHER"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2019-01-25"
+  },
+  {
+    "id": 134,
+    "alias": "Syndra",
+    "name": "Syndra",
+    "riotTags": [
+      "Mage"
+    ],
+    "damageType": "AP",
+    "attackType": "ranged",
+    "range": 550,
+    "positions": {
+      "mid": 1
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 2,
+      "mobility": 1,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Burst",
+    "riotPlaystyleSecondary": "Long Range",
+    "difficulty": 2,
+    "merakiRoles": [
+      "BURST",
+      "MAGE"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2012-09-13"
+  },
+  {
+    "id": 223,
+    "alias": "TahmKench",
+    "name": "Tahm Kench",
+    "riotTags": [
+      "Tank",
+      "Support"
+    ],
+    "damageType": "AP",
+    "attackType": "melee",
+    "range": 175,
+    "positions": {
+      "support": 1,
+      "top": 0.8
+    },
+    "playstyle": {
+      "damage": 2,
+      "durability": 3,
+      "crowdControl": 2,
+      "mobility": 1,
+      "utility": 3
+    },
+    "riotPlaystylePrimary": "Crowd Control",
+    "riotPlaystyleSecondary": "Ally Protection",
+    "difficulty": 1,
+    "merakiRoles": [
+      "SUPPORT",
+      "TANK",
+      "WARDEN"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2015-07-09"
+  },
+  {
+    "id": 163,
+    "alias": "Taliyah",
+    "name": "Taliyah",
+    "riotTags": [
+      "Mage",
+      "Support"
+    ],
+    "damageType": "AP",
+    "attackType": "ranged",
+    "range": 525,
+    "positions": {
+      "jungle": 1,
+      "mid": 0.8
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 2,
+      "mobility": 1,
+      "utility": 3
+    },
+    "riotPlaystylePrimary": "Crowd Control",
+    "riotPlaystyleSecondary": "AoE",
+    "difficulty": 3,
+    "merakiRoles": [
+      "BATTLEMAGE",
+      "MAGE",
+      "SUPPORT"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2016-05-18"
+  },
+  {
+    "id": 91,
+    "alias": "Talon",
+    "name": "Talon",
+    "riotTags": [
+      "Assassin"
+    ],
+    "damageType": "AD",
+    "attackType": "melee",
+    "range": 125,
+    "positions": {
+      "jungle": 1
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 1,
+      "mobility": 2,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Mobile",
+    "riotPlaystyleSecondary": "Burst",
+    "difficulty": 2,
+    "merakiRoles": [
+      "ASSASSIN"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2011-08-24"
+  },
+  {
+    "id": 44,
+    "alias": "Taric",
+    "name": "Taric",
+    "riotTags": [
+      "Support",
+      "Tank"
+    ],
+    "damageType": "AP",
+    "attackType": "melee",
+    "range": 150,
+    "positions": {
+      "mid": 1,
+      "support": 0.8
+    },
+    "playstyle": {
+      "damage": 1,
+      "durability": 2,
+      "crowdControl": 2,
+      "mobility": 1,
+      "utility": 3
+    },
+    "riotPlaystylePrimary": "Durable",
+    "riotPlaystyleSecondary": "Ally Protection",
+    "difficulty": 2,
+    "merakiRoles": [
+      "ENCHANTER",
+      "SUPPORT",
+      "TANK",
+      "WARDEN"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2009-08-19"
+  },
+  {
+    "id": 17,
+    "alias": "Teemo",
+    "name": "Teemo",
+    "riotTags": [
+      "Marksman",
+      "Mage"
+    ],
+    "damageType": "AP",
+    "attackType": "ranged",
+    "range": 500,
+    "positions": {
+      "jungle": 1,
+      "support": 0.8,
+      "top": 0.8
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 2,
+      "mobility": 1,
+      "utility": 2
+    },
+    "riotPlaystylePrimary": "Damage-over-Time",
+    "riotPlaystyleSecondary": "Stealth",
+    "difficulty": 1,
+    "merakiRoles": [
+      "MAGE",
+      "MARKSMAN",
+      "SPECIALIST"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2009-02-21"
+  },
+  {
+    "id": 412,
+    "alias": "Thresh",
+    "name": "Thresh",
+    "riotTags": [
+      "Support",
+      "Tank"
+    ],
+    "damageType": "AP",
+    "attackType": "ranged",
+    "range": 450,
+    "positions": {
+      "support": 1
+    },
+    "playstyle": {
+      "damage": 1,
+      "durability": 2,
+      "crowdControl": 3,
+      "mobility": 1,
+      "utility": 3
+    },
+    "riotPlaystylePrimary": "Initiator",
+    "riotPlaystyleSecondary": "Ally Protection",
+    "difficulty": 3,
+    "merakiRoles": [
+      "CATCHER",
+      "SUPPORT",
+      "TANK"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2013-01-23"
+  },
+  {
+    "id": 18,
+    "alias": "Tristana",
+    "name": "Tristana",
+    "riotTags": [
+      "Marksman",
+      "Assassin"
+    ],
+    "damageType": "AD",
+    "attackType": "ranged",
+    "range": 550,
+    "positions": {
+      "bot": 1,
+      "mid": 0.8
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 2,
+      "mobility": 2,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Mobile",
+    "riotPlaystyleSecondary": "Auto-attack",
+    "difficulty": 1,
+    "merakiRoles": [
+      "ASSASSIN",
+      "MARKSMAN"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2009-02-21"
+  },
+  {
+    "id": 48,
+    "alias": "Trundle",
+    "name": "Trundle",
+    "riotTags": [
+      "Fighter",
+      "Tank"
+    ],
+    "damageType": "AD",
+    "attackType": "melee",
+    "range": 175,
+    "positions": {
+      "jungle": 1,
+      "top": 0.8
+    },
+    "playstyle": {
+      "damage": 2,
+      "durability": 3,
+      "crowdControl": 1,
+      "mobility": 1,
+      "utility": 2
+    },
+    "riotPlaystylePrimary": "Duelist",
+    "riotPlaystyleSecondary": "Self Healing",
+    "difficulty": 1,
+    "merakiRoles": [
+      "FIGHTER",
+      "JUGGERNAUT",
+      "TANK"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2010-12-01"
+  },
+  {
+    "id": 23,
+    "alias": "Tryndamere",
+    "name": "Tryndamere",
+    "riotTags": [
+      "Fighter",
+      "Assassin"
+    ],
+    "damageType": "AD",
+    "attackType": "melee",
+    "range": 175,
+    "positions": {
+      "top": 1
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 2,
+      "crowdControl": 1,
+      "mobility": 2,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Duelist",
+    "riotPlaystyleSecondary": "Auto-attack",
+    "difficulty": 1,
+    "merakiRoles": [
+      "ASSASSIN",
+      "FIGHTER",
+      "SKIRMISHER"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "FURY",
+    "releaseDate": "2009-05-01"
+  },
+  {
+    "id": 4,
+    "alias": "TwistedFate",
+    "name": "Twisted Fate",
+    "riotTags": [
+      "Mage",
+      "Marksman"
+    ],
+    "damageType": "AP",
+    "attackType": "ranged",
+    "range": 525,
+    "positions": {
+      "bot": 1,
+      "mid": 0.8,
+      "top": 0.8
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 2,
+      "mobility": 2,
+      "utility": 2
+    },
+    "riotPlaystylePrimary": "Burst",
+    "riotPlaystyleSecondary": "Auto-attack",
+    "difficulty": 2,
+    "merakiRoles": [
+      "BURST",
+      "MAGE",
+      "MARKSMAN"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2009-02-21"
+  },
+  {
+    "id": 29,
+    "alias": "Twitch",
+    "name": "Twitch",
+    "riotTags": [
+      "Marksman",
+      "Assassin"
+    ],
+    "damageType": "AD",
+    "attackType": "ranged",
+    "range": 550,
+    "positions": {
+      "bot": 1,
+      "support": 0.8
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 1,
+      "mobility": 2,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Hypercarry",
+    "riotPlaystyleSecondary": "Stealth",
+    "difficulty": 2,
+    "merakiRoles": [
+      "ASSASSIN",
+      "MARKSMAN"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2009-05-01"
+  },
+  {
+    "id": 77,
+    "alias": "Udyr",
+    "name": "Udyr",
+    "riotTags": [
+      "Fighter",
+      "Tank"
+    ],
+    "damageType": "mixed",
+    "attackType": "melee",
+    "range": 125,
+    "positions": {
+      "jungle": 1,
+      "top": 0.8
+    },
+    "playstyle": {
+      "damage": 2,
+      "durability": 3,
+      "crowdControl": 2,
+      "mobility": 2,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Auto-attack",
+    "riotPlaystyleSecondary": "Durable",
+    "difficulty": 2,
+    "merakiRoles": [
+      "FIGHTER",
+      "JUGGERNAUT",
+      "TANK"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2009-12-02"
+  },
+  {
+    "id": 6,
+    "alias": "Urgot",
+    "name": "Urgot",
+    "riotTags": [
+      "Fighter",
+      "Tank"
+    ],
+    "damageType": "AD",
+    "attackType": "ranged",
+    "range": 350,
+    "positions": {
+      "top": 1
+    },
+    "playstyle": {
+      "damage": 2,
+      "durability": 2,
+      "crowdControl": 2,
+      "mobility": 1,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Duelist",
+    "riotPlaystyleSecondary": "Sustained Damage",
+    "difficulty": 2,
+    "merakiRoles": [
+      "FIGHTER",
+      "JUGGERNAUT",
+      "TANK"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2010-08-24"
+  },
+  {
+    "id": 110,
+    "alias": "Varus",
+    "name": "Varus",
+    "riotTags": [
+      "Marksman",
+      "Mage"
+    ],
+    "damageType": "AD",
+    "attackType": "ranged",
+    "range": 575,
+    "positions": {
+      "bot": 1
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 2,
+      "mobility": 1,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Long Range",
+    "riotPlaystyleSecondary": "Auto-attack",
+    "difficulty": 2,
+    "merakiRoles": [
+      "ARTILLERY",
+      "MAGE",
+      "MARKSMAN"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2012-05-08"
+  },
+  {
+    "id": 67,
+    "alias": "Vayne",
+    "name": "Vayne",
+    "riotTags": [
+      "Marksman",
+      "Assassin"
+    ],
+    "damageType": "AD",
+    "attackType": "ranged",
+    "range": 550,
+    "positions": {
+      "bot": 1,
+      "top": 0.8
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 2,
+      "mobility": 2,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Hypercarry",
+    "riotPlaystyleSecondary": "Stealth",
+    "difficulty": 2,
+    "merakiRoles": [
+      "ASSASSIN",
+      "MARKSMAN"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2011-05-10"
+  },
+  {
+    "id": 45,
+    "alias": "Veigar",
+    "name": "Veigar",
+    "riotTags": [
+      "Mage"
+    ],
+    "damageType": "AP",
+    "attackType": "ranged",
+    "range": 550,
+    "positions": {
+      "mid": 1,
+      "support": 0.8
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 3,
+      "mobility": 1,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Hypercarry",
+    "riotPlaystyleSecondary": "Burst",
+    "difficulty": 2,
+    "merakiRoles": [
+      "BURST",
+      "MAGE"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2009-07-24"
+  },
+  {
+    "id": 161,
+    "alias": "Velkoz",
+    "name": "Vel'Koz",
+    "riotTags": [
+      "Mage",
+      "Support"
+    ],
+    "damageType": "AP",
+    "attackType": "ranged",
+    "range": 525,
+    "positions": {
+      "mid": 1,
+      "support": 0.8
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 2,
+      "mobility": 1,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Long Range",
+    "riotPlaystyleSecondary": "AoE",
+    "difficulty": 2,
+    "merakiRoles": [
+      "ARTILLERY",
+      "MAGE",
+      "SUPPORT"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2014-02-27"
+  },
+  {
+    "id": 711,
+    "alias": "Vex",
+    "name": "Vex",
+    "riotTags": [
+      "Mage"
+    ],
+    "damageType": "AP",
+    "attackType": "ranged",
+    "range": 550,
+    "positions": {
+      "mid": 1
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 2,
+      "crowdControl": 2,
+      "mobility": 2,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Burst",
+    "riotPlaystyleSecondary": "Crowd Control",
+    "difficulty": 2,
+    "merakiRoles": [
+      "BURST",
+      "MAGE"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2021-09-23"
+  },
+  {
+    "id": 254,
+    "alias": "Vi",
+    "name": "Vi",
+    "riotTags": [
+      "Fighter",
+      "Assassin"
+    ],
+    "damageType": "AD",
+    "attackType": "melee",
+    "range": 125,
+    "positions": {
+      "jungle": 1
+    },
+    "playstyle": {
+      "damage": 2,
+      "durability": 2,
+      "crowdControl": 3,
+      "mobility": 2,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Dive",
+    "riotPlaystyleSecondary": "Auto-attack",
+    "difficulty": 1,
+    "merakiRoles": [
+      "ASSASSIN",
+      "DIVER",
+      "FIGHTER"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2012-12-19"
+  },
+  {
+    "id": 234,
+    "alias": "Viego",
+    "name": "Viego",
+    "riotTags": [
+      "Fighter",
+      "Assassin"
+    ],
+    "damageType": "AD",
+    "attackType": "melee",
+    "range": 200,
+    "positions": {
+      "jungle": 1
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 2,
+      "mobility": 2,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Shapeshift",
+    "riotPlaystyleSecondary": "Duelist",
+    "difficulty": 3,
+    "merakiRoles": [
+      "ASSASSIN",
+      "FIGHTER",
+      "SKIRMISHER"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "NONE",
+    "releaseDate": "2021-01-21"
+  },
+  {
+    "id": 112,
+    "alias": "Viktor",
+    "name": "Viktor",
+    "riotTags": [
+      "Mage"
+    ],
+    "damageType": "AP",
+    "attackType": "ranged",
+    "range": 525,
+    "positions": {
+      "mid": 1
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 2,
+      "mobility": 1,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Sustained Damage",
+    "riotPlaystyleSecondary": "AoE",
+    "difficulty": 3,
+    "merakiRoles": [
+      "BATTLEMAGE",
+      "MAGE"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2011-12-29"
+  },
+  {
+    "id": 8,
+    "alias": "Vladimir",
+    "name": "Vladimir",
+    "riotTags": [
+      "Mage",
+      "Fighter"
+    ],
+    "damageType": "AP",
+    "attackType": "ranged",
+    "range": 450,
+    "positions": {
+      "mid": 1,
+      "top": 0.8
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 2,
+      "crowdControl": 1,
+      "mobility": 1,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Self Healing",
+    "riotPlaystyleSecondary": "Battlecaster",
+    "difficulty": 2,
+    "merakiRoles": [
+      "BATTLEMAGE",
+      "FIGHTER",
+      "MAGE"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "CRIMSON_RUSH",
+    "releaseDate": "2010-07-27"
+  },
+  {
+    "id": 106,
+    "alias": "Volibear",
+    "name": "Volibear",
+    "riotTags": [
+      "Fighter",
+      "Tank"
+    ],
+    "damageType": "mixed",
+    "attackType": "melee",
+    "range": 150,
+    "positions": {
+      "jungle": 1,
+      "top": 0.8
+    },
+    "playstyle": {
+      "damage": 2,
+      "durability": 3,
+      "crowdControl": 2,
+      "mobility": 2,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Duelist",
+    "riotPlaystyleSecondary": "Durable",
+    "difficulty": 1,
+    "merakiRoles": [
+      "FIGHTER",
+      "JUGGERNAUT",
+      "TANK"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2011-11-29"
+  },
+  {
+    "id": 19,
+    "alias": "Warwick",
+    "name": "Warwick",
+    "riotTags": [
+      "Fighter",
+      "Tank"
+    ],
+    "damageType": "mixed",
+    "attackType": "melee",
+    "range": 125,
+    "positions": {
+      "jungle": 1,
+      "top": 0.8
+    },
+    "playstyle": {
+      "damage": 2,
+      "durability": 2,
+      "crowdControl": 2,
+      "mobility": 1,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Self Healing",
+    "riotPlaystyleSecondary": "Duelist",
+    "difficulty": 1,
+    "merakiRoles": [
+      "DIVER",
+      "FIGHTER",
+      "TANK"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2009-02-21"
+  },
+  {
+    "id": 62,
+    "alias": "MonkeyKing",
+    "name": "Wukong",
+    "riotTags": [
+      "Fighter",
+      "Tank"
+    ],
+    "damageType": "AD",
+    "attackType": "melee",
+    "range": 175,
+    "positions": {
+      "jungle": 1,
+      "top": 0.8
+    },
+    "playstyle": {
+      "damage": 2,
+      "durability": 2,
+      "crowdControl": 2,
+      "mobility": 2,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Dive",
+    "riotPlaystyleSecondary": "AoE",
+    "difficulty": 1,
+    "merakiRoles": [
+      "DIVER",
+      "FIGHTER",
+      "TANK"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2011-07-26"
+  },
+  {
+    "id": 498,
+    "alias": "Xayah",
+    "name": "Xayah",
+    "riotTags": [
+      "Marksman"
+    ],
+    "damageType": "AD",
+    "attackType": "ranged",
+    "range": 525,
+    "positions": {
+      "bot": 1
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 2,
+      "crowdControl": 3,
+      "mobility": 1,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "AoE",
+    "riotPlaystyleSecondary": "Auto-attack",
+    "difficulty": 2,
+    "merakiRoles": [
+      "MARKSMAN"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2017-04-19"
+  },
+  {
+    "id": 101,
+    "alias": "Xerath",
+    "name": "Xerath",
+    "riotTags": [
+      "Mage",
+      "Support"
+    ],
+    "damageType": "AP",
+    "attackType": "ranged",
+    "range": 525,
+    "positions": {
+      "mid": 1,
+      "support": 0.8
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 2,
+      "mobility": 1,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Long Range",
+    "riotPlaystyleSecondary": "AoE",
+    "difficulty": 1,
+    "merakiRoles": [
+      "ARTILLERY",
+      "MAGE",
+      "SUPPORT"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2011-10-05"
+  },
+  {
+    "id": 5,
+    "alias": "XinZhao",
+    "name": "Xin Zhao",
+    "riotTags": [
+      "Fighter",
+      "Tank"
+    ],
+    "damageType": "AD",
+    "attackType": "melee",
+    "range": 175,
+    "positions": {
+      "jungle": 1
+    },
+    "playstyle": {
+      "damage": 2,
+      "durability": 2,
+      "crowdControl": 2,
+      "mobility": 2,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "",
+    "riotPlaystyleSecondary": "",
+    "difficulty": 1,
+    "merakiRoles": [
+      "DIVER",
+      "FIGHTER",
+      "TANK"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2010-07-13"
+  },
+  {
+    "id": 157,
+    "alias": "Yasuo",
+    "name": "Yasuo",
+    "riotTags": [
+      "Fighter",
+      "Assassin"
+    ],
+    "damageType": "AD",
+    "attackType": "melee",
+    "range": 175,
+    "positions": {
+      "bot": 1,
+      "mid": 0.8,
+      "top": 0.8
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 2,
+      "mobility": 3,
+      "utility": 2
+    },
+    "riotPlaystylePrimary": "Duelist",
+    "riotPlaystyleSecondary": "Mobile",
+    "difficulty": 3,
+    "merakiRoles": [
+      "ASSASSIN",
+      "FIGHTER",
+      "SKIRMISHER"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "FLOW",
+    "releaseDate": "2013-12-13"
+  },
+  {
+    "id": 777,
+    "alias": "Yone",
+    "name": "Yone",
+    "riotTags": [
+      "Fighter",
+      "Assassin"
+    ],
+    "damageType": "AD",
+    "attackType": "melee",
+    "range": 175,
+    "positions": {
+      "mid": 1,
+      "top": 0.8
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 2,
+      "mobility": 3,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Mobile",
+    "riotPlaystyleSecondary": "Duelist",
+    "difficulty": 3,
+    "merakiRoles": [
+      "ASSASSIN",
+      "FIGHTER",
+      "SKIRMISHER"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "FLOW",
+    "releaseDate": "2020-08-06"
+  },
+  {
+    "id": 83,
+    "alias": "Yorick",
+    "name": "Yorick",
+    "riotTags": [
+      "Fighter",
+      "Tank"
+    ],
+    "damageType": "AD",
+    "attackType": "melee",
+    "range": 175,
+    "positions": {
+      "top": 1
+    },
+    "playstyle": {
+      "damage": 2,
+      "durability": 2,
+      "crowdControl": 2,
+      "mobility": 1,
+      "utility": 2
+    },
+    "riotPlaystylePrimary": "Summon",
+    "riotPlaystyleSecondary": "Duelist",
+    "difficulty": 2,
+    "merakiRoles": [
+      "FIGHTER",
+      "JUGGERNAUT",
+      "TANK"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2011-06-22"
+  },
+  {
+    "id": 804,
+    "alias": "Yunara",
+    "name": "Yunara",
+    "riotTags": [
+      "Marksman"
+    ],
+    "damageType": "AD",
+    "attackType": "ranged",
+    "range": 575,
+    "positions": {
+      "bot": 1
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 1,
+      "mobility": 2,
+      "utility": 0
+    },
+    "riotPlaystylePrimary": "Auto-attack",
+    "riotPlaystyleSecondary": "Sustained Damage",
+    "difficulty": 2,
+    "merakiRoles": [
+      "MARKSMAN"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2025-07-16"
+  },
+  {
+    "id": 350,
+    "alias": "Yuumi",
+    "name": "Yuumi",
+    "riotTags": [
+      "Support",
+      "Mage"
+    ],
+    "damageType": "AP",
+    "attackType": "ranged",
+    "range": 425,
+    "positions": {
+      "support": 1
+    },
+    "playstyle": {
+      "damage": 1,
+      "durability": 1,
+      "crowdControl": 1,
+      "mobility": 3,
+      "utility": 3
+    },
+    "riotPlaystylePrimary": "Ally Protection",
+    "riotPlaystyleSecondary": "AoE",
+    "difficulty": 1,
+    "merakiRoles": [
+      "ENCHANTER",
+      "MAGE",
+      "SUPPORT"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2019-05-14"
+  },
+  {
+    "id": 904,
+    "alias": "Zaahen",
+    "name": "Zaahen",
+    "riotTags": [
+      "Fighter"
+    ],
+    "damageType": "AD",
+    "attackType": "melee",
+    "range": 175,
+    "positions": {
+      "top": 1
+    },
+    "playstyle": {
+      "damage": 2,
+      "durability": 2,
+      "crowdControl": 2,
+      "mobility": 2,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "",
+    "riotPlaystyleSecondary": "",
+    "difficulty": 1,
+    "merakiRoles": []
+  },
+  {
+    "id": 154,
+    "alias": "Zac",
+    "name": "Zac",
+    "riotTags": [
+      "Tank",
+      "Fighter"
+    ],
+    "damageType": "AP",
+    "attackType": "melee",
+    "range": 175,
+    "positions": {
+      "jungle": 1,
+      "support": 0.8,
+      "top": 0.8
+    },
+    "playstyle": {
+      "damage": 2,
+      "durability": 3,
+      "crowdControl": 3,
+      "mobility": 2,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Initiator",
+    "riotPlaystyleSecondary": "Self Healing",
+    "difficulty": 1,
+    "merakiRoles": [
+      "FIGHTER",
+      "TANK",
+      "VANGUARD"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "HEALTH",
+    "releaseDate": "2013-03-29"
+  },
+  {
+    "id": 238,
+    "alias": "Zed",
+    "name": "Zed",
+    "riotTags": [
+      "Assassin"
+    ],
+    "damageType": "AD",
+    "attackType": "melee",
+    "range": 125,
+    "positions": {
+      "jungle": 1,
+      "mid": 0.8
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 1,
+      "mobility": 3,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Burst",
+    "riotPlaystyleSecondary": "Mobile",
+    "difficulty": 3,
+    "merakiRoles": [
+      "ASSASSIN"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "ENERGY",
+    "releaseDate": "2012-11-13"
+  },
+  {
+    "id": 221,
+    "alias": "Zeri",
+    "name": "Zeri",
+    "riotTags": [
+      "Marksman"
+    ],
+    "damageType": "AD",
+    "attackType": "ranged",
+    "range": 550,
+    "positions": {
+      "bot": 1
+    },
+    "playstyle": {
+      "damage": 2,
+      "durability": 1,
+      "crowdControl": 2,
+      "mobility": 3,
+      "utility": 0
+    },
+    "riotPlaystylePrimary": "Mobile",
+    "riotPlaystyleSecondary": "Burst",
+    "difficulty": 3,
+    "merakiRoles": [
+      "MARKSMAN"
+    ],
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2022-01-20"
+  },
+  {
+    "id": 115,
+    "alias": "Ziggs",
+    "name": "Ziggs",
+    "riotTags": [
+      "Mage"
+    ],
+    "damageType": "AP",
+    "attackType": "ranged",
+    "range": 550,
+    "positions": {
+      "bot": 1,
+      "mid": 0.8
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 2,
+      "mobility": 2,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Long Range",
+    "riotPlaystyleSecondary": "AoE",
+    "difficulty": 1,
+    "merakiRoles": [
+      "ARTILLERY",
+      "MAGE"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2012-02-01"
+  },
+  {
+    "id": 26,
+    "alias": "Zilean",
+    "name": "Zilean",
+    "riotTags": [
+      "Support",
+      "Mage"
+    ],
+    "damageType": "AP",
+    "attackType": "ranged",
+    "range": 550,
+    "positions": {
+      "support": 1
+    },
+    "playstyle": {
+      "damage": 2,
+      "durability": 1,
+      "crowdControl": 2,
+      "mobility": 2,
+      "utility": 3
+    },
+    "riotPlaystylePrimary": "Crowd Control",
+    "riotPlaystyleSecondary": "Ally Protection",
+    "difficulty": 2,
+    "merakiRoles": [
+      "MAGE",
+      "SPECIALIST",
+      "SUPPORT"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2009-04-18"
+  },
+  {
+    "id": 142,
+    "alias": "Zoe",
+    "name": "Zoe",
+    "riotTags": [
+      "Mage"
+    ],
+    "damageType": "AP",
+    "attackType": "ranged",
+    "range": 550,
+    "positions": {
+      "mid": 1
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 2,
+      "mobility": 2,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Burst",
+    "riotPlaystyleSecondary": "Long Range",
+    "difficulty": 3,
+    "merakiRoles": [
+      "BURST",
+      "MAGE",
+      "SUPPORT"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2017-11-21"
+  },
+  {
+    "id": 143,
+    "alias": "Zyra",
+    "name": "Zyra",
+    "riotTags": [
+      "Mage",
+      "Support"
+    ],
+    "damageType": "AP",
+    "attackType": "ranged",
+    "range": 575,
+    "positions": {
+      "support": 1
+    },
+    "playstyle": {
+      "damage": 3,
+      "durability": 1,
+      "crowdControl": 3,
+      "mobility": 1,
+      "utility": 1
+    },
+    "riotPlaystylePrimary": "Summon",
+    "riotPlaystyleSecondary": "Crowd Control",
+    "difficulty": 1,
+    "merakiRoles": [
+      "CATCHER",
+      "MAGE",
+      "SUPPORT"
+    ],
+    "adaptiveType": "MAGIC_DAMAGE",
+    "resource": "MANA",
+    "releaseDate": "2012-07-24"
+  }
+]

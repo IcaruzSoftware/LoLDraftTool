@@ -1,0 +1,32 @@
+{
+  "Toplane": {
+    "player": "Alex",
+    "comfort": ["Aatrox", "Camille"],
+    "good": ["Gnar", "Jax"],
+    "okay": ["Ornn"]
+  },
+  "Jungle": {
+    "player": "Sam",
+    "comfort": ["Lee Sin", "Viego"],
+    "good": ["Sejuani"],
+    "okay": ["Warwick"]
+  },
+  "Midlane": {
+    "player": "Max",
+    "comfort": ["Ahri", "Orianna"],
+    "good": ["Syndra"],
+    "okay": ["Zed"]
+  },
+  "ADC": {
+    "player": "Leo",
+    "comfort": ["Kaisa", "MF"],
+    "good": ["Jinx"],
+    "okay": ["Ezreal"]
+  },
+  "Support": {
+    "player": "Kai",
+    "comfort": ["Thresh", "Nautilus"],
+    "good": ["Renata Glasc"],
+    "okay": ["Lulu"]
+  }
+}

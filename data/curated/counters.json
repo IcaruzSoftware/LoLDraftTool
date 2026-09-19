@@ -1,0 +1,1626 @@
+[
+  {
+    "champion": 54,
+    "counters": 157,
+    "role": "top",
+    "strength": 3,
+    "reason": "Armor stacking neutralizes crit AD"
+  },
+  {
+    "champion": 54,
+    "counters": 23,
+    "role": "top",
+    "strength": 3,
+    "reason": "Armor + slow shuts down crit spin"
+  },
+  {
+    "champion": 54,
+    "counters": 92,
+    "role": "top",
+    "strength": 2,
+    "reason": "Armor and Q poke blunt Riven"
+  },
+  {
+    "champion": 54,
+    "counters": 39,
+    "role": "top",
+    "strength": 2,
+    "reason": "Armor and passive shield vs AD dashes"
+  },
+  {
+    "champion": 54,
+    "counters": 24,
+    "role": "top",
+    "strength": 2,
+    "reason": "Armor negates Jax auto-scaling"
+  },
+  {
+    "champion": 54,
+    "counters": 164,
+    "role": "top",
+    "strength": 2,
+    "reason": "Armor + point-click Q trades"
+  },
+  {
+    "champion": 114,
+    "counters": 516,
+    "role": "top",
+    "strength": 3,
+    "reason": "Percent-true-damage vitals shred a tank"
+  },
+  {
+    "champion": 114,
+    "counters": 54,
+    "role": "top",
+    "strength": 3,
+    "reason": "True damage ignores armor stacking"
+  },
+  {
+    "champion": 114,
+    "counters": 14,
+    "role": "top",
+    "strength": 3,
+    "reason": "Vitals melt tank HP"
+  },
+  {
+    "champion": 114,
+    "counters": 31,
+    "role": "top",
+    "strength": 2,
+    "reason": "True damage beats a stacking tank"
+  },
+  {
+    "champion": 114,
+    "counters": 75,
+    "role": "top",
+    "strength": 3,
+    "reason": "Duels and out-splits Nasus, parries Wither"
+  },
+  {
+    "champion": 114,
+    "counters": 36,
+    "role": "top",
+    "strength": 2,
+    "reason": "Vitals + true damage vs HP stacking"
+  },
+  {
+    "champion": 114,
+    "counters": 875,
+    "role": "top",
+    "strength": 2,
+    "reason": "Parry the slam, duel with vitals"
+  },
+  {
+    "champion": 114,
+    "counters": 897,
+    "role": "top",
+    "strength": 2,
+    "reason": "Vitals and parry beat the tank"
+  },
+  {
+    "champion": 58,
+    "counters": 164,
+    "role": "top",
+    "strength": 3,
+    "reason": "Early all-in dominates before Camille scales"
+  },
+  {
+    "champion": 58,
+    "counters": 24,
+    "role": "top",
+    "strength": 3,
+    "reason": "Early aggression beats Jax pre-6"
+  },
+  {
+    "champion": 58,
+    "counters": 114,
+    "role": "top",
+    "strength": 2,
+    "reason": "Bully Fiora in the early laning phase"
+  },
+  {
+    "champion": 58,
+    "counters": 887,
+    "role": "top",
+    "strength": 3,
+    "reason": "Snowball before Gwen scales"
+  },
+  {
+    "champion": 58,
+    "counters": 10,
+    "role": "top",
+    "strength": 3,
+    "reason": "Bully the scaling Kayle early"
+  },
+  {
+    "champion": 58,
+    "counters": 41,
+    "role": "top",
+    "strength": 2,
+    "reason": "Early stun all-ins beat GP"
+  },
+  {
+    "champion": 122,
+    "counters": 86,
+    "role": "top",
+    "strength": 2,
+    "reason": "Bleed stacks + pull win the melee brawl"
+  },
+  {
+    "champion": 122,
+    "counters": 75,
+    "role": "top",
+    "strength": 3,
+    "reason": "Zones Nasus off farm early"
+  },
+  {
+    "champion": 122,
+    "counters": 82,
+    "role": "top",
+    "strength": 2,
+    "reason": "Wins extended trades pre-6"
+  },
+  {
+    "champion": 122,
+    "counters": 240,
+    "role": "top",
+    "strength": 2,
+    "reason": "Out-sustains and pulls Kled"
+  },
+  {
+    "champion": 122,
+    "counters": 10,
+    "role": "top",
+    "strength": 3,
+    "reason": "Denies scaling Kayle the early game"
+  },
+  {
+    "champion": 67,
+    "counters": 75,
+    "role": "top",
+    "strength": 3,
+    "reason": "Kites and %HP shreds the tank"
+  },
+  {
+    "champion": 67,
+    "counters": 31,
+    "role": "top",
+    "strength": 3,
+    "reason": "Kite + %HP true damage vs a tank"
+  },
+  {
+    "champion": 67,
+    "counters": 14,
+    "role": "top",
+    "strength": 3,
+    "reason": "Ranged kiting vs immobile tank"
+  },
+  {
+    "champion": 67,
+    "counters": 36,
+    "role": "top",
+    "strength": 3,
+    "reason": "Silver Bolts %HP shred tanky HP"
+  },
+  {
+    "champion": 67,
+    "counters": 86,
+    "role": "top",
+    "strength": 2,
+    "reason": "Ranged kite vs melee juggernaut"
+  },
+  {
+    "champion": 133,
+    "counters": 75,
+    "role": "top",
+    "strength": 3,
+    "reason": "Ranged harass denies Nasus stacks"
+  },
+  {
+    "champion": 133,
+    "counters": 122,
+    "role": "top",
+    "strength": 2,
+    "reason": "Ranged poke and vault kite"
+  },
+  {
+    "champion": 133,
+    "counters": 420,
+    "role": "top",
+    "strength": 3,
+    "reason": "Ranged kite avoids tentacles"
+  },
+  {
+    "champion": 133,
+    "counters": 83,
+    "role": "top",
+    "strength": 2,
+    "reason": "Ranged harass vs immobile Yorick"
+  },
+  {
+    "champion": 17,
+    "counters": 122,
+    "role": "top",
+    "strength": 3,
+    "reason": "Blind + ranged kite hard-counters Darius"
+  },
+  {
+    "champion": 17,
+    "counters": 75,
+    "role": "top",
+    "strength": 2,
+    "reason": "Ranged harass denies stacks"
+  },
+  {
+    "champion": 17,
+    "counters": 266,
+    "role": "top",
+    "strength": 2,
+    "reason": "Blind negates Aatrox autos, kite the Qs"
+  },
+  {
+    "champion": 17,
+    "counters": 420,
+    "role": "top",
+    "strength": 3,
+    "reason": "Ranged kite vs tentacle melee"
+  },
+  {
+    "champion": 85,
+    "counters": 122,
+    "role": "top",
+    "strength": 2,
+    "reason": "Ranged poke and kite vs melee"
+  },
+  {
+    "champion": 85,
+    "counters": 266,
+    "role": "top",
+    "strength": 2,
+    "reason": "Ranged harass out-trades Aatrox"
+  },
+  {
+    "champion": 150,
+    "counters": 122,
+    "role": "top",
+    "strength": 2,
+    "reason": "Ranged poke kites the juggernaut"
+  },
+  {
+    "champion": 150,
+    "counters": 58,
+    "role": "top",
+    "strength": 2,
+    "reason": "Kite form poke avoids all-ins"
+  },
+  {
+    "champion": 150,
+    "counters": 875,
+    "role": "top",
+    "strength": 2,
+    "reason": "Ranged poke vs melee brawler"
+  },
+  {
+    "champion": 150,
+    "counters": 266,
+    "role": "top",
+    "strength": 2,
+    "reason": "Poke and kite the melee"
+  },
+  {
+    "champion": 516,
+    "counters": 58,
+    "role": "top",
+    "strength": 2,
+    "reason": "Tanky safe farming survives the bully"
+  },
+  {
+    "champion": 516,
+    "counters": 266,
+    "role": "top",
+    "strength": 2,
+    "reason": "Brittle + tankiness blunt Aatrox"
+  },
+  {
+    "champion": 516,
+    "counters": 122,
+    "role": "top",
+    "strength": 2,
+    "reason": "Safe scaling tank vs bully"
+  },
+  {
+    "champion": 82,
+    "counters": 83,
+    "role": "top",
+    "strength": 2,
+    "reason": "R isolates and deletes Yorick"
+  },
+  {
+    "champion": 82,
+    "counters": 240,
+    "role": "top",
+    "strength": 2,
+    "reason": "R removes Kled from his mount fight"
+  },
+  {
+    "champion": 82,
+    "counters": 164,
+    "role": "top",
+    "strength": 2,
+    "reason": "R isolates the diver"
+  },
+  {
+    "champion": 420,
+    "counters": 75,
+    "role": "top",
+    "strength": 2,
+    "reason": "Tentacle zoning denies stacks"
+  },
+  {
+    "champion": 420,
+    "counters": 106,
+    "role": "top",
+    "strength": 2,
+    "reason": "Out-brawls in extended fights"
+  },
+  {
+    "champion": 164,
+    "counters": 75,
+    "role": "top",
+    "strength": 2,
+    "reason": "True damage + mobility out-duel"
+  },
+  {
+    "champion": 164,
+    "counters": 31,
+    "role": "top",
+    "strength": 2,
+    "reason": "True damage vs stacking tank"
+  },
+  {
+    "champion": 164,
+    "counters": 14,
+    "role": "top",
+    "strength": 2,
+    "reason": "Percent damage + mobility"
+  },
+  {
+    "champion": 83,
+    "counters": 75,
+    "role": "top",
+    "strength": 3,
+    "reason": "Out-splits and cages Nasus"
+  },
+  {
+    "champion": 83,
+    "counters": 875,
+    "role": "top",
+    "strength": 2,
+    "reason": "Maiden + cage win the split"
+  },
+  {
+    "champion": 83,
+    "counters": 82,
+    "role": "top",
+    "strength": 2,
+    "reason": "Cage denies Morde the 1v1"
+  },
+  {
+    "champion": 266,
+    "counters": 517,
+    "role": "top",
+    "strength": 2,
+    "reason": "Out-trades in the early lane"
+  },
+  {
+    "champion": 266,
+    "counters": 150,
+    "role": "top",
+    "strength": 1,
+    "reason": "Wins all-ins if he lands Qs"
+  },
+  {
+    "champion": 24,
+    "counters": 39,
+    "role": "top",
+    "strength": 2,
+    "reason": "Counter-strike dodges her dashes"
+  },
+  {
+    "champion": 24,
+    "counters": 92,
+    "role": "top",
+    "strength": 2,
+    "reason": "E stun blunts Riven combo"
+  },
+  {
+    "champion": 36,
+    "counters": 122,
+    "role": "top",
+    "strength": 2,
+    "reason": "Unkillable HP stacking out-sustains"
+  },
+  {
+    "champion": 36,
+    "counters": 17,
+    "role": "top",
+    "strength": 2,
+    "reason": "Cleanses poison and out-sustains DoT"
+  },
+  {
+    "champion": 897,
+    "counters": 122,
+    "role": "top",
+    "strength": 2,
+    "reason": "Tanky duelist survives and R-displaces"
+  },
+  {
+    "champion": 897,
+    "counters": 266,
+    "role": "top",
+    "strength": 2,
+    "reason": "Tank duelist wins extended fights"
+  },
+  {
+    "champion": 27,
+    "counters": 75,
+    "role": "top",
+    "strength": 2,
+    "reason": "Proxy denies Nasus stacks"
+  },
+  {
+    "champion": 86,
+    "counters": 84,
+    "role": "top",
+    "strength": 2,
+    "reason": "Silence + tankiness beat the assassin"
+  },
+  {
+    "champion": 86,
+    "counters": 240,
+    "role": "top",
+    "strength": 1,
+    "reason": "Out-sustains extended trades"
+  },
+  {
+    "champion": 41,
+    "counters": 75,
+    "role": "top",
+    "strength": 2,
+    "reason": "Barrel poke denies stacks"
+  },
+  {
+    "champion": 799,
+    "counters": 875,
+    "role": "top",
+    "strength": 2,
+    "reason": "Mobility kites the immobile brawler"
+  },
+  {
+    "champion": 875,
+    "counters": 150,
+    "role": "top",
+    "strength": 1,
+    "reason": "Punishes Gnar in melee windows"
+  },
+  {
+    "champion": 38,
+    "counters": 101,
+    "role": "mid",
+    "strength": 2,
+    "reason": "Scales past and dives immobile artillery"
+  },
+  {
+    "champion": 38,
+    "counters": 161,
+    "role": "mid",
+    "strength": 2,
+    "reason": "Outscales and dives the artillery mage"
+  },
+  {
+    "champion": 38,
+    "counters": 99,
+    "role": "mid",
+    "strength": 2,
+    "reason": "R mobility dodges skillshots, outscales"
+  },
+  {
+    "champion": 38,
+    "counters": 142,
+    "role": "mid",
+    "strength": 2,
+    "reason": "Silence + mobility deny Zoe combos late"
+  },
+  {
+    "champion": 38,
+    "counters": 112,
+    "role": "mid",
+    "strength": 2,
+    "reason": "Outscales the immobile mage"
+  },
+  {
+    "champion": 3,
+    "counters": 7,
+    "role": "mid",
+    "strength": 3,
+    "reason": "Magic shield + point-click taunt vs assassin"
+  },
+  {
+    "champion": 3,
+    "counters": 55,
+    "role": "mid",
+    "strength": 3,
+    "reason": "Taunt interrupts R, shield eats magic burst"
+  },
+  {
+    "champion": 3,
+    "counters": 84,
+    "role": "mid",
+    "strength": 2,
+    "reason": "Anti-AP shield and taunt vs Akali"
+  },
+  {
+    "champion": 3,
+    "counters": 103,
+    "role": "mid",
+    "strength": 2,
+    "reason": "Magic shield blunts her burst"
+  },
+  {
+    "champion": 3,
+    "counters": 134,
+    "role": "mid",
+    "strength": 2,
+    "reason": "Shield + taunt vs immobile burst mage"
+  },
+  {
+    "champion": 3,
+    "counters": 69,
+    "role": "mid",
+    "strength": 2,
+    "reason": "Anti-AP passive/shield vs DoT"
+  },
+  {
+    "champion": 3,
+    "counters": 112,
+    "role": "mid",
+    "strength": 2,
+    "reason": "Magic shield mitigates the AP damage"
+  },
+  {
+    "champion": 238,
+    "counters": 101,
+    "role": "mid",
+    "strength": 3,
+    "reason": "Assassinates immobile artillery"
+  },
+  {
+    "champion": 238,
+    "counters": 161,
+    "role": "mid",
+    "strength": 3,
+    "reason": "Dives the immobile artillery"
+  },
+  {
+    "champion": 238,
+    "counters": 99,
+    "role": "mid",
+    "strength": 2,
+    "reason": "Kills Lux if she misses her binding"
+  },
+  {
+    "champion": 238,
+    "counters": 61,
+    "role": "mid",
+    "strength": 2,
+    "reason": "Assassinates the immobile control mage"
+  },
+  {
+    "champion": 238,
+    "counters": 4,
+    "role": "mid",
+    "strength": 2,
+    "reason": "Bursts the squishy roamer"
+  },
+  {
+    "champion": 238,
+    "counters": 45,
+    "role": "mid",
+    "strength": 2,
+    "reason": "Kills Veigar before his cage lands"
+  },
+  {
+    "champion": 105,
+    "counters": 61,
+    "role": "mid",
+    "strength": 2,
+    "reason": "E untargetability dodges her combo"
+  },
+  {
+    "champion": 105,
+    "counters": 134,
+    "role": "mid",
+    "strength": 2,
+    "reason": "Mobility + untargetable dive"
+  },
+  {
+    "champion": 105,
+    "counters": 101,
+    "role": "mid",
+    "strength": 3,
+    "reason": "Dives the immobile artillery"
+  },
+  {
+    "champion": 105,
+    "counters": 34,
+    "role": "mid",
+    "strength": 2,
+    "reason": "Untargetable dodges her spells"
+  },
+  {
+    "champion": 91,
+    "counters": 101,
+    "role": "mid",
+    "strength": 3,
+    "reason": "Roams and dives the immobile mage"
+  },
+  {
+    "champion": 91,
+    "counters": 61,
+    "role": "mid",
+    "strength": 2,
+    "reason": "Kills the control mage on cooldown gaps"
+  },
+  {
+    "champion": 91,
+    "counters": 4,
+    "role": "mid",
+    "strength": 2,
+    "reason": "Assassinates the squishy roamer"
+  },
+  {
+    "champion": 91,
+    "counters": 99,
+    "role": "mid",
+    "strength": 2,
+    "reason": "Dives Lux after her burst is down"
+  },
+  {
+    "champion": 7,
+    "counters": 101,
+    "role": "mid",
+    "strength": 2,
+    "reason": "Silence + burst kill the artillery"
+  },
+  {
+    "champion": 7,
+    "counters": 61,
+    "role": "mid",
+    "strength": 2,
+    "reason": "Bursts the immobile control mage"
+  },
+  {
+    "champion": 7,
+    "counters": 112,
+    "role": "mid",
+    "strength": 2,
+    "reason": "Kills Viktor before he scales"
+  },
+  {
+    "champion": 69,
+    "counters": 55,
+    "role": "mid",
+    "strength": 3,
+    "reason": "W grounds Katarina, cancels her R"
+  },
+  {
+    "champion": 69,
+    "counters": 238,
+    "role": "mid",
+    "strength": 2,
+    "reason": "Grounding denies Zed re-engage"
+  },
+  {
+    "champion": 69,
+    "counters": 157,
+    "role": "mid",
+    "strength": 3,
+    "reason": "Grounding + poison beat Yasuo"
+  },
+  {
+    "champion": 69,
+    "counters": 91,
+    "role": "mid",
+    "strength": 2,
+    "reason": "Ground denies Talon escape"
+  },
+  {
+    "champion": 69,
+    "counters": 105,
+    "role": "mid",
+    "strength": 2,
+    "reason": "Grounding limits Fizz mobility"
+  },
+  {
+    "champion": 127,
+    "counters": 238,
+    "role": "mid",
+    "strength": 3,
+    "reason": "Self-stasis dodges R, point-click stun"
+  },
+  {
+    "champion": 127,
+    "counters": 91,
+    "role": "mid",
+    "strength": 2,
+    "reason": "Point-click CC locks the assassin"
+  },
+  {
+    "champion": 127,
+    "counters": 157,
+    "role": "mid",
+    "strength": 2,
+    "reason": "Reliable CC vs Yasuo"
+  },
+  {
+    "champion": 127,
+    "counters": 55,
+    "role": "mid",
+    "strength": 2,
+    "reason": "Point-click stun interrupts R"
+  },
+  {
+    "champion": 90,
+    "counters": 238,
+    "role": "mid",
+    "strength": 3,
+    "reason": "Passive shield + suppress hard-counter"
+  },
+  {
+    "champion": 90,
+    "counters": 157,
+    "role": "mid",
+    "strength": 3,
+    "reason": "Spell shield blocks Q, suppress locks him"
+  },
+  {
+    "champion": 90,
+    "counters": 55,
+    "role": "mid",
+    "strength": 2,
+    "reason": "Suppress cancels her reset R"
+  },
+  {
+    "champion": 90,
+    "counters": 105,
+    "role": "mid",
+    "strength": 2,
+    "reason": "Shield + suppress vs the assassin"
+  },
+  {
+    "champion": 90,
+    "counters": 84,
+    "role": "mid",
+    "strength": 2,
+    "reason": "Suppress and shield deny Akali"
+  },
+  {
+    "champion": 90,
+    "counters": 7,
+    "role": "mid",
+    "strength": 2,
+    "reason": "Spell shield eats her combo"
+  },
+  {
+    "champion": 1,
+    "counters": 238,
+    "role": "mid",
+    "strength": 2,
+    "reason": "Point-click stun shuts down the dive"
+  },
+  {
+    "champion": 1,
+    "counters": 157,
+    "role": "mid",
+    "strength": 2,
+    "reason": "Flash-Tibbers stun vs the melee"
+  },
+  {
+    "champion": 711,
+    "counters": 238,
+    "role": "mid",
+    "strength": 3,
+    "reason": "Passive punishes and fears dashers"
+  },
+  {
+    "champion": 711,
+    "counters": 157,
+    "role": "mid",
+    "strength": 3,
+    "reason": "Anti-mobility passive vs dash spam"
+  },
+  {
+    "champion": 711,
+    "counters": 777,
+    "role": "mid",
+    "strength": 3,
+    "reason": "Fear + passive counter Yone dashes"
+  },
+  {
+    "champion": 711,
+    "counters": 84,
+    "role": "mid",
+    "strength": 2,
+    "reason": "Passive punishes her dashes"
+  },
+  {
+    "champion": 711,
+    "counters": 55,
+    "role": "mid",
+    "strength": 2,
+    "reason": "Fear interrupts her R"
+  },
+  {
+    "champion": 893,
+    "counters": 238,
+    "role": "mid",
+    "strength": 2,
+    "reason": "Hops and fear evade the assassin"
+  },
+  {
+    "champion": 893,
+    "counters": 157,
+    "role": "mid",
+    "strength": 2,
+    "reason": "Mobility + CC vs the duelist"
+  },
+  {
+    "champion": 131,
+    "counters": 238,
+    "role": "mid",
+    "strength": 2,
+    "reason": "Shield + burst beat the assassin"
+  },
+  {
+    "champion": 131,
+    "counters": 91,
+    "role": "mid",
+    "strength": 2,
+    "reason": "Shield absorbs burst, R gathers"
+  },
+  {
+    "champion": 80,
+    "counters": 99,
+    "role": "mid",
+    "strength": 2,
+    "reason": "E blocks poke, point stun all-in"
+  },
+  {
+    "champion": 80,
+    "counters": 61,
+    "role": "mid",
+    "strength": 2,
+    "reason": "Early all-ins beat the scaler"
+  },
+  {
+    "champion": 80,
+    "counters": 101,
+    "role": "mid",
+    "strength": 2,
+    "reason": "W stun all-in beats artillery"
+  },
+  {
+    "champion": 34,
+    "counters": 238,
+    "role": "mid",
+    "strength": 2,
+    "reason": "Egg + wall survive the all-in"
+  },
+  {
+    "champion": 103,
+    "counters": 112,
+    "role": "mid",
+    "strength": 2,
+    "reason": "Mobility dodges and picks the mage"
+  },
+  {
+    "champion": 103,
+    "counters": 101,
+    "role": "mid",
+    "strength": 2,
+    "reason": "Charm + mobility close the gap"
+  },
+  {
+    "champion": 157,
+    "counters": 101,
+    "role": "mid",
+    "strength": 3,
+    "reason": "Windwall eats artillery poke"
+  },
+  {
+    "champion": 157,
+    "counters": 161,
+    "role": "mid",
+    "strength": 2,
+    "reason": "Windwall blocks the poke"
+  },
+  {
+    "champion": 157,
+    "counters": 142,
+    "role": "mid",
+    "strength": 2,
+    "reason": "Windwall blocks her bubble/poke"
+  },
+  {
+    "champion": 157,
+    "counters": 126,
+    "role": "mid",
+    "strength": 2,
+    "reason": "Windwall negates ranged poke"
+  },
+  {
+    "champion": 157,
+    "counters": 110,
+    "role": "mid",
+    "strength": 2,
+    "reason": "Windwall blocks poke and R"
+  },
+  {
+    "champion": 38,
+    "counters": 134,
+    "role": "mid",
+    "strength": 2,
+    "reason": "Outscales the burst mage"
+  },
+  {
+    "champion": 78,
+    "counters": 56,
+    "role": "jungle",
+    "strength": 3,
+    "reason": "W blocks the dash, denies his engage"
+  },
+  {
+    "champion": 78,
+    "counters": 154,
+    "role": "jungle",
+    "strength": 2,
+    "reason": "W stops Zac E, R denies engage"
+  },
+  {
+    "champion": 78,
+    "counters": 254,
+    "role": "jungle",
+    "strength": 2,
+    "reason": "W blocks Vi Q dash"
+  },
+  {
+    "champion": 78,
+    "counters": 107,
+    "role": "jungle",
+    "strength": 2,
+    "reason": "W blocks his leap"
+  },
+  {
+    "champion": 78,
+    "counters": 59,
+    "role": "jungle",
+    "strength": 2,
+    "reason": "W stops the EQ engage"
+  },
+  {
+    "champion": 78,
+    "counters": 120,
+    "role": "jungle",
+    "strength": 2,
+    "reason": "W blocks the charge"
+  },
+  {
+    "champion": 78,
+    "counters": 64,
+    "role": "jungle",
+    "strength": 2,
+    "reason": "W blocks his Q dashes"
+  },
+  {
+    "champion": 78,
+    "counters": 131,
+    "role": "jungle",
+    "strength": 2,
+    "reason": "W denies her R dive"
+  },
+  {
+    "champion": 78,
+    "counters": 62,
+    "role": "jungle",
+    "strength": 2,
+    "reason": "W stops his engage dash"
+  },
+  {
+    "champion": 104,
+    "counters": 60,
+    "role": "jungle",
+    "strength": 2,
+    "reason": "Wins the early duel with burst"
+  },
+  {
+    "champion": 104,
+    "counters": 121,
+    "role": "jungle",
+    "strength": 2,
+    "reason": "Out-duels the assassin early"
+  },
+  {
+    "champion": 104,
+    "counters": 76,
+    "role": "jungle",
+    "strength": 2,
+    "reason": "Tanky burst wins skirmishes"
+  },
+  {
+    "champion": 104,
+    "counters": 203,
+    "role": "jungle",
+    "strength": 2,
+    "reason": "Bursts the fragile marksman"
+  },
+  {
+    "champion": 104,
+    "counters": 245,
+    "role": "jungle",
+    "strength": 2,
+    "reason": "Early duel beats Ekko"
+  },
+  {
+    "champion": 64,
+    "counters": 30,
+    "role": "jungle",
+    "strength": 3,
+    "reason": "Early invades punish the farmer"
+  },
+  {
+    "champion": 64,
+    "counters": 11,
+    "role": "jungle",
+    "strength": 3,
+    "reason": "Early ganks/duels crush Yi"
+  },
+  {
+    "champion": 64,
+    "counters": 141,
+    "role": "jungle",
+    "strength": 2,
+    "reason": "Bully Kayn before his form"
+  },
+  {
+    "champion": 421,
+    "counters": 30,
+    "role": "jungle",
+    "strength": 2,
+    "reason": "Early pressure denies the scaler"
+  },
+  {
+    "champion": 421,
+    "counters": 11,
+    "role": "jungle",
+    "strength": 2,
+    "reason": "Early duels beat Yi"
+  },
+  {
+    "champion": 421,
+    "counters": 203,
+    "role": "jungle",
+    "strength": 2,
+    "reason": "Early aggression vs the scaler"
+  },
+  {
+    "champion": 76,
+    "counters": 11,
+    "role": "jungle",
+    "strength": 2,
+    "reason": "Poke keeps Yi off objectives"
+  },
+  {
+    "champion": 76,
+    "counters": 32,
+    "role": "jungle",
+    "strength": 2,
+    "reason": "Kites and pokes the slow tank"
+  },
+  {
+    "champion": 76,
+    "counters": 113,
+    "role": "jungle",
+    "strength": 2,
+    "reason": "Poke and speed vs a slow tank"
+  },
+  {
+    "champion": 76,
+    "counters": 33,
+    "role": "jungle",
+    "strength": 2,
+    "reason": "Ranged poke vs an all-in tank"
+  },
+  {
+    "champion": 76,
+    "counters": 19,
+    "role": "jungle",
+    "strength": 2,
+    "reason": "Poke keeps WW out of range"
+  },
+  {
+    "champion": 121,
+    "counters": 11,
+    "role": "jungle",
+    "strength": 2,
+    "reason": "Isolation burst deletes Yi"
+  },
+  {
+    "champion": 121,
+    "counters": 28,
+    "role": "jungle",
+    "strength": 2,
+    "reason": "Isolation burst vs the assassin"
+  },
+  {
+    "champion": 121,
+    "counters": 203,
+    "role": "jungle",
+    "strength": 2,
+    "reason": "Isolation damage bursts Kindred"
+  },
+  {
+    "champion": 203,
+    "counters": 11,
+    "role": "jungle",
+    "strength": 2,
+    "reason": "Kite + R deny Yi the kill"
+  },
+  {
+    "champion": 203,
+    "counters": 19,
+    "role": "jungle",
+    "strength": 2,
+    "reason": "Kiting beats the diver"
+  },
+  {
+    "champion": 60,
+    "counters": 113,
+    "role": "jungle",
+    "strength": 2,
+    "reason": "Early burst beats the tank pre-6"
+  },
+  {
+    "champion": 60,
+    "counters": 33,
+    "role": "jungle",
+    "strength": 2,
+    "reason": "Early duel beats the tank"
+  },
+  {
+    "champion": 60,
+    "counters": 32,
+    "role": "jungle",
+    "strength": 2,
+    "reason": "Early aggression vs the tank"
+  },
+  {
+    "champion": 60,
+    "counters": 154,
+    "role": "jungle",
+    "strength": 2,
+    "reason": "Bully Zac in the early game"
+  },
+  {
+    "champion": 60,
+    "counters": 57,
+    "role": "jungle",
+    "strength": 2,
+    "reason": "Early damage beats the tank"
+  },
+  {
+    "champion": 5,
+    "counters": 11,
+    "role": "jungle",
+    "strength": 2,
+    "reason": "R disarm and early duel beat Yi"
+  },
+  {
+    "champion": 5,
+    "counters": 104,
+    "role": "jungle",
+    "strength": 2,
+    "reason": "Sticks to Graves and out-duels early"
+  },
+  {
+    "champion": 35,
+    "counters": 32,
+    "role": "jungle",
+    "strength": 2,
+    "reason": "Early invade cripples the slow tank"
+  },
+  {
+    "champion": 35,
+    "counters": 11,
+    "role": "jungle",
+    "strength": 2,
+    "reason": "Boxes and invades a weak early Yi"
+  },
+  {
+    "champion": 254,
+    "counters": 11,
+    "role": "jungle",
+    "strength": 2,
+    "reason": "R lockdown deletes Yi"
+  },
+  {
+    "champion": 51,
+    "counters": 145,
+    "role": "bot",
+    "strength": 2,
+    "reason": "Range advantage bullies the lane"
+  },
+  {
+    "champion": 51,
+    "counters": 360,
+    "role": "bot",
+    "strength": 3,
+    "reason": "Outranges and zones the melee ADC"
+  },
+  {
+    "champion": 51,
+    "counters": 895,
+    "role": "bot",
+    "strength": 3,
+    "reason": "Range denies the melee ADC"
+  },
+  {
+    "champion": 51,
+    "counters": 221,
+    "role": "bot",
+    "strength": 2,
+    "reason": "Range + traps bully early Zeri"
+  },
+  {
+    "champion": 51,
+    "counters": 67,
+    "role": "bot",
+    "strength": 2,
+    "reason": "Range dominates the early lane"
+  },
+  {
+    "champion": 51,
+    "counters": 96,
+    "role": "bot",
+    "strength": 2,
+    "reason": "Range harasses the immobile scaler"
+  },
+  {
+    "champion": 51,
+    "counters": 29,
+    "role": "bot",
+    "strength": 2,
+    "reason": "Range + traps deny Twitch"
+  },
+  {
+    "champion": 119,
+    "counters": 222,
+    "role": "bot",
+    "strength": 3,
+    "reason": "Early aggression crushes the scaler"
+  },
+  {
+    "champion": 119,
+    "counters": 523,
+    "role": "bot",
+    "strength": 3,
+    "reason": "Snowballs before Aphelios scales"
+  },
+  {
+    "champion": 119,
+    "counters": 96,
+    "role": "bot",
+    "strength": 3,
+    "reason": "Early kills deny the scaler"
+  },
+  {
+    "champion": 119,
+    "counters": 221,
+    "role": "bot",
+    "strength": 2,
+    "reason": "Bully Zeri in the early lane"
+  },
+  {
+    "champion": 119,
+    "counters": 29,
+    "role": "bot",
+    "strength": 2,
+    "reason": "Punishes Twitch early"
+  },
+  {
+    "champion": 119,
+    "counters": 67,
+    "role": "bot",
+    "strength": 2,
+    "reason": "Wins the early trades"
+  },
+  {
+    "champion": 236,
+    "counters": 523,
+    "role": "bot",
+    "strength": 3,
+    "reason": "Early tempo beats the scaler"
+  },
+  {
+    "champion": 236,
+    "counters": 222,
+    "role": "bot",
+    "strength": 2,
+    "reason": "Aggressive early lane vs the scaler"
+  },
+  {
+    "champion": 236,
+    "counters": 96,
+    "role": "bot",
+    "strength": 2,
+    "reason": "Early aggression denies scaling"
+  },
+  {
+    "champion": 236,
+    "counters": 221,
+    "role": "bot",
+    "strength": 2,
+    "reason": "Wins early tempo"
+  },
+  {
+    "champion": 22,
+    "counters": 360,
+    "role": "bot",
+    "strength": 2,
+    "reason": "Kite + slow deny the melee ADC"
+  },
+  {
+    "champion": 22,
+    "counters": 895,
+    "role": "bot",
+    "strength": 2,
+    "reason": "Perma-slow kites the melee"
+  },
+  {
+    "champion": 67,
+    "counters": 119,
+    "role": "bot",
+    "strength": 1,
+    "reason": "Outscales hard into the late game"
+  },
+  {
+    "champion": 202,
+    "counters": 145,
+    "role": "bot",
+    "strength": 1,
+    "reason": "Poke and range in the early lane"
+  },
+  {
+    "champion": 25,
+    "counters": 53,
+    "role": "support",
+    "strength": 3,
+    "reason": "Black Shield blocks the hook"
+  },
+  {
+    "champion": 25,
+    "counters": 412,
+    "role": "support",
+    "strength": 3,
+    "reason": "Black Shield negates hook/flay"
+  },
+  {
+    "champion": 25,
+    "counters": 555,
+    "role": "support",
+    "strength": 3,
+    "reason": "Black Shield blocks his hook/stun"
+  },
+  {
+    "champion": 25,
+    "counters": 89,
+    "role": "support",
+    "strength": 2,
+    "reason": "Black Shield blocks her engage CC"
+  },
+  {
+    "champion": 25,
+    "counters": 111,
+    "role": "support",
+    "strength": 2,
+    "reason": "Black Shield eats the hook engage"
+  },
+  {
+    "champion": 25,
+    "counters": 497,
+    "role": "support",
+    "strength": 2,
+    "reason": "Black Shield blocks the charm"
+  },
+  {
+    "champion": 25,
+    "counters": 56,
+    "role": "support",
+    "strength": 2,
+    "reason": "Black Shield blocks fear and R"
+  },
+  {
+    "champion": 201,
+    "counters": 53,
+    "role": "support",
+    "strength": 2,
+    "reason": "E blocks the hook projectile"
+  },
+  {
+    "champion": 201,
+    "counters": 429,
+    "role": "support",
+    "strength": 2,
+    "reason": "E blocks her autos/spears"
+  },
+  {
+    "champion": 201,
+    "counters": 555,
+    "role": "support",
+    "strength": 1,
+    "reason": "E blocks the hook"
+  },
+  {
+    "champion": 89,
+    "counters": 16,
+    "role": "support",
+    "strength": 3,
+    "reason": "All-in engage bursts the enchanter"
+  },
+  {
+    "champion": 89,
+    "counters": 43,
+    "role": "support",
+    "strength": 2,
+    "reason": "Lockdown all-in beats the enchanter"
+  },
+  {
+    "champion": 89,
+    "counters": 99,
+    "role": "support",
+    "strength": 2,
+    "reason": "Engage punishes the immobile mage"
+  },
+  {
+    "champion": 89,
+    "counters": 235,
+    "role": "support",
+    "strength": 2,
+    "reason": "All-in beats the slow scaler"
+  },
+  {
+    "champion": 89,
+    "counters": 350,
+    "role": "support",
+    "strength": 2,
+    "reason": "Engages the ADC while Yuumi is off"
+  },
+  {
+    "champion": 89,
+    "counters": 902,
+    "role": "support",
+    "strength": 2,
+    "reason": "Hard engage overwhelms the enchanter"
+  },
+  {
+    "champion": 111,
+    "counters": 16,
+    "role": "support",
+    "strength": 2,
+    "reason": "Hook engage bursts the enchanter"
+  },
+  {
+    "champion": 111,
+    "counters": 99,
+    "role": "support",
+    "strength": 2,
+    "reason": "Hook locks down the immobile mage"
+  },
+  {
+    "champion": 111,
+    "counters": 43,
+    "role": "support",
+    "strength": 2,
+    "reason": "Chain CC beats the enchanter"
+  },
+  {
+    "champion": 53,
+    "counters": 16,
+    "role": "support",
+    "strength": 2,
+    "reason": "Hook deletes the immobile healer"
+  },
+  {
+    "champion": 53,
+    "counters": 235,
+    "role": "support",
+    "strength": 2,
+    "reason": "Hook punishes the slow scaler"
+  },
+  {
+    "champion": 53,
+    "counters": 99,
+    "role": "support",
+    "strength": 2,
+    "reason": "Hook catches the immobile mage"
+  },
+  {
+    "champion": 555,
+    "counters": 16,
+    "role": "support",
+    "strength": 2,
+    "reason": "Roam + execute punish the enchanter"
+  },
+  {
+    "champion": 555,
+    "counters": 37,
+    "role": "support",
+    "strength": 2,
+    "reason": "Hook + execute delete the squishy"
+  },
+  {
+    "champion": 555,
+    "counters": 350,
+    "role": "support",
+    "strength": 2,
+    "reason": "Picks the ADC when Yuumi detaches"
+  },
+  {
+    "champion": 412,
+    "counters": 37,
+    "role": "support",
+    "strength": 2,
+    "reason": "Hook catches the immobile enchanter"
+  },
+  {
+    "champion": 63,
+    "counters": 16,
+    "role": "support",
+    "strength": 2,
+    "reason": "Poke + burst overwhelm the healer"
+  },
+  {
+    "champion": 63,
+    "counters": 267,
+    "role": "support",
+    "strength": 2,
+    "reason": "Burst punishes the enchanter"
+  },
+  {
+    "champion": 63,
+    "counters": 350,
+    "role": "support",
+    "strength": 2,
+    "reason": "AoE burst hits the ADC through Yuumi"
+  },
+  {
+    "champion": 101,
+    "counters": 16,
+    "role": "support",
+    "strength": 2,
+    "reason": "Long-range poke out-values the healer"
+  },
+  {
+    "champion": 143,
+    "counters": 16,
+    "role": "support",
+    "strength": 2,
+    "reason": "Plant poke out-trades the healer"
+  },
+  {
+    "champion": 497,
+    "counters": 16,
+    "role": "support",
+    "strength": 2,
+    "reason": "Engage bursts the immobile healer"
+  }
+]

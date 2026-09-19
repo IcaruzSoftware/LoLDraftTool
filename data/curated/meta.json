@@ -1,0 +1,1143 @@
+{
+  "patch": "16.18.1",
+  "note": "editable; tiers are coarse estimates for competitive/high-elo",
+  "champions": {
+    "1": {
+      "tierByPosition": {
+        "mid": "B",
+        "support": "B"
+      },
+      "banPriority": 0
+    },
+    "2": {
+      "tierByPosition": {
+        "top": "B",
+        "jungle": "B"
+      },
+      "banPriority": 1
+    },
+    "3": {
+      "tierByPosition": {
+        "mid": "A",
+        "support": "A"
+      },
+      "banPriority": 2
+    },
+    "4": {
+      "tierByPosition": {
+        "mid": "S",
+        "bot": "A",
+        "top": "B"
+      },
+      "banPriority": 3
+    },
+    "5": {
+      "tierByPosition": {
+        "jungle": "A"
+      },
+      "banPriority": 2
+    },
+    "6": {
+      "tierByPosition": {
+        "top": "B"
+      },
+      "banPriority": 0
+    },
+    "7": {
+      "tierByPosition": {
+        "mid": "B"
+      },
+      "banPriority": 1
+    },
+    "8": {
+      "tierByPosition": {
+        "mid": "B",
+        "top": "B"
+      },
+      "banPriority": 1
+    },
+    "9": {
+      "tierByPosition": {
+        "jungle": "B"
+      },
+      "banPriority": 1
+    },
+    "10": {
+      "tierByPosition": {
+        "top": "C"
+      },
+      "banPriority": 0
+    },
+    "11": {
+      "tierByPosition": {
+        "jungle": "B"
+      },
+      "banPriority": 1
+    },
+    "12": {
+      "tierByPosition": {
+        "support": "A"
+      },
+      "banPriority": 1
+    },
+    "13": {
+      "tierByPosition": {
+        "mid": "B"
+      },
+      "banPriority": 1,
+      "positions": {
+        "mid": 1,
+        "top": 0.5
+      }
+    },
+    "14": {
+      "tierByPosition": {
+        "top": "B"
+      },
+      "banPriority": 1
+    },
+    "15": {
+      "tierByPosition": {
+        "bot": "B"
+      },
+      "banPriority": 1
+    },
+    "16": {
+      "tierByPosition": {
+        "support": "B"
+      },
+      "banPriority": 0
+    },
+    "17": {
+      "tierByPosition": {
+        "top": "B",
+        "jungle": "B",
+        "support": "B"
+      },
+      "banPriority": 0
+    },
+    "18": {
+      "tierByPosition": {
+        "bot": "B",
+        "mid": "B"
+      },
+      "banPriority": 1
+    },
+    "19": {
+      "tierByPosition": {
+        "jungle": "B",
+        "top": "B"
+      },
+      "banPriority": 1
+    },
+    "20": {
+      "tierByPosition": {
+        "jungle": "B"
+      },
+      "banPriority": 0
+    },
+    "21": {
+      "tierByPosition": {
+        "bot": "B"
+      },
+      "banPriority": 1
+    },
+    "22": {
+      "tierByPosition": {
+        "bot": "A",
+        "support": "B"
+      },
+      "banPriority": 2
+    },
+    "23": {
+      "tierByPosition": {
+        "top": "B"
+      },
+      "banPriority": 1
+    },
+    "24": {
+      "tierByPosition": {
+        "top": "A",
+        "jungle": "B"
+      },
+      "banPriority": 2
+    },
+    "25": {
+      "tierByPosition": {
+        "support": "B",
+        "mid": "B"
+      },
+      "banPriority": 0
+    },
+    "26": {
+      "tierByPosition": {
+        "support": "B",
+        "mid": "B"
+      },
+      "banPriority": 0
+    },
+    "27": {
+      "tierByPosition": {
+        "top": "C"
+      },
+      "banPriority": 0
+    },
+    "28": {
+      "tierByPosition": {
+        "jungle": "B"
+      },
+      "banPriority": 1
+    },
+    "29": {
+      "tierByPosition": {
+        "bot": "B",
+        "support": "B"
+      },
+      "banPriority": 1
+    },
+    "30": {
+      "tierByPosition": {
+        "jungle": "B",
+        "mid": "B"
+      },
+      "banPriority": 0
+    },
+    "31": {
+      "tierByPosition": {
+        "top": "B",
+        "mid": "B"
+      },
+      "banPriority": 1
+    },
+    "32": {
+      "tierByPosition": {
+        "jungle": "B",
+        "support": "B"
+      },
+      "banPriority": 1
+    },
+    "33": {
+      "tierByPosition": {
+        "jungle": "B"
+      },
+      "banPriority": 1
+    },
+    "34": {
+      "tierByPosition": {
+        "mid": "B"
+      },
+      "banPriority": 1
+    },
+    "35": {
+      "tierByPosition": {
+        "jungle": "B",
+        "support": "B"
+      },
+      "banPriority": 0
+    },
+    "36": {
+      "tierByPosition": {
+        "top": "B"
+      },
+      "banPriority": 1
+    },
+    "37": {
+      "tierByPosition": {
+        "support": "B"
+      },
+      "banPriority": 0
+    },
+    "38": {
+      "tierByPosition": {
+        "mid": "B"
+      },
+      "banPriority": 1
+    },
+    "39": {
+      "tierByPosition": {
+        "top": "A",
+        "mid": "A"
+      },
+      "banPriority": 1
+    },
+    "40": {
+      "tierByPosition": {
+        "support": "B"
+      },
+      "banPriority": 0
+    },
+    "41": {
+      "tierByPosition": {
+        "top": "B"
+      },
+      "banPriority": 1
+    },
+    "42": {
+      "tierByPosition": {
+        "mid": "A"
+      },
+      "banPriority": 2
+    },
+    "43": {
+      "tierByPosition": {
+        "support": "A",
+        "mid": "B",
+        "top": "B"
+      },
+      "banPriority": 1
+    },
+    "44": {
+      "tierByPosition": {
+        "support": "C",
+        "mid": "C"
+      },
+      "banPriority": 0
+    },
+    "45": {
+      "tierByPosition": {
+        "mid": "B",
+        "support": "B"
+      },
+      "banPriority": 1
+    },
+    "48": {
+      "tierByPosition": {
+        "jungle": "B",
+        "top": "B"
+      },
+      "banPriority": 1
+    },
+    "50": {
+      "tierByPosition": {
+        "mid": "B",
+        "bot": "B",
+        "support": "B"
+      },
+      "banPriority": 1,
+      "positions": {
+        "mid": 0.7,
+        "bot": 0.6,
+        "support": 1
+      }
+    },
+    "51": {
+      "tierByPosition": {
+        "bot": "B"
+      },
+      "banPriority": 1
+    },
+    "53": {
+      "tierByPosition": {
+        "support": "B"
+      },
+      "banPriority": 1
+    },
+    "54": {
+      "tierByPosition": {
+        "top": "B",
+        "mid": "B",
+        "support": "B"
+      },
+      "banPriority": 1
+    },
+    "55": {
+      "tierByPosition": {
+        "mid": "B"
+      },
+      "banPriority": 0
+    },
+    "56": {
+      "tierByPosition": {
+        "jungle": "S"
+      },
+      "banPriority": 3
+    },
+    "57": {
+      "tierByPosition": {
+        "jungle": "A",
+        "support": "A"
+      },
+      "banPriority": 2
+    },
+    "58": {
+      "tierByPosition": {
+        "top": "A"
+      },
+      "banPriority": 2
+    },
+    "59": {
+      "tierByPosition": {
+        "jungle": "B"
+      },
+      "banPriority": 1
+    },
+    "60": {
+      "tierByPosition": {
+        "jungle": "B"
+      },
+      "banPriority": 1
+    },
+    "61": {
+      "tierByPosition": {
+        "mid": "A"
+      },
+      "banPriority": 2
+    },
+    "62": {
+      "tierByPosition": {
+        "jungle": "S",
+        "top": "A"
+      },
+      "banPriority": 3
+    },
+    "63": {
+      "tierByPosition": {
+        "support": "B",
+        "mid": "B",
+        "jungle": "B"
+      },
+      "banPriority": 0
+    },
+    "64": {
+      "tierByPosition": {
+        "jungle": "B"
+      },
+      "banPriority": 0
+    },
+    "67": {
+      "tierByPosition": {
+        "bot": "B",
+        "top": "B"
+      },
+      "banPriority": 0
+    },
+    "68": {
+      "tierByPosition": {
+        "mid": "A",
+        "top": "A"
+      },
+      "banPriority": 1
+    },
+    "69": {
+      "tierByPosition": {
+        "mid": "A"
+      },
+      "banPriority": 1
+    },
+    "72": {
+      "tierByPosition": {
+        "jungle": "A",
+        "top": "B"
+      },
+      "banPriority": 2
+    },
+    "74": {
+      "tierByPosition": {
+        "mid": "C",
+        "support": "C",
+        "top": "C"
+      },
+      "banPriority": 0
+    },
+    "75": {
+      "tierByPosition": {
+        "top": "B"
+      },
+      "banPriority": 1
+    },
+    "76": {
+      "tierByPosition": {
+        "jungle": "S"
+      },
+      "banPriority": 3
+    },
+    "77": {
+      "tierByPosition": {
+        "jungle": "B",
+        "top": "B"
+      },
+      "banPriority": 1
+    },
+    "78": {
+      "tierByPosition": {
+        "top": "A",
+        "jungle": "B",
+        "support": "A"
+      },
+      "banPriority": 2
+    },
+    "79": {
+      "tierByPosition": {
+        "jungle": "A",
+        "mid": "A",
+        "top": "B",
+        "support": "B"
+      },
+      "banPriority": 2
+    },
+    "80": {
+      "tierByPosition": {
+        "top": "B",
+        "mid": "B",
+        "support": "B",
+        "jungle": "B"
+      },
+      "banPriority": 1
+    },
+    "81": {
+      "tierByPosition": {
+        "bot": "B"
+      },
+      "banPriority": 1
+    },
+    "82": {
+      "tierByPosition": {
+        "top": "B"
+      },
+      "banPriority": 1
+    },
+    "83": {
+      "tierByPosition": {
+        "top": "B"
+      },
+      "banPriority": 1
+    },
+    "84": {
+      "tierByPosition": {
+        "mid": "S",
+        "top": "A"
+      },
+      "banPriority": 3
+    },
+    "85": {
+      "tierByPosition": {
+        "top": "B"
+      },
+      "banPriority": 1
+    },
+    "86": {
+      "tierByPosition": {
+        "top": "B"
+      },
+      "banPriority": 1
+    },
+    "89": {
+      "tierByPosition": {
+        "support": "A"
+      },
+      "banPriority": 2
+    },
+    "90": {
+      "tierByPosition": {
+        "mid": "B"
+      },
+      "banPriority": 1
+    },
+    "91": {
+      "tierByPosition": {
+        "mid": "B",
+        "jungle": "B"
+      },
+      "banPriority": 1,
+      "positions": {
+        "mid": 1,
+        "jungle": 0.7
+      }
+    },
+    "92": {
+      "tierByPosition": {
+        "top": "B"
+      },
+      "banPriority": 1
+    },
+    "96": {
+      "tierByPosition": {
+        "bot": "C"
+      },
+      "banPriority": 0
+    },
+    "98": {
+      "tierByPosition": {
+        "top": "B",
+        "support": "B"
+      },
+      "banPriority": 1,
+      "positions": {
+        "top": 1,
+        "support": 0.6
+      }
+    },
+    "99": {
+      "tierByPosition": {
+        "mid": "B",
+        "support": "B"
+      },
+      "banPriority": 1
+    },
+    "101": {
+      "tierByPosition": {
+        "mid": "B",
+        "support": "A"
+      },
+      "banPriority": 1
+    },
+    "102": {
+      "tierByPosition": {
+        "jungle": "C"
+      },
+      "banPriority": 0
+    },
+    "103": {
+      "tierByPosition": {
+        "mid": "A"
+      },
+      "banPriority": 2
+    },
+    "104": {
+      "tierByPosition": {
+        "jungle": "A"
+      },
+      "banPriority": 1
+    },
+    "105": {
+      "tierByPosition": {
+        "mid": "B"
+      },
+      "banPriority": 1
+    },
+    "106": {
+      "tierByPosition": {
+        "jungle": "B",
+        "top": "B"
+      },
+      "banPriority": 1
+    },
+    "107": {
+      "tierByPosition": {
+        "jungle": "B",
+        "top": "B"
+      },
+      "banPriority": 1
+    },
+    "110": {
+      "tierByPosition": {
+        "bot": "A"
+      },
+      "banPriority": 2
+    },
+    "111": {
+      "tierByPosition": {
+        "support": "A"
+      },
+      "banPriority": 2
+    },
+    "112": {
+      "tierByPosition": {
+        "mid": "A"
+      },
+      "banPriority": 1
+    },
+    "113": {
+      "tierByPosition": {
+        "jungle": "S"
+      },
+      "banPriority": 3
+    },
+    "114": {
+      "tierByPosition": {
+        "top": "A"
+      },
+      "banPriority": 1
+    },
+    "115": {
+      "tierByPosition": {
+        "mid": "A",
+        "bot": "A"
+      },
+      "banPriority": 2
+    },
+    "117": {
+      "tierByPosition": {
+        "support": "A"
+      },
+      "banPriority": 1
+    },
+    "119": {
+      "tierByPosition": {
+        "bot": "A"
+      },
+      "banPriority": 1
+    },
+    "120": {
+      "tierByPosition": {
+        "jungle": "B"
+      },
+      "banPriority": 1
+    },
+    "121": {
+      "tierByPosition": {
+        "jungle": "B"
+      },
+      "banPriority": 1
+    },
+    "122": {
+      "tierByPosition": {
+        "top": "B"
+      },
+      "banPriority": 1
+    },
+    "126": {
+      "tierByPosition": {
+        "top": "A",
+        "mid": "B"
+      },
+      "banPriority": 2
+    },
+    "127": {
+      "tierByPosition": {
+        "mid": "B"
+      },
+      "banPriority": 1
+    },
+    "131": {
+      "tierByPosition": {
+        "jungle": "B",
+        "mid": "B"
+      },
+      "banPriority": 1
+    },
+    "133": {
+      "tierByPosition": {
+        "top": "B"
+      },
+      "banPriority": 1
+    },
+    "134": {
+      "tierByPosition": {
+        "mid": "B"
+      },
+      "banPriority": 1
+    },
+    "136": {
+      "tierByPosition": {
+        "mid": "B"
+      },
+      "banPriority": 1
+    },
+    "141": {
+      "tierByPosition": {
+        "jungle": "B"
+      },
+      "banPriority": 1
+    },
+    "142": {
+      "tierByPosition": {
+        "mid": "B"
+      },
+      "banPriority": 1
+    },
+    "143": {
+      "tierByPosition": {
+        "support": "B",
+        "mid": "B"
+      },
+      "banPriority": 0
+    },
+    "145": {
+      "tierByPosition": {
+        "bot": "A"
+      },
+      "banPriority": 2
+    },
+    "147": {
+      "tierByPosition": {
+        "bot": "B",
+        "mid": "B",
+        "support": "B"
+      },
+      "banPriority": 1
+    },
+    "150": {
+      "tierByPosition": {
+        "top": "A"
+      },
+      "banPriority": 2
+    },
+    "154": {
+      "tierByPosition": {
+        "jungle": "B",
+        "top": "B",
+        "support": "B"
+      },
+      "banPriority": 1
+    },
+    "157": {
+      "tierByPosition": {
+        "mid": "A",
+        "top": "B",
+        "bot": "B"
+      },
+      "banPriority": 1
+    },
+    "161": {
+      "tierByPosition": {
+        "mid": "B",
+        "support": "B"
+      },
+      "banPriority": 1
+    },
+    "163": {
+      "tierByPosition": {
+        "jungle": "A",
+        "mid": "B"
+      },
+      "banPriority": 1
+    },
+    "164": {
+      "tierByPosition": {
+        "top": "A",
+        "support": "B"
+      },
+      "banPriority": 2
+    },
+    "166": {
+      "tierByPosition": {
+        "mid": "B"
+      },
+      "banPriority": 0
+    },
+    "200": {
+      "tierByPosition": {
+        "jungle": "A"
+      },
+      "banPriority": 1
+    },
+    "201": {
+      "tierByPosition": {
+        "support": "A"
+      },
+      "banPriority": 1
+    },
+    "202": {
+      "tierByPosition": {
+        "bot": "B"
+      },
+      "banPriority": 1
+    },
+    "203": {
+      "tierByPosition": {
+        "jungle": "A"
+      },
+      "banPriority": 1
+    },
+    "221": {
+      "tierByPosition": {
+        "bot": "S"
+      },
+      "banPriority": 3
+    },
+    "222": {
+      "tierByPosition": {
+        "bot": "A"
+      },
+      "banPriority": 2
+    },
+    "223": {
+      "tierByPosition": {
+        "support": "B",
+        "top": "B"
+      },
+      "banPriority": 1
+    },
+    "233": {
+      "tierByPosition": {
+        "jungle": "B"
+      },
+      "banPriority": 1
+    },
+    "234": {
+      "tierByPosition": {
+        "jungle": "B"
+      },
+      "banPriority": 1
+    },
+    "235": {
+      "tierByPosition": {
+        "bot": "B",
+        "support": "B"
+      },
+      "banPriority": 1
+    },
+    "236": {
+      "tierByPosition": {
+        "bot": "A"
+      },
+      "banPriority": 2
+    },
+    "238": {
+      "tierByPosition": {
+        "mid": "B",
+        "jungle": "B"
+      },
+      "banPriority": 1
+    },
+    "240": {
+      "tierByPosition": {
+        "top": "B"
+      },
+      "banPriority": 0
+    },
+    "245": {
+      "tierByPosition": {
+        "jungle": "B",
+        "mid": "B"
+      },
+      "banPriority": 1
+    },
+    "246": {
+      "tierByPosition": {
+        "mid": "B"
+      },
+      "banPriority": 1
+    },
+    "254": {
+      "tierByPosition": {
+        "jungle": "S"
+      },
+      "banPriority": 3
+    },
+    "266": {
+      "tierByPosition": {
+        "top": "A"
+      },
+      "banPriority": 1
+    },
+    "267": {
+      "tierByPosition": {
+        "support": "B"
+      },
+      "banPriority": 1
+    },
+    "268": {
+      "tierByPosition": {
+        "mid": "A"
+      },
+      "banPriority": 2
+    },
+    "350": {
+      "tierByPosition": {
+        "support": "C"
+      },
+      "banPriority": 0
+    },
+    "360": {
+      "tierByPosition": {
+        "bot": "B"
+      },
+      "banPriority": 1
+    },
+    "412": {
+      "tierByPosition": {
+        "support": "B"
+      },
+      "banPriority": 1
+    },
+    "420": {
+      "tierByPosition": {
+        "top": "B"
+      },
+      "banPriority": 1
+    },
+    "421": {
+      "tierByPosition": {
+        "jungle": "B"
+      },
+      "banPriority": 1
+    },
+    "427": {
+      "tierByPosition": {
+        "jungle": "C"
+      },
+      "banPriority": 0
+    },
+    "429": {
+      "tierByPosition": {
+        "bot": "S"
+      },
+      "banPriority": 3
+    },
+    "432": {
+      "tierByPosition": {
+        "support": "B"
+      },
+      "banPriority": 1
+    },
+    "497": {
+      "tierByPosition": {
+        "support": "A"
+      },
+      "banPriority": 2
+    },
+    "498": {
+      "tierByPosition": {
+        "bot": "B"
+      },
+      "banPriority": 1
+    },
+    "516": {
+      "tierByPosition": {
+        "top": "A",
+        "support": "B"
+      },
+      "banPriority": 1
+    },
+    "517": {
+      "tierByPosition": {
+        "mid": "A",
+        "top": "B",
+        "jungle": "B",
+        "support": "B"
+      },
+      "banPriority": 2
+    },
+    "518": {
+      "tierByPosition": {
+        "mid": "A",
+        "support": "B"
+      },
+      "banPriority": 2
+    },
+    "523": {
+      "tierByPosition": {
+        "bot": "B"
+      },
+      "banPriority": 1
+    },
+    "526": {
+      "tierByPosition": {
+        "support": "A"
+      },
+      "banPriority": 2
+    },
+    "555": {
+      "tierByPosition": {
+        "support": "B"
+      },
+      "banPriority": 1
+    },
+    "711": {
+      "tierByPosition": {
+        "mid": "A"
+      },
+      "banPriority": 2
+    },
+    "777": {
+      "tierByPosition": {
+        "mid": "S",
+        "top": "A"
+      },
+      "banPriority": 3
+    },
+    "799": {
+      "tierByPosition": {
+        "top": "S"
+      },
+      "banPriority": 3
+    },
+    "800": {
+      "tierByPosition": {
+        "mid": "B",
+        "support": "B"
+      },
+      "banPriority": 1
+    },
+    "804": {
+      "tierByPosition": {
+        "bot": "C"
+      },
+      "banPriority": 0
+    },
+    "805": {
+      "tierByPosition": {
+        "mid": "C"
+      },
+      "banPriority": 0
+    },
+    "875": {
+      "tierByPosition": {
+        "top": "A",
+        "support": "B"
+      },
+      "banPriority": 1
+    },
+    "876": {
+      "tierByPosition": {
+        "jungle": "A"
+      },
+      "banPriority": 2
+    },
+    "887": {
+      "tierByPosition": {
+        "top": "A",
+        "jungle": "B"
+      },
+      "banPriority": 1
+    },
+    "888": {
+      "tierByPosition": {
+        "support": "B"
+      },
+      "banPriority": 1
+    },
+    "893": {
+      "tierByPosition": {
+        "mid": "S",
+        "top": "A"
+      },
+      "banPriority": 3
+    },
+    "895": {
+      "tierByPosition": {
+        "bot": "B"
+      },
+      "banPriority": 1
+    },
+    "897": {
+      "tierByPosition": {
+        "top": "S"
+      },
+      "banPriority": 3
+    },
+    "901": {
+      "tierByPosition": {
+        "bot": "A"
+      },
+      "banPriority": 1
+    },
+    "902": {
+      "tierByPosition": {
+        "support": "A"
+      },
+      "banPriority": 1
+    },
+    "904": {
+      "tierByPosition": {
+        "top": "C"
+      },
+      "banPriority": 0
+    },
+    "910": {
+      "tierByPosition": {
+        "mid": "A",
+        "support": "B"
+      },
+      "banPriority": 2
+    },
+    "950": {
+      "tierByPosition": {
+        "mid": "B"
+      },
+      "banPriority": 1
+    }
+  }
+}

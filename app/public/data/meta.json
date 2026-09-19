@@ -1,0 +1,16 @@
+{
+  "patch": "16.18.1",
+  "fetchedAt": "2026-09-19T10:33:22.358Z",
+  "sources": [
+    "https://ddragon.leagueoflegends.com/api/versions.json",
+    "https://ddragon.leagueoflegends.com/cdn/16.18.1/data/en_US/champion.json",
+    "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-summary.json",
+    "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champions/{id}.json",
+    "https://cdn.merakianalytics.com/riot/lol/resources/latest/en-US/champions.json",
+    "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/champion/{alias}.png"
+  ],
+  "counts": {
+    "champions": 173,
+    "icons": 173
+  }
+}

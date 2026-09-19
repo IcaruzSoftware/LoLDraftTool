@@ -1,0 +1,740 @@
+[
+  {
+    "a": 54,
+    "b": 157,
+    "strength": 3,
+    "reason": "Malphite R sets up a guaranteed Yasuo ult on the whole team"
+  },
+  {
+    "a": 79,
+    "b": 157,
+    "strength": 3,
+    "reason": "Gragas Body Slam / R knock-ups chain into Yasuo R"
+  },
+  {
+    "a": 12,
+    "b": 157,
+    "strength": 2,
+    "reason": "Alistar Headbutt / Pulverize knock-ups enable Yasuo R"
+  },
+  {
+    "a": 131,
+    "b": 157,
+    "strength": 2,
+    "reason": "Diana R groups enemies for a multi-target Yasuo R"
+  },
+  {
+    "a": 150,
+    "b": 157,
+    "strength": 3,
+    "reason": "Mega Gnar R wall-stuns and knocks up for Yasuo R"
+  },
+  {
+    "a": 62,
+    "b": 157,
+    "strength": 3,
+    "reason": "Wukong R cyclone knock-up feeds Yasuo R"
+  },
+  {
+    "a": 157,
+    "b": 526,
+    "strength": 3,
+    "reason": "Rell knock-ups and R gather-up enable Yasuo R"
+  },
+  {
+    "a": 111,
+    "b": 157,
+    "strength": 2,
+    "reason": "Nautilus R and passive knock-up/CC enable Yasuo"
+  },
+  {
+    "a": 59,
+    "b": 157,
+    "strength": 2,
+    "reason": "J4 EQ knock-up sets up Yasuo R"
+  },
+  {
+    "a": 154,
+    "b": 157,
+    "strength": 2,
+    "reason": "Zac E and R knock-ups chain into Yasuo R"
+  },
+  {
+    "a": 14,
+    "b": 157,
+    "strength": 2,
+    "reason": "Sion Q and R knock-ups enable Yasuo"
+  },
+  {
+    "a": 92,
+    "b": 157,
+    "strength": 2,
+    "reason": "Riven third-Q and W CC feed Yasuo combo"
+  },
+  {
+    "a": 157,
+    "b": 267,
+    "strength": 2,
+    "reason": "Nami R knock-up and Tidecaller buff enable Yasuo"
+  },
+  {
+    "a": 54,
+    "b": 777,
+    "strength": 3,
+    "reason": "Malphite R AoE knock-up sets up Yone R"
+  },
+  {
+    "a": 61,
+    "b": 777,
+    "strength": 2,
+    "reason": "Orianna ball + Yone R create a wombo on the grouped enemy"
+  },
+  {
+    "a": 526,
+    "b": 777,
+    "strength": 2,
+    "reason": "Rell gather CC pairs with Yone R"
+  },
+  {
+    "a": 54,
+    "b": 61,
+    "strength": 3,
+    "reason": "Malphite R into Orianna Shockwave is a classic wombo"
+  },
+  {
+    "a": 61,
+    "b": 107,
+    "strength": 3,
+    "reason": "Ball on Rengar for a flash Shockwave on his leap"
+  },
+  {
+    "a": 56,
+    "b": 61,
+    "strength": 3,
+    "reason": "Ball rides Nocturne R for a guaranteed Shockwave"
+  },
+  {
+    "a": 59,
+    "b": 61,
+    "strength": 3,
+    "reason": "Ball in J4 R cataclysm arena is a huge Shockwave"
+  },
+  {
+    "a": 61,
+    "b": 62,
+    "strength": 3,
+    "reason": "Ball on diving Wukong sets up Shockwave + R"
+  },
+  {
+    "a": 61,
+    "b": 131,
+    "strength": 2,
+    "reason": "Diana R gathers, Orianna Shockwave follows"
+  },
+  {
+    "a": 32,
+    "b": 61,
+    "strength": 3,
+    "reason": "Amumu R stun into Orianna Shockwave"
+  },
+  {
+    "a": 21,
+    "b": 32,
+    "strength": 3,
+    "reason": "Amumu R lockdown guarantees full MF Bullet Time"
+  },
+  {
+    "a": 32,
+    "b": 55,
+    "strength": 3,
+    "reason": "Amumu R lets Katarina free-cast R"
+  },
+  {
+    "a": 32,
+    "b": 85,
+    "strength": 3,
+    "reason": "Double AoE stun wombo"
+  },
+  {
+    "a": 54,
+    "b": 85,
+    "strength": 3,
+    "reason": "Kennen R + Malphite R AoE stun wombo"
+  },
+  {
+    "a": 61,
+    "b": 85,
+    "strength": 2,
+    "reason": "Kennen R storm + Shockwave"
+  },
+  {
+    "a": 85,
+    "b": 157,
+    "strength": 3,
+    "reason": "Kennen R stuns for Yasuo R"
+  },
+  {
+    "a": 21,
+    "b": 89,
+    "strength": 3,
+    "reason": "Leona R + Solar Flare zone guarantees MF ult"
+  },
+  {
+    "a": 21,
+    "b": 113,
+    "strength": 2,
+    "reason": "Sejuani R lockdown into MF Bullet Time"
+  },
+  {
+    "a": 21,
+    "b": 54,
+    "strength": 3,
+    "reason": "Malphite R sets up full MF ult"
+  },
+  {
+    "a": 21,
+    "b": 127,
+    "strength": 2,
+    "reason": "Liss R self-cast lockdown into MF ult"
+  },
+  {
+    "a": 117,
+    "b": 222,
+    "strength": 3,
+    "reason": "Lulu shields/knock-up/ult keep Jinx alive to hyper-carry"
+  },
+  {
+    "a": 96,
+    "b": 117,
+    "strength": 3,
+    "reason": "Lulu enables the immobile Kog’Maw hyper-carry"
+  },
+  {
+    "a": 67,
+    "b": 117,
+    "strength": 3,
+    "reason": "Lulu buffs and peels for Vayne"
+  },
+  {
+    "a": 29,
+    "b": 117,
+    "strength": 3,
+    "reason": "Lulu R + buffs turn Twitch into a hyper-carry"
+  },
+  {
+    "a": 24,
+    "b": 117,
+    "strength": 2,
+    "reason": "Lulu R and shield super-charge Jax"
+  },
+  {
+    "a": 10,
+    "b": 117,
+    "strength": 2,
+    "reason": "Lulu protects scaling Kayle"
+  },
+  {
+    "a": 40,
+    "b": 222,
+    "strength": 2,
+    "reason": "Janna disengage and shields peel for Jinx"
+  },
+  {
+    "a": 29,
+    "b": 40,
+    "strength": 2,
+    "reason": "Janna peel enables Twitch teamfight"
+  },
+  {
+    "a": 222,
+    "b": 902,
+    "strength": 2,
+    "reason": "Milio range + cleanse + shields enable Jinx"
+  },
+  {
+    "a": 96,
+    "b": 902,
+    "strength": 3,
+    "reason": "Milio range buff and cleanse fit Kog’Maw"
+  },
+  {
+    "a": 236,
+    "b": 267,
+    "strength": 3,
+    "reason": "Nami E on Lucian doubles his damage in lane"
+  },
+  {
+    "a": 96,
+    "b": 350,
+    "strength": 3,
+    "reason": "Yuumi glues to Kog’Maw for uninterrupted DPS"
+  },
+  {
+    "a": 67,
+    "b": 350,
+    "strength": 2,
+    "reason": "Yuumi enables Vayne to scale safely"
+  },
+  {
+    "a": 16,
+    "b": 96,
+    "strength": 2,
+    "reason": "Soraka sustain keeps Kog’Maw alive"
+  },
+  {
+    "a": 16,
+    "b": 29,
+    "strength": 2,
+    "reason": "Soraka global heal supports Twitch dives"
+  },
+  {
+    "a": 147,
+    "b": 523,
+    "strength": 2,
+    "reason": "Seraphine shields/heals and amplifies Aphelios"
+  },
+  {
+    "a": 117,
+    "b": 523,
+    "strength": 2,
+    "reason": "Lulu peels for the immobile Aphelios"
+  },
+  {
+    "a": 497,
+    "b": 498,
+    "strength": 3,
+    "reason": "Xayah/Rakan duo bonuses and combined engage/peel"
+  },
+  {
+    "a": 201,
+    "b": 236,
+    "strength": 3,
+    "reason": "Braum passive + Lucian double-tap proc synergy"
+  },
+  {
+    "a": 412,
+    "b": 429,
+    "strength": 3,
+    "reason": "Kalista Fate’s Call launches Thresh for double engage"
+  },
+  {
+    "a": 44,
+    "b": 429,
+    "strength": 3,
+    "reason": "Launch Taric R for a guaranteed team invuln engage"
+  },
+  {
+    "a": 201,
+    "b": 429,
+    "strength": 3,
+    "reason": "Kalista passive + Braum passive stack stuns fast"
+  },
+  {
+    "a": 119,
+    "b": 412,
+    "strength": 2,
+    "reason": "Thresh hook/lantern enables aggressive Draven lane"
+  },
+  {
+    "a": 222,
+    "b": 412,
+    "strength": 2,
+    "reason": "Thresh catch lets Jinx reset and snowball"
+  },
+  {
+    "a": 51,
+    "b": 99,
+    "strength": 3,
+    "reason": "Lux root guarantees Caitlyn trap + headshot combo"
+  },
+  {
+    "a": 25,
+    "b": 51,
+    "strength": 2,
+    "reason": "Morgana Q root sets up Caitlyn traps"
+  },
+  {
+    "a": 22,
+    "b": 89,
+    "strength": 2,
+    "reason": "Double CC lockdown lane"
+  },
+  {
+    "a": 81,
+    "b": 350,
+    "strength": 2,
+    "reason": "Yuumi rides Ezreal for safe poke scaling"
+  },
+  {
+    "a": 360,
+    "b": 526,
+    "strength": 3,
+    "reason": "Rell gather CC guarantees Samira R"
+  },
+  {
+    "a": 111,
+    "b": 360,
+    "strength": 2,
+    "reason": "Nautilus lockdown enables Samira ult"
+  },
+  {
+    "a": 89,
+    "b": 360,
+    "strength": 2,
+    "reason": "Leona chain CC feeds Samira Inferno Trigger"
+  },
+  {
+    "a": 21,
+    "b": 111,
+    "strength": 2,
+    "reason": "Naut lockdown into MF Bullet Time"
+  },
+  {
+    "a": 223,
+    "b": 235,
+    "strength": 2,
+    "reason": "Tahm peels while Senna scales from range"
+  },
+  {
+    "a": 117,
+    "b": 804,
+    "strength": 2,
+    "reason": "Lulu peels the immobile Yunara carry"
+  },
+  {
+    "a": 4,
+    "b": 56,
+    "strength": 3,
+    "reason": "TF R reveal + Nocturne R global pick/dive"
+  },
+  {
+    "a": 3,
+    "b": 56,
+    "strength": 3,
+    "reason": "Galio R follows Nocturne dive with AoE taunt"
+  },
+  {
+    "a": 3,
+    "b": 141,
+    "strength": 2,
+    "reason": "Galio R backs up Kayn dive"
+  },
+  {
+    "a": 3,
+    "b": 107,
+    "strength": 2,
+    "reason": "Galio R lands with Rengar leap for AoE lockdown"
+  },
+  {
+    "a": 3,
+    "b": 4,
+    "strength": 2,
+    "reason": "TF stun + Galio R arrival for a collapse"
+  },
+  {
+    "a": 4,
+    "b": 59,
+    "strength": 2,
+    "reason": "TF gold card + J4 lockdown pick"
+  },
+  {
+    "a": 4,
+    "b": 22,
+    "strength": 2,
+    "reason": "Ashe R + TF R make global picks"
+  },
+  {
+    "a": 4,
+    "b": 98,
+    "strength": 2,
+    "reason": "Global map pressure: Shen R + TF R"
+  },
+  {
+    "a": 22,
+    "b": 56,
+    "strength": 2,
+    "reason": "Ashe R + Nocturne R lock a target down cross-map"
+  },
+  {
+    "a": 11,
+    "b": 44,
+    "strength": 3,
+    "reason": "Taric R invuln lets Master Yi carry a fight risk-free"
+  },
+  {
+    "a": 24,
+    "b": 44,
+    "strength": 2,
+    "reason": "Taric stun + invuln supercharges Jax"
+  },
+  {
+    "a": 11,
+    "b": 26,
+    "strength": 2,
+    "reason": "Zilean speed + revive enables Master Yi"
+  },
+  {
+    "a": 26,
+    "b": 30,
+    "strength": 2,
+    "reason": "Zilean revive lets Karthus keep dealing damage"
+  },
+  {
+    "a": 83,
+    "b": 115,
+    "strength": 2,
+    "reason": "Yorick maiden + Ziggs siege tears towers fast"
+  },
+  {
+    "a": 74,
+    "b": 115,
+    "strength": 2,
+    "reason": "Turret + bomb siege composition"
+  },
+  {
+    "a": 115,
+    "b": 126,
+    "strength": 2,
+    "reason": "Long-range poke and siege pairing"
+  },
+  {
+    "a": 51,
+    "b": 115,
+    "strength": 2,
+    "reason": "Double siege bot lane / mid"
+  },
+  {
+    "a": 37,
+    "b": 147,
+    "strength": 2,
+    "reason": "Stacked auras and AoE ults for teamfights"
+  },
+  {
+    "a": 37,
+    "b": 44,
+    "strength": 2,
+    "reason": "Double aura enchanter buff stacking"
+  },
+  {
+    "a": 8,
+    "b": 54,
+    "strength": 2,
+    "reason": "Malphite R sets up Vladimir R AoE burst"
+  },
+  {
+    "a": 8,
+    "b": 32,
+    "strength": 2,
+    "reason": "Amumu R + Vlad R AoE wombo"
+  },
+  {
+    "a": 112,
+    "b": 113,
+    "strength": 2,
+    "reason": "Sejuani lockdown for Viktor AoE"
+  },
+  {
+    "a": 61,
+    "b": 875,
+    "strength": 2,
+    "reason": "Sett R pulls the team into an Orianna Shockwave"
+  },
+  {
+    "a": 157,
+    "b": 875,
+    "strength": 2,
+    "reason": "Sett W/R displacement chains with Yasuo"
+  },
+  {
+    "a": 90,
+    "b": 127,
+    "strength": 2,
+    "reason": "Point-and-click lockdown chain for the backline"
+  },
+  {
+    "a": 54,
+    "b": 55,
+    "strength": 3,
+    "reason": "Malphite R sets up a free Katarina R"
+  },
+  {
+    "a": 55,
+    "b": 59,
+    "strength": 2,
+    "reason": "J4 arena traps enemies for Katarina R"
+  },
+  {
+    "a": 55,
+    "b": 62,
+    "strength": 2,
+    "reason": "Wukong R knock-up into Katarina R"
+  },
+  {
+    "a": 55,
+    "b": 85,
+    "strength": 2,
+    "reason": "Kennen R stuns for Katarina reset ult"
+  },
+  {
+    "a": 90,
+    "b": 161,
+    "strength": 2,
+    "reason": "Malzahar suppress guarantees Vel’Koz R channel"
+  },
+  {
+    "a": 32,
+    "b": 161,
+    "strength": 2,
+    "reason": "Amumu R holds the enemy in Vel’Koz R"
+  },
+  {
+    "a": 32,
+    "b": 143,
+    "strength": 2,
+    "reason": "Amumu R + Zyra R double AoE knock-up"
+  },
+  {
+    "a": 61,
+    "b": 113,
+    "strength": 2,
+    "reason": "Sejuani R lockdown into Shockwave"
+  },
+  {
+    "a": 54,
+    "b": 518,
+    "strength": 2,
+    "reason": "Double AoE stun/knock-up wombo"
+  },
+  {
+    "a": 62,
+    "b": 518,
+    "strength": 2,
+    "reason": "Wukong R gathers for Neeko R"
+  },
+  {
+    "a": 54,
+    "b": 147,
+    "strength": 2,
+    "reason": "Malphite R groups for Seraphine charm ult"
+  },
+  {
+    "a": 32,
+    "b": 147,
+    "strength": 2,
+    "reason": "Amumu R holds for a full Seraphine R"
+  },
+  {
+    "a": 61,
+    "b": 254,
+    "strength": 2,
+    "reason": "Vi R lockdown into Shockwave"
+  },
+  {
+    "a": 21,
+    "b": 254,
+    "strength": 2,
+    "reason": "Vi R lockdown into Bullet Time"
+  },
+  {
+    "a": 61,
+    "b": 72,
+    "strength": 2,
+    "reason": "Skarner R drag into Shockwave"
+  },
+  {
+    "a": 21,
+    "b": 72,
+    "strength": 2,
+    "reason": "Skarner R suppress into Bullet Time"
+  },
+  {
+    "a": 20,
+    "b": 21,
+    "strength": 2,
+    "reason": "Nunu R zone + MF Bullet Time"
+  },
+  {
+    "a": 20,
+    "b": 61,
+    "strength": 2,
+    "reason": "Nunu R channel guarded by Shockwave threat"
+  },
+  {
+    "a": 21,
+    "b": 57,
+    "strength": 2,
+    "reason": "Maokai R roots into MF ult"
+  },
+  {
+    "a": 57,
+    "b": 61,
+    "strength": 2,
+    "reason": "Maokai R sapling wave into Shockwave"
+  },
+  {
+    "a": 21,
+    "b": 526,
+    "strength": 2,
+    "reason": "Rell gather into Bullet Time"
+  },
+  {
+    "a": 61,
+    "b": 526,
+    "strength": 2,
+    "reason": "Rell R gather into Shockwave"
+  },
+  {
+    "a": 61,
+    "b": 120,
+    "strength": 2,
+    "reason": "Hecarim R knock-back groups for Shockwave"
+  },
+  {
+    "a": 61,
+    "b": 154,
+    "strength": 2,
+    "reason": "Zac R bounce into Shockwave"
+  },
+  {
+    "a": 21,
+    "b": 154,
+    "strength": 2,
+    "reason": "Zac R juggle into Bullet Time"
+  },
+  {
+    "a": 61,
+    "b": 79,
+    "strength": 2,
+    "reason": "Gragas R gather into Shockwave"
+  },
+  {
+    "a": 101,
+    "b": 110,
+    "strength": 2,
+    "reason": "Long-range poke lane / mid pairing"
+  },
+  {
+    "a": 110,
+    "b": 126,
+    "strength": 2,
+    "reason": "AD poke siege pairing"
+  },
+  {
+    "a": 101,
+    "b": 115,
+    "strength": 2,
+    "reason": "Double artillery poke"
+  },
+  {
+    "a": 22,
+    "b": 110,
+    "strength": 2,
+    "reason": "Slow + root peel/poke pairing"
+  },
+  {
+    "a": 267,
+    "b": 429,
+    "strength": 2,
+    "reason": "Nami buffs Kalista and adds CC"
+  }
+]

@@ -1,0 +1,9 @@
+Total 395W 320L 55% 3.01:1
+1 Aurora 32W 23L 58% 3.13:1
+2 Orianna 28W 21L 57% 2.90:1
+3 Syndra 19W 16L 54% 2.55:1
+4 Ahri 15W 14L 52% 2.71:1
+5 Zed 12W 13L 48% 2.10:1
+6 Twisted Fate 10W 8L 56% 3.40:1
+7 Viktor 9W 11L 45% 2.02:1
+8 LeBlanc 7W 6L 54% 2.88:1

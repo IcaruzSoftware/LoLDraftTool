@@ -1,0 +1,21 @@
+{
+  "name": "loldrafttool",
+  "version": "0.0.0",
+  "private": true,
+  "packageManager": "pnpm@11.25.0",
+  "scripts": {
+    "dev": "pnpm sync-curated && pnpm -C app dev",
+    "build": "pnpm sync-curated && pnpm -C app build",
+    "test": "pnpm -C app test",
+    "lint": "pnpm -C app lint",
+    "typecheck": "pnpm -C app typecheck",
+    "fetch-data": "tsx scripts/fetch-data.ts",
+    "validate-data": "tsx scripts/validate-data.ts",
+    "sync-curated": "tsx scripts/sync-curated.ts",
+    "host:run": "dotnet run --project host -- --dev",
+    "host:publish": "pnpm build && dotnet publish host -c Release -r win-x64 --self-contained -p:PublishSingleFile=true -p:IncludeNativeLibrariesForSelfExtract=true"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2"
+  }
+}

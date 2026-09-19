@@ -1,0 +1,32 @@
+{
+  "top": {
+    "player": "Revenz",
+    "comfort": ["Sion", "Shen", "Dr. Mundo", "Ornn", "Renekton", "Ambessa", "Gnar", "Mordekaiser", "Volibear"],
+    "good": ["Malphite", "Cho'Gath", "Nasus", "Sett", "Yorick", "Garen", "Illaoi", "Zaahen", "Gragas"],
+    "okay": ["K'Sante", "Darius", "Olaf", "Tryndamere", "Camille", "Kayle", "Gwen", "Singed"]
+  },
+  "jungle": {
+    "player": "Baris",
+    "comfort": ["Wukong", "Kayn", "Jax", "Nocturne", "Jarvan IV", "Zac"],
+    "good": ["Kha'Zix", "Pantheon", "Rek'Sai", "Malphite", "Amumu"],
+    "okay": ["Viego", "Kindred", "Diana", "Sejuani"]
+  },
+  "mid": {
+    "player": "Icaruz",
+    "comfort": ["Cassiopeia", "Diana", "Katarina", "Orianna", "Galio", "Naafiri", "Yasuo", "Yone"],
+    "good": ["Hwei", "Sylas"],
+    "okay": ["Twisted Fate", "Qiyana", "Irelia"]
+  },
+  "bot": {
+    "player": "Geki",
+    "comfort": ["Yasuo", "Miss Fortune", "Caitlyn"],
+    "good": ["Ashe", "Jhin", "Kai'Sa"],
+    "okay": []
+  },
+  "support": {
+    "player": "Alina_Chronos",
+    "comfort": ["Seraphine", "Leona", "Lux", "Neeko", "Morgana"],
+    "good": ["Yuumi", "Nami", "Xerath", "Braum", "Thresh", "Nautilus", "Brand", "Pyke", "Rakan"],
+    "okay": ["Zyra", "Ashe", "Milio", "Lulu", "Maokai", "Pantheon"]
+  }
+}

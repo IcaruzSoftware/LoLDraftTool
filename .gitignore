@@ -1,0 +1,9 @@
+node_modules/
+dist/
+app/public/data/curated/
+.vite/
+coverage/
+host/bin/
+host/obj/
+*.log
+.DS_Store
