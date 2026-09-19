@@ -10,6 +10,18 @@
     <RootNamespace>LoLDraftTool.Host</RootNamespace>
     <!-- Ship only the English WebView2 resources to keep the output small. -->
     <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
+
+    <!--
+      Version defaults to 0.1.0 for local builds and is overridden from the
+      command line in CI (dotnet publish -p:Version=X.Y.Z). FileVersion and
+      InformationalVersion flow from Version unless set explicitly (the release
+      workflow passes a richer InformationalVersion for non-tag builds).
+    -->
+    <Version Condition="'$(Version)' == ''">0.1.0</Version>
+    <FileVersion Condition="'$(FileVersion)' == ''">$(Version)</FileVersion>
+    <InformationalVersion Condition="'$(InformationalVersion)' == ''">$(Version)</InformationalVersion>
+    <Company>IcaruzSoftware</Company>
+    <Product>LoLDraftTool</Product>
   </PropertyGroup>
 
   <ItemGroup>

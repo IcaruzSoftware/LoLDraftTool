@@ -1,0 +1,198 @@
+name: Release
+
+# Builds the Windows desktop app and packages a portable zip and an Inno Setup
+# installer. On a v* tag it publishes them to a GitHub Release; on a push to main
+# it updates a rolling "main-latest" pre-release. Manual runs build and upload the
+# artifacts for inspection without publishing a release.
+#
+# Windows binaries are UNSIGNED for now. See docs/runbooks/release.md for the
+# SmartScreen note and where SignPath code signing would slot in (search this
+# file for "SignPath" for the exact hook points).
+
+on:
+  push:
+    tags: ['v*']
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: release-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  windows:
+    name: build + package (windows)
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # Reads the pnpm version from package.json's "packageManager" field.
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 10.0.x
+
+      # --- version -------------------------------------------------------------
+      # tag  vX.Y.Z          -> version X.Y.Z, MSBuild Version X.Y.Z
+      # main / dispatch      -> version 0.0.0-main.<shortsha>, MSBuild Version 0.0.0
+      #                         (MSBuild's FileVersion needs a plain numeric value)
+      - name: Resolve version
+        id: version
+        shell: bash
+        run: |
+          if [[ "${GITHUB_REF}" == refs/tags/v* ]]; then
+            tag="${GITHUB_REF_NAME#v}"
+            echo "version=${tag}" >> "$GITHUB_OUTPUT"
+            echo "msbuild=${tag}" >> "$GITHUB_OUTPUT"
+            echo "informational=${tag}" >> "$GITHUB_OUTPUT"
+          else
+            short="${GITHUB_SHA:0:7}"
+            echo "version=0.0.0-main.${short}" >> "$GITHUB_OUTPUT"
+            echo "msbuild=0.0.0" >> "$GITHUB_OUTPUT"
+            echo "informational=0.0.0-main.${short}" >> "$GITHUB_OUTPUT"
+          fi
+
+      # --- dependencies (two independent workspaces) ---------------------------
+      - name: Install root dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Install app dependencies
+        run: pnpm install --frozen-lockfile
+        working-directory: app
+
+      # --- build & publish -----------------------------------------------------
+      - name: Build frontend
+        env:
+          VITE_APP_VERSION: ${{ steps.version.outputs.version }}
+        run: pnpm build
+
+      - name: Publish self-contained single-file exe
+        run: >
+          dotnet publish host -c Release -r win-x64 --self-contained
+          -p:PublishSingleFile=true -p:IncludeNativeLibrariesForSelfExtract=true
+          -p:Version=${{ steps.version.outputs.msbuild }}
+          "-p:InformationalVersion=${{ steps.version.outputs.informational }}"
+
+      # --- packaging -----------------------------------------------------------
+      - name: Package portable zip
+        shell: pwsh
+        env:
+          APP_VERSION: ${{ steps.version.outputs.version }}
+        run: |
+          $publish = "host/bin/Release/net10.0-windows/win-x64/publish"
+          $out = "dist-release"
+          New-Item -ItemType Directory -Force $out | Out-Null
+          $zip = Join-Path $out "LoLDraftTool-$env:APP_VERSION-win-x64-portable.zip"
+          Compress-Archive -Path "$publish/LoLDraftTool.exe", "$publish/wwwroot" -DestinationPath $zip -Force
+          Write-Host "Portable zip: $zip ($([math]::Round((Get-Item $zip).Length / 1MB, 1)) MB)"
+
+      - name: Locate Inno Setup (install if missing)
+        id: iscc
+        shell: pwsh
+        run: |
+          $iscc = "C:\Program Files (x86)\Inno Setup 6\ISCC.exe"
+          if (-not (Test-Path $iscc)) {
+            Write-Host "ISCC.exe not found; installing Inno Setup via Chocolatey."
+            choco install innosetup -y --no-progress
+          }
+          if (-not (Test-Path $iscc)) { throw "ISCC.exe still not found after install attempt." }
+          "path=$iscc" >> $env:GITHUB_OUTPUT
+
+      - name: Build installer
+        shell: pwsh
+        env:
+          APP_VERSION: ${{ steps.version.outputs.version }}
+        run: |
+          & "${{ steps.iscc.outputs.path }}" `
+            "/DMyAppVersion=$env:APP_VERSION" `
+            "/Odist-release" `
+            installer/LoLDraftTool.iss
+          $setup = "dist-release/LoLDraftTool-$env:APP_VERSION-win-x64-setup.exe"
+          Write-Host "Installer: $setup ($([math]::Round((Get-Item $setup).Length / 1MB, 1)) MB)"
+
+      # --- artifacts -----------------------------------------------------------
+      - name: Upload portable zip
+        uses: actions/upload-artifact@v4
+        with:
+          name: LoLDraftTool-${{ steps.version.outputs.version }}-portable
+          path: dist-release/LoLDraftTool-*-win-x64-portable.zip
+          if-no-files-found: error
+
+      - name: Upload installer
+        uses: actions/upload-artifact@v4
+        with:
+          name: LoLDraftTool-${{ steps.version.outputs.version }}-setup
+          path: dist-release/LoLDraftTool-*-win-x64-setup.exe
+          if-no-files-found: error
+
+      # --- SignPath (optional, not enabled) ------------------------------------
+      # To code-sign, add a step HERE (after packaging, before publishing) that
+      # signs dist-release/*.exe via SignPath, mirroring claude-mons'
+      # .github/workflows/release.yml: gate it on repository secrets
+      # (SIGNPATH_API_TOKEN, SIGNPATH_ORGANIZATION_ID) and a variable
+      # (SIGNPATH_PROJECT_SLUG / SIGNPATH_ENABLED), and re-run for the installer
+      # after it is built. Left unimplemented for now; builds are unsigned.
+
+      # --- publish: tagged release ---------------------------------------------
+      - name: Publish GitHub Release (tag)
+        if: startsWith(github.ref, 'refs/tags/v')
+        uses: softprops/action-gh-release@v2
+        with:
+          generate_release_notes: true
+          prerelease: ${{ startsWith(github.ref_name, 'v0.') || contains(github.ref_name, '-') }}
+          fail_on_unmatched_files: true
+          files: |
+            dist-release/LoLDraftTool-*-win-x64-portable.zip
+            dist-release/LoLDraftTool-*-win-x64-setup.exe
+
+      # --- publish: rolling main-latest pre-release ----------------------------
+      - name: Move main-latest tag to current commit
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git tag -f main-latest
+          git push -f origin main-latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # Copy to stable, unversioned names so each main push REPLACES the rolling
+      # release's assets instead of piling up a new sha-named pair every time
+      # (softprops only overwrites assets that share a name).
+      - name: Stage main-latest assets with stable names
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        shell: pwsh
+        run: |
+          $dst = "dist-release/main-latest"
+          New-Item -ItemType Directory -Force $dst | Out-Null
+          Copy-Item (Get-Item dist-release/LoLDraftTool-*-win-x64-portable.zip) "$dst/LoLDraftTool-main-latest-win-x64-portable.zip" -Force
+          Copy-Item (Get-Item dist-release/LoLDraftTool-*-win-x64-setup.exe) "$dst/LoLDraftTool-main-latest-win-x64-setup.exe" -Force
+
+      - name: Publish GitHub Release (main-latest)
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: main-latest
+          name: Latest main build
+          body: >
+            Rolling build of the latest commit on `main`
+            (${{ steps.version.outputs.version }}). Unsigned; expect a SmartScreen
+            warning. For stable downloads use a tagged release.
+          prerelease: true
+          make_latest: false
+          fail_on_unmatched_files: true
+          files: |
+            dist-release/main-latest/LoLDraftTool-main-latest-win-x64-portable.zip
+            dist-release/main-latest/LoLDraftTool-main-latest-win-x64-setup.exe

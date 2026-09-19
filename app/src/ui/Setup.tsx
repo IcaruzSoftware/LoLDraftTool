@@ -325,6 +325,8 @@ export function Setup({ setup, resolver, knownIds, dispatch }: Props): React.JSX
           Start Draft
         </button>
       </div>
+
+      <p className="muted app-version">v{import.meta.env.VITE_APP_VERSION ?? 'dev'}</p>
     </div>
   );
 }

@@ -1,5 +1,7 @@
 # LoLDraftTool
 
+[![CI](https://github.com/IcaruzSoftware/LoLDraftTool/actions/workflows/ci.yml/badge.svg)](https://github.com/IcaruzSoftware/LoLDraftTool/actions/workflows/ci.yml)
+
 An offline Windows desktop app that mirrors the League of Legends champion-select
 screen for a team preparing its drafts. Import your team's champion pool and,
 optionally, scouted opponent data, and the app walks you chronologically through
@@ -222,6 +224,30 @@ Needs nothing installed on the target machine besides the WebView2 runtime.
 A much smaller framework-dependent alternative (roughly 3 MB, but requires the
 **.NET 10 Desktop Runtime** on the target machine) is documented in
 [`host/README.md`](host/README.md#framework-dependent-alternative-much-smaller).
+
+## Releases / CI
+
+GitHub Actions builds and ships the app:
+
+- **CI** (`.github/workflows/ci.yml`) runs on every push to `main` and every pull
+  request: data validation, lint, typecheck, tests, the frontend build, and a
+  host `dotnet build` on `windows-latest`.
+- **Release** (`.github/workflows/release.yml`) builds the self-contained
+  single-file exe and packages two assets — a portable zip
+  (`LoLDraftTool-<version>-win-x64-portable.zip`) and an Inno Setup installer
+  (`LoLDraftTool-<version>-win-x64-setup.exe`).
+  - Pushing a `v*` tag publishes them to a GitHub Release (auto-generated notes;
+    pre-release for `v0.*` or tags containing `-`).
+  - Every push to `main` refreshes a rolling **"Latest main build"** pre-release
+    (tag `main-latest`) with the newest build, for testers who want the tip of
+    `main`.
+  - Manual (`workflow_dispatch`) runs build and upload the artifacts without
+    publishing a release.
+
+Binaries are **unsigned**, so SmartScreen shows an "unrecognized app" warning on
+first launch (More info → Run anyway). See
+[`docs/runbooks/release.md`](docs/runbooks/release.md) for how to cut a release,
+how `main-latest` works, and where SignPath code signing would plug in.
 
 ## Testing
 
